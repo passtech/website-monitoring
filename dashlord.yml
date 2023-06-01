@@ -24,7 +24,18 @@ urls:
   - url: https://demo.tech.fr
     repositories:
       - pass-tech-developpement/passtech-libs
+      - pass-tech-developpement/passtech-libs-java-backend
     docker:
       - ghcr.io/passtech/demo-frontend
       - ghcr.io/passtech/demo-backend
+  - url: https://www.bimcloud.fr
+    repositories:
+      - passtech/bimcloud
+    docker:
+      - ghcr.io/passtech/bimcloud-backend
+      - ghcr.io/passtech/bimcloud-frontend
+  - url : https://doc.tech.fr/passtech-libs-documentation/development
+    repositories:
+      - pass-tech-developpement/passtech-libs-documentation
+      
 
