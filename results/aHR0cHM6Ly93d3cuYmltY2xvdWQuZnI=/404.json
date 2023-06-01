@@ -1,0 +1,613 @@
+{
+  "links": [
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "www.bimcloud.fr",
+        "port": null,
+        "hostname": "www.bimcloud.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/",
+        "path": "/",
+        "href": "https://www.bimcloud.fr/"
+      },
+      "link": "https://www.bimcloud.fr/",
+      "line": "--2023-06-01 15:02:03--  https://www.bimcloud.fr/",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "www.bimcloud.fr",
+        "port": null,
+        "hostname": "www.bimcloud.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/robots.txt",
+        "path": "/robots.txt",
+        "href": "https://www.bimcloud.fr/robots.txt"
+      },
+      "link": "https://www.bimcloud.fr/robots.txt",
+      "line": "--2023-06-01 15:02:04--  https://www.bimcloud.fr/robots.txt",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "www.bimcloud.fr",
+        "port": null,
+        "hostname": "www.bimcloud.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/assets/img/apple-icon-57x57.png",
+        "path": "/assets/img/apple-icon-57x57.png",
+        "href": "https://www.bimcloud.fr/assets/img/apple-icon-57x57.png"
+      },
+      "link": "https://www.bimcloud.fr/assets/img/apple-icon-57x57.png",
+      "line": "--2023-06-01 15:02:04--  https://www.bimcloud.fr/assets/img/apple-icon-57x57.png",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "www.bimcloud.fr",
+        "port": null,
+        "hostname": "www.bimcloud.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/assets/img/apple-icon-60x60.png",
+        "path": "/assets/img/apple-icon-60x60.png",
+        "href": "https://www.bimcloud.fr/assets/img/apple-icon-60x60.png"
+      },
+      "link": "https://www.bimcloud.fr/assets/img/apple-icon-60x60.png",
+      "line": "--2023-06-01 15:02:04--  https://www.bimcloud.fr/assets/img/apple-icon-60x60.png",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "www.bimcloud.fr",
+        "port": null,
+        "hostname": "www.bimcloud.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/assets/img/apple-icon-72x72.png",
+        "path": "/assets/img/apple-icon-72x72.png",
+        "href": "https://www.bimcloud.fr/assets/img/apple-icon-72x72.png"
+      },
+      "link": "https://www.bimcloud.fr/assets/img/apple-icon-72x72.png",
+      "line": "--2023-06-01 15:02:04--  https://www.bimcloud.fr/assets/img/apple-icon-72x72.png",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "www.bimcloud.fr",
+        "port": null,
+        "hostname": "www.bimcloud.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/assets/img/apple-icon-76x76.png",
+        "path": "/assets/img/apple-icon-76x76.png",
+        "href": "https://www.bimcloud.fr/assets/img/apple-icon-76x76.png"
+      },
+      "link": "https://www.bimcloud.fr/assets/img/apple-icon-76x76.png",
+      "line": "--2023-06-01 15:02:04--  https://www.bimcloud.fr/assets/img/apple-icon-76x76.png",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "www.bimcloud.fr",
+        "port": null,
+        "hostname": "www.bimcloud.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/assets/img/apple-icon-114x114.png",
+        "path": "/assets/img/apple-icon-114x114.png",
+        "href": "https://www.bimcloud.fr/assets/img/apple-icon-114x114.png"
+      },
+      "link": "https://www.bimcloud.fr/assets/img/apple-icon-114x114.png",
+      "line": "--2023-06-01 15:02:05--  https://www.bimcloud.fr/assets/img/apple-icon-114x114.png",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "www.bimcloud.fr",
+        "port": null,
+        "hostname": "www.bimcloud.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/assets/img/apple-icon-120x120.png",
+        "path": "/assets/img/apple-icon-120x120.png",
+        "href": "https://www.bimcloud.fr/assets/img/apple-icon-120x120.png"
+      },
+      "link": "https://www.bimcloud.fr/assets/img/apple-icon-120x120.png",
+      "line": "--2023-06-01 15:02:05--  https://www.bimcloud.fr/assets/img/apple-icon-120x120.png",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "www.bimcloud.fr",
+        "port": null,
+        "hostname": "www.bimcloud.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/assets/img/apple-icon-144x144.png",
+        "path": "/assets/img/apple-icon-144x144.png",
+        "href": "https://www.bimcloud.fr/assets/img/apple-icon-144x144.png"
+      },
+      "link": "https://www.bimcloud.fr/assets/img/apple-icon-144x144.png",
+      "line": "--2023-06-01 15:02:05--  https://www.bimcloud.fr/assets/img/apple-icon-144x144.png",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "www.bimcloud.fr",
+        "port": null,
+        "hostname": "www.bimcloud.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/assets/img/apple-icon-152x152.png",
+        "path": "/assets/img/apple-icon-152x152.png",
+        "href": "https://www.bimcloud.fr/assets/img/apple-icon-152x152.png"
+      },
+      "link": "https://www.bimcloud.fr/assets/img/apple-icon-152x152.png",
+      "line": "--2023-06-01 15:02:05--  https://www.bimcloud.fr/assets/img/apple-icon-152x152.png",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "www.bimcloud.fr",
+        "port": null,
+        "hostname": "www.bimcloud.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/assets/img/apple-icon-180x180.png",
+        "path": "/assets/img/apple-icon-180x180.png",
+        "href": "https://www.bimcloud.fr/assets/img/apple-icon-180x180.png"
+      },
+      "link": "https://www.bimcloud.fr/assets/img/apple-icon-180x180.png",
+      "line": "--2023-06-01 15:02:05--  https://www.bimcloud.fr/assets/img/apple-icon-180x180.png",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "www.bimcloud.fr",
+        "port": null,
+        "hostname": "www.bimcloud.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/assets/img/android-icon-192x192.png",
+        "path": "/assets/img/android-icon-192x192.png",
+        "href": "https://www.bimcloud.fr/assets/img/android-icon-192x192.png"
+      },
+      "link": "https://www.bimcloud.fr/assets/img/android-icon-192x192.png",
+      "line": "--2023-06-01 15:02:05--  https://www.bimcloud.fr/assets/img/android-icon-192x192.png",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "www.bimcloud.fr",
+        "port": null,
+        "hostname": "www.bimcloud.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/assets/img/favicon-32x32.png",
+        "path": "/assets/img/favicon-32x32.png",
+        "href": "https://www.bimcloud.fr/assets/img/favicon-32x32.png"
+      },
+      "link": "https://www.bimcloud.fr/assets/img/favicon-32x32.png",
+      "line": "--2023-06-01 15:02:05--  https://www.bimcloud.fr/assets/img/favicon-32x32.png",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "www.bimcloud.fr",
+        "port": null,
+        "hostname": "www.bimcloud.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/assets/img/favicon-96x96.png",
+        "path": "/assets/img/favicon-96x96.png",
+        "href": "https://www.bimcloud.fr/assets/img/favicon-96x96.png"
+      },
+      "link": "https://www.bimcloud.fr/assets/img/favicon-96x96.png",
+      "line": "--2023-06-01 15:02:06--  https://www.bimcloud.fr/assets/img/favicon-96x96.png",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "www.bimcloud.fr",
+        "port": null,
+        "hostname": "www.bimcloud.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/assets/img/favicon-16x16.png",
+        "path": "/assets/img/favicon-16x16.png",
+        "href": "https://www.bimcloud.fr/assets/img/favicon-16x16.png"
+      },
+      "link": "https://www.bimcloud.fr/assets/img/favicon-16x16.png",
+      "line": "--2023-06-01 15:02:06--  https://www.bimcloud.fr/assets/img/favicon-16x16.png",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "www.bimcloud.fr",
+        "port": null,
+        "hostname": "www.bimcloud.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/favicon.ico",
+        "path": "/favicon.ico",
+        "href": "https://www.bimcloud.fr/favicon.ico"
+      },
+      "link": "https://www.bimcloud.fr/favicon.ico",
+      "line": "--2023-06-01 15:02:06--  https://www.bimcloud.fr/favicon.ico",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "www.bimcloud.fr",
+        "port": null,
+        "hostname": "www.bimcloud.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/manifest.json",
+        "path": "/manifest.json",
+        "href": "https://www.bimcloud.fr/manifest.json"
+      },
+      "link": "https://www.bimcloud.fr/manifest.json",
+      "line": "--2023-06-01 15:02:06--  https://www.bimcloud.fr/manifest.json",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "www.bimcloud.fr",
+        "port": null,
+        "hostname": "www.bimcloud.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/styles.9872aa683b87a71a.css",
+        "path": "/styles.9872aa683b87a71a.css",
+        "href": "https://www.bimcloud.fr/styles.9872aa683b87a71a.css"
+      },
+      "link": "https://www.bimcloud.fr/styles.9872aa683b87a71a.css",
+      "line": "--2023-06-01 15:02:06--  https://www.bimcloud.fr/styles.9872aa683b87a71a.css",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "www.bimcloud.fr",
+        "port": null,
+        "hostname": "www.bimcloud.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/lato-latin-ext-400-normal.6ebed106d6de17e2.woff2",
+        "path": "/lato-latin-ext-400-normal.6ebed106d6de17e2.woff2",
+        "href": "https://www.bimcloud.fr/lato-latin-ext-400-normal.6ebed106d6de17e2.woff2"
+      },
+      "link": "https://www.bimcloud.fr/lato-latin-ext-400-normal.6ebed106d6de17e2.woff2",
+      "line": "--2023-06-01 15:02:06--  https://www.bimcloud.fr/lato-latin-ext-400-normal.6ebed106d6de17e2.woff2",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "www.bimcloud.fr",
+        "port": null,
+        "hostname": "www.bimcloud.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/lato-all-400-normal.63513b0074fe09d2.woff",
+        "path": "/lato-all-400-normal.63513b0074fe09d2.woff",
+        "href": "https://www.bimcloud.fr/lato-all-400-normal.63513b0074fe09d2.woff"
+      },
+      "link": "https://www.bimcloud.fr/lato-all-400-normal.63513b0074fe09d2.woff",
+      "line": "--2023-06-01 15:02:07--  https://www.bimcloud.fr/lato-all-400-normal.63513b0074fe09d2.woff",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "www.bimcloud.fr",
+        "port": null,
+        "hostname": "www.bimcloud.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/lato-latin-400-normal.b7ffde2383bb16ba.woff2",
+        "path": "/lato-latin-400-normal.b7ffde2383bb16ba.woff2",
+        "href": "https://www.bimcloud.fr/lato-latin-400-normal.b7ffde2383bb16ba.woff2"
+      },
+      "link": "https://www.bimcloud.fr/lato-latin-400-normal.b7ffde2383bb16ba.woff2",
+      "line": "--2023-06-01 15:02:07--  https://www.bimcloud.fr/lato-latin-400-normal.b7ffde2383bb16ba.woff2",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "www.bimcloud.fr",
+        "port": null,
+        "hostname": "www.bimcloud.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/light.0ebadafe6ae034a0.css",
+        "path": "/light.0ebadafe6ae034a0.css",
+        "href": "https://www.bimcloud.fr/light.0ebadafe6ae034a0.css"
+      },
+      "link": "https://www.bimcloud.fr/light.0ebadafe6ae034a0.css",
+      "line": "--2023-06-01 15:02:07--  https://www.bimcloud.fr/light.0ebadafe6ae034a0.css",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "www.bimcloud.fr",
+        "port": null,
+        "hostname": "www.bimcloud.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/runtime.c9df824965dbec4c.js",
+        "path": "/runtime.c9df824965dbec4c.js",
+        "href": "https://www.bimcloud.fr/runtime.c9df824965dbec4c.js"
+      },
+      "link": "https://www.bimcloud.fr/runtime.c9df824965dbec4c.js",
+      "line": "--2023-06-01 15:02:08--  https://www.bimcloud.fr/runtime.c9df824965dbec4c.js",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "www.bimcloud.fr",
+        "port": null,
+        "hostname": "www.bimcloud.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/polyfills.0d3d1dec878f7edb.js",
+        "path": "/polyfills.0d3d1dec878f7edb.js",
+        "href": "https://www.bimcloud.fr/polyfills.0d3d1dec878f7edb.js"
+      },
+      "link": "https://www.bimcloud.fr/polyfills.0d3d1dec878f7edb.js",
+      "line": "--2023-06-01 15:02:08--  https://www.bimcloud.fr/polyfills.0d3d1dec878f7edb.js",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "www.bimcloud.fr",
+        "port": null,
+        "hostname": "www.bimcloud.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/main.e5ccab11b2ccc756.js",
+        "path": "/main.e5ccab11b2ccc756.js",
+        "href": "https://www.bimcloud.fr/main.e5ccab11b2ccc756.js"
+      },
+      "link": "https://www.bimcloud.fr/main.e5ccab11b2ccc756.js",
+      "line": "--2023-06-01 15:02:08--  https://www.bimcloud.fr/main.e5ccab11b2ccc756.js",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "www.bimcloud.fr",
+        "port": null,
+        "hostname": "www.bimcloud.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/montserrat-cyrillic-ext-400-normal.46ce235ea1153a6c.woff2",
+        "path": "/montserrat-cyrillic-ext-400-normal.46ce235ea1153a6c.woff2",
+        "href": "https://www.bimcloud.fr/montserrat-cyrillic-ext-400-normal.46ce235ea1153a6c.woff2"
+      },
+      "link": "https://www.bimcloud.fr/montserrat-cyrillic-ext-400-normal.46ce235ea1153a6c.woff2",
+      "line": "--2023-06-01 15:02:08--  https://www.bimcloud.fr/montserrat-cyrillic-ext-400-normal.46ce235ea1153a6c.woff2",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "www.bimcloud.fr",
+        "port": null,
+        "hostname": "www.bimcloud.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/montserrat-all-400-normal.81868aecfc287ebe.woff",
+        "path": "/montserrat-all-400-normal.81868aecfc287ebe.woff",
+        "href": "https://www.bimcloud.fr/montserrat-all-400-normal.81868aecfc287ebe.woff"
+      },
+      "link": "https://www.bimcloud.fr/montserrat-all-400-normal.81868aecfc287ebe.woff",
+      "line": "--2023-06-01 15:02:08--  https://www.bimcloud.fr/montserrat-all-400-normal.81868aecfc287ebe.woff",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "www.bimcloud.fr",
+        "port": null,
+        "hostname": "www.bimcloud.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/montserrat-cyrillic-400-normal.f38200bf2324ccdd.woff2",
+        "path": "/montserrat-cyrillic-400-normal.f38200bf2324ccdd.woff2",
+        "href": "https://www.bimcloud.fr/montserrat-cyrillic-400-normal.f38200bf2324ccdd.woff2"
+      },
+      "link": "https://www.bimcloud.fr/montserrat-cyrillic-400-normal.f38200bf2324ccdd.woff2",
+      "line": "--2023-06-01 15:02:09--  https://www.bimcloud.fr/montserrat-cyrillic-400-normal.f38200bf2324ccdd.woff2",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "www.bimcloud.fr",
+        "port": null,
+        "hostname": "www.bimcloud.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/montserrat-vietnamese-400-normal.63b5be88fe7cc4c9.woff2",
+        "path": "/montserrat-vietnamese-400-normal.63b5be88fe7cc4c9.woff2",
+        "href": "https://www.bimcloud.fr/montserrat-vietnamese-400-normal.63b5be88fe7cc4c9.woff2"
+      },
+      "link": "https://www.bimcloud.fr/montserrat-vietnamese-400-normal.63b5be88fe7cc4c9.woff2",
+      "line": "--2023-06-01 15:02:09--  https://www.bimcloud.fr/montserrat-vietnamese-400-normal.63b5be88fe7cc4c9.woff2",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "www.bimcloud.fr",
+        "port": null,
+        "hostname": "www.bimcloud.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/montserrat-latin-ext-400-normal.5447313189a53731.woff2",
+        "path": "/montserrat-latin-ext-400-normal.5447313189a53731.woff2",
+        "href": "https://www.bimcloud.fr/montserrat-latin-ext-400-normal.5447313189a53731.woff2"
+      },
+      "link": "https://www.bimcloud.fr/montserrat-latin-ext-400-normal.5447313189a53731.woff2",
+      "line": "--2023-06-01 15:02:09--  https://www.bimcloud.fr/montserrat-latin-ext-400-normal.5447313189a53731.woff2",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "www.bimcloud.fr",
+        "port": null,
+        "hostname": "www.bimcloud.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/montserrat-latin-400-normal.391ffddb0355c301.woff2",
+        "path": "/montserrat-latin-400-normal.391ffddb0355c301.woff2",
+        "href": "https://www.bimcloud.fr/montserrat-latin-400-normal.391ffddb0355c301.woff2"
+      },
+      "link": "https://www.bimcloud.fr/montserrat-latin-400-normal.391ffddb0355c301.woff2",
+      "line": "--2023-06-01 15:02:09--  https://www.bimcloud.fr/montserrat-latin-400-normal.391ffddb0355c301.woff2",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "www.bimcloud.fr",
+        "port": null,
+        "hostname": "www.bimcloud.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/flags.6989ab0aa64f0b97.png",
+        "path": "/flags.6989ab0aa64f0b97.png",
+        "href": "https://www.bimcloud.fr/flags.6989ab0aa64f0b97.png"
+      },
+      "link": "https://www.bimcloud.fr/flags.6989ab0aa64f0b97.png",
+      "line": "--2023-06-01 15:02:09--  https://www.bimcloud.fr/flags.6989ab0aa64f0b97.png",
+      "broken": false
+    }
+  ],
+  "broken": []
+}
