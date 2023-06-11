@@ -13,7 +13,7 @@
     "http": {
       "url": "https://demo.tech.fr",
       "algorithm_version": 2,
-      "end_time": "Sun, 04 Jun 2023 01:20:41 GMT",
+      "end_time": "Sun, 11 Jun 2023 01:17:06 GMT",
       "grade": "F",
       "hidden": false,
       "likelihood_indicator": "MEDIUM",
@@ -21,16 +21,16 @@
         "Cache-Control": "no-cache, no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0",
         "Content-Encoding": "gzip",
         "Content-Type": "text/html",
-        "Date": "Sun, 04 Jun 2023 01:20:39 GMT",
+        "Date": "Sun, 11 Jun 2023 01:17:05 GMT",
         "Etag": "W/\"645b4dcd-3d84\"",
-        "Expires": "Sun, 04 Jun 2023 01:20:38 GMT",
+        "Expires": "Sun, 11 Jun 2023 01:17:04 GMT",
         "Last-Modified": "Wed, 10 May 2023 07:54:53 GMT",
         "Server": "nginx",
         "Transfer-Encoding": "chunked"
       },
-      "scan_id": 38141413,
+      "scan_id": 38370719,
       "score": 15,
-      "start_time": "Sun, 04 Jun 2023 01:19:43 GMT",
+      "start_time": "Sun, 11 Jun 2023 01:17:01 GMT",
       "state": "FINISHED",
       "status_code": 200,
       "tests_failed": 6,
@@ -553,7 +553,7 @@
         "ip": "demo.tech.fr/54.37.80.118",
         "port": "443",
         "severity": "OK",
-        "finding": "57 >= 30 days"
+        "finding": "50 >= 30 days"
       },
       {
         "id": "cert_notBefore",
@@ -756,7 +756,7 @@
         "ip": "demo.tech.fr/54.37.80.118",
         "port": "443",
         "severity": "INFO",
-        "finding": "1685841673"
+        "finding": "1686446300"
       },
       {
         "id": "HSTS",
@@ -1319,7 +1319,7 @@
         "ip": "demo.tech.fr/54.37.80.118",
         "port": "443",
         "severity": "INFO",
-        "finding": "78"
+        "finding": "135"
       }
     ],
     "thirdparties": {
@@ -1334,7 +1334,7 @@
         },
         {
           "type": "google analytics",
-          "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-23VKXV49V7&gtm=45je35v0&_p=643264180&cid=785997764.1685841398&ul=en-us&sr=800x600&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&ngs=1&_s=1&sid=1685841397&sct=1&seg=0&dl=https%3A%2F%2Fdemo.tech.fr%2F&dt=Application%20Bootstrap%20-%20Material&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1",
+          "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-23VKXV49V7&gtm=45je3671&_p=1703350581&cid=2139523817.1686446021&ul=en-us&sr=800x600&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&ngs=1&_s=1&sid=1686446021&sct=1&seg=0&dl=https%3A%2F%2Fdemo.tech.fr%2F&dt=Application%20Bootstrap%20-%20Material&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1",
           "details": {
             "id": "google analytics",
             "message": "Use hosted Matomo instance"
@@ -1344,11 +1344,11 @@
       "cookies": [
         {
           "name": "_ga",
-          "value": "GA1.1.785997764.1685841398",
+          "value": "GA1.1.2139523817.1686446021",
           "domain": ".tech.fr",
           "path": "/",
-          "expires": 1748913397,
-          "size": 29,
+          "expires": 1749518021,
+          "size": 30,
           "httpOnly": false,
           "secure": false,
           "session": false,
@@ -1358,10 +1358,10 @@
         },
         {
           "name": "_ga_23VKXV49V7",
-          "value": "GS1.1.1685841397.1.0.1685841397.0.0.0",
+          "value": "GS1.1.1686446021.1.0.1686446021.0.0.0",
           "domain": ".tech.fr",
           "path": "/",
-          "expires": 1748913397,
+          "expires": 1749518021,
           "size": 51,
           "httpOnly": false,
           "secure": false,
@@ -1375,9 +1375,9 @@
         "cache-control": "no-cache\nno-store, no-cache, must-revalidate, proxy-revalidate, max-age=0",
         "content-encoding": "gzip",
         "content-type": "text/html",
-        "date": "Sun, 04 Jun 2023 01:16:37 GMT",
+        "date": "Sun, 11 Jun 2023 01:13:41 GMT",
         "etag": "W/\"645b4dcd-3d84\"",
-        "expires": "Sun, 04 Jun 2023 01:16:36 GMT",
+        "expires": "Sun, 11 Jun 2023 01:13:40 GMT",
         "last-modified": "Wed, 10 May 2023 07:54:53 GMT",
         "server": "nginx"
       },
@@ -1425,7 +1425,7 @@
         },
         {
           "hostname": "www.googletagmanager.com",
-          "ip": "172.253.122.97",
+          "ip": "64.233.183.97",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -1479,7 +1479,7 @@
         },
         {
           "hostname": "www.google-analytics.com",
-          "ip": "172.253.63.100",
+          "ip": "209.85.146.139",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -1816,29 +1816,14 @@
     "zap": {
       "@programName": "OWASP ZAP",
       "@version": "2.12.0",
-      "@generated": "Sun, 4 Jun 2023 01:19:16",
+      "@generated": "Sun, 11 Jun 2023 01:16:33",
       "site": [
         {
           "@name": "https://demo.tech.fr.",
           "@host": "demo.tech.fr.",
           "@port": "443",
           "@ssl": "true",
-          "alerts": [
-            {
-              "name": "Strict-Transport-Security Header Not Set",
-              "riskcode": "1",
-              "confidence": "3",
-              "riskdesc": "Low (High)",
-              "desc": "<p>HTTP Strict Transport Security (HSTS) is a web security policy mechanism whereby a web server declares that complying user agents (such as a web browser) are to interact with it using only secure HTTPS connections (i.e. HTTP layered over TLS/SSL). HSTS is an IETF standards track protocol and is specified in RFC 6797.</p>"
-            },
-            {
-              "name": "Storable and Cacheable Content",
-              "riskcode": "0",
-              "confidence": "2",
-              "riskdesc": "Informational (Medium)",
-              "desc": "<p>The response contents are storable by caching components such as proxy servers, and may be retrieved directly from the cache, rather than from the origin server by the caching servers, in response to similar requests from other users.  If the response data is sensitive, personal or user-specific, this may result in sensitive information being leaked. In some cases, this may even result in a user gaining complete control of the session of another user, depending on the configuration of the caching components in use in their environment. This is primarily an issue where \"shared\" caching servers such as \"proxy\" caches are configured on the local network. This configuration is typically found in corporate or educational environments, for instance.</p>"
-            }
-          ]
+          "alerts": []
         },
         {
           "@name": "https://demo.tech.fr",
@@ -1946,7 +1931,7 @@
       {
         "requestedUrl": "https://demo.tech.fr/",
         "finalUrl": "https://demo.tech.fr/",
-        "fetchTime": "2023-06-04T01:19:32.066Z",
+        "fetchTime": "2023-06-11T01:16:49.355Z",
         "runWarnings": [],
         "categories": {
           "performance": {
@@ -1957,7 +1942,7 @@
               "snapshot"
             ],
             "id": "performance",
-            "score": 0.9808673858642578
+            "score": 0.9808006286621094
           },
           "accessibility": {
             "title": "Accessibility",
@@ -2009,53 +1994,53 @@
             "description": "Collects all available metrics.",
             "score": null,
             "scoreDisplayMode": "informative",
-            "numericValue": 6727,
+            "numericValue": 6715,
             "numericUnit": "millisecond",
             "details": {
               "type": "debugdata",
               "items": [
                 {
-                  "firstContentfulPaint": 4697,
-                  "firstMeaningfulPaint": 4697,
-                  "largestContentfulPaint": 7008,
-                  "interactive": 6727,
-                  "speedIndex": 4697,
-                  "totalBlockingTime": 593,
-                  "maxPotentialFID": 874,
+                  "firstContentfulPaint": 4698,
+                  "firstMeaningfulPaint": 4698,
+                  "largestContentfulPaint": 6406,
+                  "interactive": 6715,
+                  "speedIndex": 4788,
+                  "totalBlockingTime": 747,
+                  "maxPotentialFID": 919,
                   "cumulativeLayoutShift": 0,
                   "cumulativeLayoutShiftMainFrame": 0,
                   "totalCumulativeLayoutShift": 0,
                   "observedTimeOrigin": 0,
-                  "observedTimeOriginTs": 250653971,
+                  "observedTimeOriginTs": 296414568,
                   "observedNavigationStart": 0,
-                  "observedNavigationStartTs": 250653971,
-                  "observedFirstPaint": 345,
-                  "observedFirstPaintTs": 250998834,
-                  "observedFirstContentfulPaint": 1101,
-                  "observedFirstContentfulPaintTs": 251755356,
-                  "observedFirstContentfulPaintAllFrames": 1101,
-                  "observedFirstContentfulPaintAllFramesTs": 251755356,
-                  "observedFirstMeaningfulPaint": 1101,
-                  "observedFirstMeaningfulPaintTs": 251755356,
-                  "observedLargestContentfulPaint": 1101,
-                  "observedLargestContentfulPaintTs": 251755356,
-                  "observedLargestContentfulPaintAllFrames": 1101,
-                  "observedLargestContentfulPaintAllFramesTs": 251755356,
-                  "observedTraceEnd": 3533,
-                  "observedTraceEndTs": 254186941,
-                  "observedLoad": 1182,
-                  "observedLoadTs": 251835971,
-                  "observedDomContentLoaded": 1052,
-                  "observedDomContentLoadedTs": 251705532,
+                  "observedNavigationStartTs": 296414568,
+                  "observedFirstPaint": 452,
+                  "observedFirstPaintTs": 296866370,
+                  "observedFirstContentfulPaint": 1421,
+                  "observedFirstContentfulPaintTs": 297835458,
+                  "observedFirstContentfulPaintAllFrames": 1421,
+                  "observedFirstContentfulPaintAllFramesTs": 297835458,
+                  "observedFirstMeaningfulPaint": 1421,
+                  "observedFirstMeaningfulPaintTs": 297835458,
+                  "observedLargestContentfulPaint": 1421,
+                  "observedLargestContentfulPaintTs": 297835458,
+                  "observedLargestContentfulPaintAllFrames": 1421,
+                  "observedLargestContentfulPaintAllFramesTs": 297835458,
+                  "observedTraceEnd": 3865,
+                  "observedTraceEndTs": 300279114,
+                  "observedLoad": 1535,
+                  "observedLoadTs": 297949271,
+                  "observedDomContentLoaded": 1376,
+                  "observedDomContentLoadedTs": 297790146,
                   "observedCumulativeLayoutShift": 0,
                   "observedCumulativeLayoutShiftMainFrame": 0,
                   "observedTotalCumulativeLayoutShift": 0,
-                  "observedFirstVisualChange": 585,
-                  "observedFirstVisualChangeTs": 251238971,
-                  "observedLastVisualChange": 1102,
-                  "observedLastVisualChangeTs": 251755971,
-                  "observedSpeedIndex": 1097,
-                  "observedSpeedIndexTs": 251751430
+                  "observedFirstVisualChange": 790,
+                  "observedFirstVisualChangeTs": 297204568,
+                  "observedLastVisualChange": 1423,
+                  "observedLastVisualChangeTs": 297837568,
+                  "observedSpeedIndex": 1417,
+                  "observedSpeedIndexTs": 297831753
                 },
                 {
                   "lcpInvalidated": false
@@ -2077,18 +2062,18 @@
                   "numScripts": 6,
                   "numStylesheets": 2,
                   "numFonts": 1,
-                  "numTasks": 485,
-                  "numTasksOver10ms": 11,
-                  "numTasksOver25ms": 4,
+                  "numTasks": 1525,
+                  "numTasksOver10ms": 12,
+                  "numTasksOver25ms": 6,
                   "numTasksOver50ms": 1,
                   "numTasksOver100ms": 1,
                   "numTasksOver500ms": 0,
-                  "rtt": 1.8360000000000003,
-                  "throughput": 20303781.907423563,
-                  "maxRtt": 82.946,
-                  "maxServerLatency": 16.668,
-                  "totalByteWeight": 1148886,
-                  "totalTaskTime": 599.5380000000011,
+                  "rtt": 23.058,
+                  "throughput": 13927390.4374929,
+                  "maxRtt": 117.017,
+                  "maxServerLatency": 10.175000000000004,
+                  "totalByteWeight": 1149236,
+                  "totalTaskTime": 621.8159999999764,
                   "mainDocumentTransferSize": 4893
                 }
               ]
@@ -2112,7 +2097,7 @@
         "width": 1920,
         "height": 1080,
         "url": "https://demo.tech.fr",
-        "size": 1288.073,
+        "size": 1288.432,
         "nodes": 515,
         "requests": 31,
         "grade": "C",
@@ -2120,7 +2105,7 @@
         "ges": 1.7,
         "water": 2.55,
         "ecoindex_version": "5.4.2",
-        "date": "2023-06-04 01:17:41.810122",
+        "date": "2023-06-11 01:14:47.796167",
         "page_type": null
       }
     ],
@@ -2135,7 +2120,7 @@
       "cookiesCount": 2,
       "trackersGrade": "B",
       "trackersCount": 2,
-      "lighthouse_performance": 0.9808673858642578,
+      "lighthouse_performance": 0.9808006286621094,
       "lighthouse_performanceGrade": "A",
       "lighthouse_accessibility": 0.73,
       "lighthouse_accessibilityGrade": "B",
@@ -2162,7 +2147,7 @@
     "http": {
       "url": "https://www.bimcloud.fr",
       "algorithm_version": 2,
-      "end_time": "Sun, 04 Jun 2023 01:21:06 GMT",
+      "end_time": "Sun, 11 Jun 2023 01:17:03 GMT",
       "grade": "F",
       "hidden": false,
       "likelihood_indicator": "MEDIUM",
@@ -2170,16 +2155,16 @@
         "Cache-Control": "no-cache, no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0",
         "Content-Encoding": "gzip",
         "Content-Type": "text/html",
-        "Date": "Sun, 04 Jun 2023 01:21:05 GMT",
+        "Date": "Sun, 11 Jun 2023 01:17:02 GMT",
         "Etag": "W/\"645e2c1b-1ebd\"",
-        "Expires": "Sun, 04 Jun 2023 01:21:04 GMT",
+        "Expires": "Sun, 11 Jun 2023 01:17:01 GMT",
         "Last-Modified": "Fri, 12 May 2023 12:07:55 GMT",
         "Server": "nginx",
         "Transfer-Encoding": "chunked"
       },
-      "scan_id": 38141443,
+      "scan_id": 38370718,
       "score": 20,
-      "start_time": "Sun, 04 Jun 2023 01:20:52 GMT",
+      "start_time": "Sun, 11 Jun 2023 01:16:59 GMT",
       "state": "FINISHED",
       "status_code": 200,
       "tests_failed": 5,
@@ -2697,7 +2682,7 @@
         "ip": "www.bimcloud.fr/54.37.80.118",
         "port": "443",
         "severity": "OK",
-        "finding": "46 >= 30 days"
+        "finding": "39 >= 30 days"
       },
       {
         "id": "cert_notBefore",
@@ -2900,7 +2885,7 @@
         "ip": "www.bimcloud.fr/54.37.80.118",
         "port": "443",
         "severity": "INFO",
-        "finding": "1685841736"
+        "finding": "1686446270"
       },
       {
         "id": "HSTS",
@@ -3463,7 +3448,7 @@
         "ip": "www.bimcloud.fr/54.37.80.118",
         "port": "443",
         "severity": "INFO",
-        "finding": "143"
+        "finding": "78"
       }
     ],
     "thirdparties": {
@@ -3473,9 +3458,9 @@
         "cache-control": "no-cache\nno-store, no-cache, must-revalidate, proxy-revalidate, max-age=0",
         "content-encoding": "gzip",
         "content-type": "text/html",
-        "date": "Sun, 04 Jun 2023 01:16:50 GMT",
+        "date": "Sun, 11 Jun 2023 01:13:34 GMT",
         "etag": "W/\"645e2c1b-1ebd\"",
-        "expires": "Sun, 04 Jun 2023 01:16:49 GMT",
+        "expires": "Sun, 11 Jun 2023 01:13:33 GMT",
         "last-modified": "Fri, 12 May 2023 12:07:55 GMT",
         "server": "nginx"
       },
@@ -3881,7 +3866,7 @@
     "zap": {
       "@programName": "OWASP ZAP",
       "@version": "2.12.0",
-      "@generated": "Sun, 4 Jun 2023 01:20:18",
+      "@generated": "Sun, 11 Jun 2023 01:16:32",
       "site": [
         {
           "@name": "https://www.bimcloud.fr",
@@ -3996,7 +3981,7 @@
       {
         "requestedUrl": "https://www.bimcloud.fr/",
         "finalUrl": "https://www.bimcloud.fr/",
-        "fetchTime": "2023-06-04T01:20:39.040Z",
+        "fetchTime": "2023-06-11T01:16:47.565Z",
         "runWarnings": [],
         "categories": {
           "performance": {
@@ -4007,7 +3992,7 @@
               "snapshot"
             ],
             "id": "performance",
-            "score": 0.8309988021850586
+            "score": 0.8309944152832032
           },
           "accessibility": {
             "title": "Accessibility",
@@ -4059,53 +4044,53 @@
             "description": "Collects all available metrics.",
             "score": null,
             "scoreDisplayMode": "informative",
-            "numericValue": 11368,
+            "numericValue": 11033,
             "numericUnit": "millisecond",
             "details": {
               "type": "debugdata",
               "items": [
                 {
-                  "firstContentfulPaint": 9452,
-                  "firstMeaningfulPaint": 10260,
-                  "largestContentfulPaint": 11068,
-                  "interactive": 11368,
-                  "speedIndex": 10167,
-                  "totalBlockingTime": 1416,
-                  "maxPotentialFID": 1466,
+                  "firstContentfulPaint": 9451,
+                  "firstMeaningfulPaint": 10055,
+                  "largestContentfulPaint": 10808,
+                  "interactive": 11033,
+                  "speedIndex": 9451,
+                  "totalBlockingTime": 1082,
+                  "maxPotentialFID": 1207,
                   "cumulativeLayoutShift": 0,
                   "cumulativeLayoutShiftMainFrame": 0,
                   "totalCumulativeLayoutShift": 0,
                   "observedTimeOrigin": 0,
-                  "observedTimeOriginTs": 466467424,
+                  "observedTimeOriginTs": 348568768,
                   "observedNavigationStart": 0,
-                  "observedNavigationStartTs": 466467424,
-                  "observedFirstPaint": 2584,
-                  "observedFirstPaintTs": 469051554,
-                  "observedFirstContentfulPaint": 2584,
-                  "observedFirstContentfulPaintTs": 469051554,
-                  "observedFirstContentfulPaintAllFrames": 2584,
-                  "observedFirstContentfulPaintAllFramesTs": 469051554,
-                  "observedFirstMeaningfulPaint": 2584,
-                  "observedFirstMeaningfulPaintTs": 469051554,
-                  "observedLargestContentfulPaint": 2584,
-                  "observedLargestContentfulPaintTs": 469051554,
-                  "observedLargestContentfulPaintAllFrames": 2584,
-                  "observedLargestContentfulPaintAllFramesTs": 469051554,
-                  "observedTraceEnd": 5060,
-                  "observedTraceEndTs": 471527582,
-                  "observedLoad": 2734,
-                  "observedLoadTs": 469201514,
-                  "observedDomContentLoaded": 2543,
-                  "observedDomContentLoadedTs": 469010563,
+                  "observedNavigationStartTs": 348568768,
+                  "observedFirstPaint": 1756,
+                  "observedFirstPaintTs": 350324964,
+                  "observedFirstContentfulPaint": 1756,
+                  "observedFirstContentfulPaintTs": 350324964,
+                  "observedFirstContentfulPaintAllFrames": 1756,
+                  "observedFirstContentfulPaintAllFramesTs": 350324964,
+                  "observedFirstMeaningfulPaint": 1756,
+                  "observedFirstMeaningfulPaintTs": 350324964,
+                  "observedLargestContentfulPaint": 1756,
+                  "observedLargestContentfulPaintTs": 350324964,
+                  "observedLargestContentfulPaintAllFrames": 1756,
+                  "observedLargestContentfulPaintAllFramesTs": 350324964,
+                  "observedTraceEnd": 4157,
+                  "observedTraceEndTs": 352725468,
+                  "observedLoad": 1839,
+                  "observedLoadTs": 350407760,
+                  "observedDomContentLoaded": 1733,
+                  "observedDomContentLoadedTs": 350301928,
                   "observedCumulativeLayoutShift": 0,
                   "observedCumulativeLayoutShiftMainFrame": 0,
                   "observedTotalCumulativeLayoutShift": 0,
-                  "observedFirstVisualChange": 2580,
-                  "observedFirstVisualChangeTs": 469047424,
-                  "observedLastVisualChange": 2713,
-                  "observedLastVisualChangeTs": 469180424,
-                  "observedSpeedIndex": 2582,
-                  "observedSpeedIndexTs": 469049237
+                  "observedFirstVisualChange": 1767,
+                  "observedFirstVisualChangeTs": 350335768,
+                  "observedLastVisualChange": 1850,
+                  "observedLastVisualChangeTs": 350418768,
+                  "observedSpeedIndex": 1768,
+                  "observedSpeedIndexTs": 350336819
                 },
                 {
                   "lcpInvalidated": false
@@ -4127,18 +4112,18 @@
                   "numScripts": 3,
                   "numStylesheets": 2,
                   "numFonts": 2,
-                  "numTasks": 1321,
+                  "numTasks": 716,
                   "numTasksOver10ms": 5,
-                  "numTasksOver25ms": 3,
+                  "numTasksOver25ms": 2,
                   "numTasksOver50ms": 2,
-                  "numTasksOver100ms": 2,
+                  "numTasksOver100ms": 1,
                   "numTasksOver500ms": 1,
-                  "rtt": 150.715,
-                  "throughput": 16519741.568035165,
-                  "maxRtt": 150.715,
-                  "maxServerLatency": 1.825000000000017,
-                  "totalByteWeight": 1934629,
-                  "totalTaskTime": 1151.1849999999595,
+                  "rtt": 87.24600000000001,
+                  "throughput": 28315951.627360433,
+                  "maxRtt": 87.24600000000001,
+                  "maxServerLatency": 1.4919999999999902,
+                  "totalByteWeight": 1934652,
+                  "totalTaskTime": 987.405999999995,
                   "mainDocumentTransferSize": 2535
                 }
               ]
@@ -4162,7 +4147,7 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.bimcloud.fr",
-        "size": 2122.256,
+        "size": 2122.242,
         "nodes": 136,
         "requests": 14,
         "grade": "B",
@@ -4170,7 +4155,7 @@
         "ges": 1.42,
         "water": 2.13,
         "ecoindex_version": "5.4.2",
-        "date": "2023-06-04 01:18:07.989572",
+        "date": "2023-06-11 01:14:43.793591",
         "page_type": "website"
       }
     ],
@@ -4185,7 +4170,7 @@
       "cookiesCount": 0,
       "trackersGrade": "A",
       "trackersCount": 0,
-      "lighthouse_performance": 0.8309988021850586,
+      "lighthouse_performance": 0.8309944152832032,
       "lighthouse_performanceGrade": "B",
       "lighthouse_accessibility": 0.8,
       "lighthouse_accessibilityGrade": "B",
