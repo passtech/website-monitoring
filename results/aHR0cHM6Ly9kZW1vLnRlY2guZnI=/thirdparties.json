@@ -10,7 +10,7 @@
     },
     {
       "type": "google analytics",
-      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-23VKXV49V7&gtm=45je36e0&_p=229432146&cid=1114257158.1687050764&ul=en-us&sr=800x600&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&ngs=1&_s=1&sid=1687050763&sct=1&seg=0&dl=https%3A%2F%2Fdemo.tech.fr%2F&dt=Application%20Bootstrap%20-%20Material&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1",
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-23VKXV49V7&gtm=45je36l0&_p=686537513&cid=258507453.1687655965&ul=en-us&sr=800x600&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&ngs=1&_s=1&sid=1687655965&sct=1&seg=0&dl=https%3A%2F%2Fdemo.tech.fr%2F&dt=Application%20Bootstrap%20-%20Material&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1",
       "details": {
         "id": "google analytics",
         "message": "Use hosted Matomo instance"
@@ -20,11 +20,11 @@
   "cookies": [
     {
       "name": "_ga",
-      "value": "GA1.1.1114257158.1687050764",
+      "value": "GA1.1.258507453.1687655965",
       "domain": ".tech.fr",
       "path": "/",
-      "expires": 1750122763,
-      "size": 30,
+      "expires": 1750727965,
+      "size": 29,
       "httpOnly": false,
       "secure": false,
       "session": false,
@@ -34,10 +34,10 @@
     },
     {
       "name": "_ga_23VKXV49V7",
-      "value": "GS1.1.1687050763.1.0.1687050763.0.0.0",
+      "value": "GS1.1.1687655965.1.0.1687655965.0.0.0",
       "domain": ".tech.fr",
       "path": "/",
-      "expires": 1750122763,
+      "expires": 1750727965,
       "size": 51,
       "httpOnly": false,
       "secure": false,
@@ -51,9 +51,9 @@
     "cache-control": "no-cache\nno-store, no-cache, must-revalidate, proxy-revalidate, max-age=0",
     "content-encoding": "gzip",
     "content-type": "text/html",
-    "date": "Sun, 18 Jun 2023 01:12:43 GMT",
+    "date": "Sun, 25 Jun 2023 01:19:25 GMT",
     "etag": "W/\"64872a9e-3d84\"",
-    "expires": "Sun, 18 Jun 2023 01:12:42 GMT",
+    "expires": "Sun, 25 Jun 2023 01:19:24 GMT",
     "last-modified": "Mon, 12 Jun 2023 14:24:30 GMT",
     "server": "nginx"
   },
@@ -101,7 +101,7 @@
     },
     {
       "hostname": "www.googletagmanager.com",
-      "ip": "172.217.11.72",
+      "ip": "172.253.122.97",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -155,7 +155,7 @@
     },
     {
       "hostname": "www.google-analytics.com",
-      "ip": "142.250.138.100",
+      "ip": "216.239.32.178",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -187,9 +187,9 @@
         },
         "location": {
           "accuracy_radius": 1000,
-          "latitude": 37.751,
-          "longitude": -97.822,
-          "time_zone": "America/Chicago"
+          "latitude": 34.0544,
+          "longitude": -118.244,
+          "time_zone": "America/Los_Angeles"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -204,7 +204,23 @@
             "ru": "США",
             "zh-CN": "美国"
           }
-        }
+        },
+        "subdivisions": [
+          {
+            "geoname_id": 5332921,
+            "iso_code": "CA",
+            "names": {
+              "de": "Kalifornien",
+              "en": "California",
+              "es": "California",
+              "fr": "Californie",
+              "ja": "カリフォルニア州",
+              "pt-BR": "Califórnia",
+              "ru": "Калифорния",
+              "zh-CN": "加州"
+            }
+          }
+        ]
       }
     }
   ]
