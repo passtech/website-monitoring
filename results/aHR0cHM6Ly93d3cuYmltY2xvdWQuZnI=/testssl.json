@@ -269,7 +269,7 @@
               "ip"           : "www.bimcloud.fr/54.37.80.118",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "0390320D62D5C70FE5C6E7BE807F9291DC3F"
+              "finding"      : "043232C362195CD94998368915FC8F097F4D"
           }
 ,         {
               "id"           : "cert_serialNumberLen",
@@ -283,21 +283,21 @@
               "ip"           : "www.bimcloud.fr/54.37.80.118",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "6233BDCB276EA79E8A44BB0ADBCD2F2C2355F77E"
+              "finding"      : "A770B75A8F6D60C3E82ADE8050BAFFED08DAE872"
           }
 ,         {
               "id"           : "cert_fingerprintSHA256",
               "ip"           : "www.bimcloud.fr/54.37.80.118",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "010ECB119AD500DB9D8894A94F6225AE574E0B0EB94D8328AA8C55F2938FF6C7"
+              "finding"      : "33B3A8AB47DC474D5042C2B31D7D3359037424C0824331767FBCD5D0710814EC"
           }
 ,         {
               "id"           : "cert",
               "ip"           : "www.bimcloud.fr/54.37.80.118",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
+              "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
           }
 ,         {
               "id"           : "cert_commonName",
@@ -346,21 +346,21 @@
               "ip"           : "www.bimcloud.fr/54.37.80.118",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "32 >= 30 days"
+              "finding"      : "85 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore",
               "ip"           : "www.bimcloud.fr/54.37.80.118",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "2023-04-21 10:50"
+              "finding"      : "2023-06-20 10:50"
           }
 ,         {
               "id"           : "cert_notAfter",
               "ip"           : "www.bimcloud.fr/54.37.80.118",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "2023-07-20 10:50"
+              "finding"      : "2023-09-18 10:50"
           }
 ,         {
               "id"           : "cert_extlifeSpan",
@@ -549,7 +549,7 @@
               "ip"           : "www.bimcloud.fr/54.37.80.118",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1687051064"
+              "finding"      : "1687656231"
           }
 ,         {
               "id"           : "HSTS",
@@ -729,7 +729,7 @@
               "severity"     : "INFO",
               "cve"          : "CVE-2016-0800 CVE-2016-0703",
               "cwe"          : "CWE-310",
-              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=010ECB119AD500DB9D8894A94F6225AE574E0B0EB94D8328AA8C55F2938FF6C7"
+              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=33B3A8AB47DC474D5042C2B31D7D3359037424C0824331767FBCD5D0710814EC"
           }
 ,         {
               "id"           : "LOGJAM",
@@ -1112,6 +1112,6 @@
               "ip"           : "www.bimcloud.fr/54.37.80.118",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "131"
+              "finding"      : "74"
           }
 ]
