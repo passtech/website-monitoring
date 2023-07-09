@@ -13,7 +13,7 @@
     "http": {
       "url": "https://demo.tech.fr",
       "algorithm_version": 2,
-      "end_time": "Sun, 25 Jun 2023 01:22:43 GMT",
+      "end_time": "Sun, 09 Jul 2023 01:22:38 GMT",
       "grade": "F",
       "hidden": false,
       "likelihood_indicator": "MEDIUM",
@@ -21,16 +21,16 @@
         "Cache-Control": "no-cache, no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0",
         "Content-Encoding": "gzip",
         "Content-Type": "text/html",
-        "Date": "Sun, 25 Jun 2023 01:22:42 GMT",
+        "Date": "Sun, 09 Jul 2023 01:22:37 GMT",
         "Etag": "W/\"64872a9e-3d84\"",
-        "Expires": "Sun, 25 Jun 2023 01:22:41 GMT",
+        "Expires": "Sun, 09 Jul 2023 01:22:36 GMT",
         "Last-Modified": "Mon, 12 Jun 2023 14:24:30 GMT",
         "Server": "nginx",
         "Transfer-Encoding": "chunked"
       },
-      "scan_id": 38954044,
+      "scan_id": 39519781,
       "score": 15,
-      "start_time": "Sun, 25 Jun 2023 01:22:31 GMT",
+      "start_time": "Sun, 09 Jul 2023 01:22:34 GMT",
       "state": "FINISHED",
       "status_code": 200,
       "tests_failed": 6,
@@ -553,7 +553,7 @@
         "ip": "demo.tech.fr/54.37.80.118",
         "port": "443",
         "severity": "OK",
-        "finding": "89 >= 30 days"
+        "finding": "82 >= 30 days"
       },
       {
         "id": "cert_notBefore",
@@ -749,14 +749,14 @@
         "ip": "demo.tech.fr/54.37.80.118",
         "port": "443",
         "severity": "INFO",
-        "finding": "-1 seconds from localtime"
+        "finding": "0 seconds from localtime"
       },
       {
         "id": "HTTP_headerTime",
         "ip": "demo.tech.fr/54.37.80.118",
         "port": "443",
         "severity": "INFO",
-        "finding": "1688260825"
+        "finding": "1688865840"
       },
       {
         "id": "HSTS",
@@ -1319,7 +1319,7 @@
         "ip": "demo.tech.fr/54.37.80.118",
         "port": "443",
         "severity": "INFO",
-        "finding": "78"
+        "finding": "146"
       }
     ],
     "thirdparties": {
@@ -1334,7 +1334,7 @@
         },
         {
           "type": "google analytics",
-          "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-23VKXV49V7&gtm=45je36s0&_p=1227906250&cid=409853602.1688260600&ul=en-us&sr=800x600&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&ngs=1&_s=1&sid=1688260599&sct=1&seg=0&dl=https%3A%2F%2Fdemo.tech.fr%2F&dt=Application%20Bootstrap%20-%20Material&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1",
+          "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-23VKXV49V7&gtm=45je3750&_p=577962106&cid=610095152.1688865508&ul=en-us&sr=800x600&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&ngs=1&_s=1&sid=1688865508&sct=1&seg=0&dl=https%3A%2F%2Fdemo.tech.fr%2F&dt=Application%20Bootstrap%20-%20Material&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1",
           "details": {
             "id": "google analytics",
             "message": "Use hosted Matomo instance"
@@ -1344,10 +1344,10 @@
       "cookies": [
         {
           "name": "_ga",
-          "value": "GA1.1.409853602.1688260600",
+          "value": "GA1.1.610095152.1688865508",
           "domain": ".tech.fr",
           "path": "/",
-          "expires": 1751332599,
+          "expires": 1751937508,
           "size": 29,
           "httpOnly": false,
           "secure": false,
@@ -1358,10 +1358,10 @@
         },
         {
           "name": "_ga_23VKXV49V7",
-          "value": "GS1.1.1688260599.1.0.1688260599.0.0.0",
+          "value": "GS1.1.1688865508.1.0.1688865508.0.0.0",
           "domain": ".tech.fr",
           "path": "/",
-          "expires": 1751332599,
+          "expires": 1751937508,
           "size": 51,
           "httpOnly": false,
           "secure": false,
@@ -1375,9 +1375,9 @@
         "cache-control": "no-cache\nno-store, no-cache, must-revalidate, proxy-revalidate, max-age=0",
         "content-encoding": "gzip",
         "content-type": "text/html",
-        "date": "Sun, 02 Jul 2023 01:16:39 GMT",
+        "date": "Sun, 09 Jul 2023 01:18:28 GMT",
         "etag": "W/\"64872a9e-3d84\"",
-        "expires": "Sun, 02 Jul 2023 01:16:38 GMT",
+        "expires": "Sun, 09 Jul 2023 01:18:27 GMT",
         "last-modified": "Mon, 12 Jun 2023 14:24:30 GMT",
         "server": "nginx"
       },
@@ -1416,16 +1416,31 @@
               }
             },
             "location": {
-              "accuracy_radius": 100,
+              "accuracy_radius": 500,
               "latitude": 48.8582,
               "longitude": 2.3387,
               "time_zone": "Europe/Paris"
+            },
+            "registered_country": {
+              "geoname_id": 3017382,
+              "is_in_european_union": true,
+              "iso_code": "FR",
+              "names": {
+                "de": "Frankreich",
+                "en": "France",
+                "es": "Francia",
+                "fr": "France",
+                "ja": "フランス共和国",
+                "pt-BR": "França",
+                "ru": "Франция",
+                "zh-CN": "法国"
+              }
             }
           }
         },
         {
           "hostname": "www.googletagmanager.com",
-          "ip": "172.253.122.97",
+          "ip": "142.251.46.168",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -1479,7 +1494,7 @@
         },
         {
           "hostname": "www.google-analytics.com",
-          "ip": "172.253.122.102",
+          "ip": "142.250.191.78",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -1904,7 +1919,7 @@
     "zap": {
       "@programName": "OWASP ZAP",
       "@version": "2.12.0",
-      "@generated": "Sun, 2 Jul 2023 01:19:28",
+      "@generated": "Sun, 9 Jul 2023 01:21:58",
       "site": [
         {
           "@name": "https://demo.tech.fr",
@@ -2012,8 +2027,10 @@
       {
         "requestedUrl": "https://demo.tech.fr/",
         "finalUrl": "https://demo.tech.fr/",
-        "fetchTime": "2023-07-02T01:19:45.225Z",
-        "runWarnings": [],
+        "fetchTime": "2023-07-09T01:22:20.215Z",
+        "runWarnings": [
+          "The tested device appears to have a slower CPU than  Lighthouse expects. This can negatively affect your performance score. Learn more about [calibrating an appropriate CPU slowdown multiplier](https://github.com/GoogleChrome/lighthouse/blob/master/docs/throttling.md#cpu-throttling)."
+        ],
         "categories": {
           "performance": {
             "title": "Performance",
@@ -2023,7 +2040,7 @@
               "snapshot"
             ],
             "id": "performance",
-            "score": 0.9763267517089844
+            "score": 0.9765567779541016
           },
           "accessibility": {
             "title": "Accessibility",
@@ -2075,53 +2092,53 @@
             "description": "Collects all available metrics.",
             "score": null,
             "scoreDisplayMode": "informative",
-            "numericValue": 6863,
+            "numericValue": 7645,
             "numericUnit": "millisecond",
             "details": {
               "type": "debugdata",
               "items": [
                 {
-                  "firstContentfulPaint": 4701,
-                  "firstMeaningfulPaint": 4701,
-                  "largestContentfulPaint": 6898,
-                  "interactive": 6863,
-                  "speedIndex": 4701,
-                  "totalBlockingTime": 700,
-                  "maxPotentialFID": 971,
+                  "firstContentfulPaint": 5177,
+                  "firstMeaningfulPaint": 5177,
+                  "largestContentfulPaint": 7493,
+                  "interactive": 7645,
+                  "speedIndex": 5751,
+                  "totalBlockingTime": 1175,
+                  "maxPotentialFID": 1302,
                   "cumulativeLayoutShift": 0,
                   "cumulativeLayoutShiftMainFrame": 0,
                   "totalCumulativeLayoutShift": 0,
                   "observedTimeOrigin": 0,
-                  "observedTimeOriginTs": 256541166,
+                  "observedTimeOriginTs": 361744135,
                   "observedNavigationStart": 0,
-                  "observedNavigationStartTs": 256541166,
-                  "observedFirstPaint": 398,
-                  "observedFirstPaintTs": 256939104,
-                  "observedFirstContentfulPaint": 1125,
-                  "observedFirstContentfulPaintTs": 257665679,
-                  "observedFirstContentfulPaintAllFrames": 1125,
-                  "observedFirstContentfulPaintAllFramesTs": 257665679,
-                  "observedFirstMeaningfulPaint": 1125,
-                  "observedFirstMeaningfulPaintTs": 257665679,
-                  "observedLargestContentfulPaint": 1125,
-                  "observedLargestContentfulPaintTs": 257665679,
-                  "observedLargestContentfulPaintAllFrames": 1125,
-                  "observedLargestContentfulPaintAllFramesTs": 257665679,
-                  "observedTraceEnd": 3555,
-                  "observedTraceEndTs": 260096140,
-                  "observedLoad": 1201,
-                  "observedLoadTs": 257742435,
-                  "observedDomContentLoaded": 1075,
-                  "observedDomContentLoadedTs": 257616241,
+                  "observedNavigationStartTs": 361744135,
+                  "observedFirstPaint": 563,
+                  "observedFirstPaintTs": 362306755,
+                  "observedFirstContentfulPaint": 1892,
+                  "observedFirstContentfulPaintTs": 363636632,
+                  "observedFirstContentfulPaintAllFrames": 1892,
+                  "observedFirstContentfulPaintAllFramesTs": 363636632,
+                  "observedFirstMeaningfulPaint": 1892,
+                  "observedFirstMeaningfulPaintTs": 363636632,
+                  "observedLargestContentfulPaint": 1892,
+                  "observedLargestContentfulPaintTs": 363636632,
+                  "observedLargestContentfulPaintAllFrames": 1892,
+                  "observedLargestContentfulPaintAllFramesTs": 363636632,
+                  "observedTraceEnd": 4370,
+                  "observedTraceEndTs": 366113648,
+                  "observedLoad": 2023,
+                  "observedLoadTs": 363767350,
+                  "observedDomContentLoaded": 1818,
+                  "observedDomContentLoadedTs": 363561847,
                   "observedCumulativeLayoutShift": 0,
                   "observedCumulativeLayoutShiftMainFrame": 0,
                   "observedTotalCumulativeLayoutShift": 0,
-                  "observedFirstVisualChange": 631,
-                  "observedFirstVisualChangeTs": 257172166,
-                  "observedLastVisualChange": 1131,
-                  "observedLastVisualChangeTs": 257672166,
-                  "observedSpeedIndex": 1127,
-                  "observedSpeedIndexTs": 257668026
+                  "observedFirstVisualChange": 1058,
+                  "observedFirstVisualChangeTs": 362802135,
+                  "observedLastVisualChange": 1891,
+                  "observedLastVisualChangeTs": 363635135,
+                  "observedSpeedIndex": 1883,
+                  "observedSpeedIndexTs": 363627121
                 },
                 {
                   "lcpInvalidated": false
@@ -2143,18 +2160,18 @@
                   "numScripts": 6,
                   "numStylesheets": 2,
                   "numFonts": 1,
-                  "numTasks": 1182,
-                  "numTasksOver10ms": 11,
-                  "numTasksOver25ms": 6,
-                  "numTasksOver50ms": 3,
+                  "numTasks": 810,
+                  "numTasksOver10ms": 12,
+                  "numTasksOver25ms": 7,
+                  "numTasksOver50ms": 2,
                   "numTasksOver100ms": 1,
                   "numTasksOver500ms": 0,
-                  "rtt": 2.0410000000000004,
-                  "throughput": 21049396.93833008,
-                  "maxRtt": 83.36999999999999,
-                  "maxServerLatency": 17.996,
-                  "totalByteWeight": 1172692,
-                  "totalTaskTime": 697.2739999999756,
+                  "rtt": 2.003,
+                  "throughput": 11236161.608888414,
+                  "maxRtt": 156.656,
+                  "maxServerLatency": 23.002,
+                  "totalByteWeight": 1171486,
+                  "totalTaskTime": 912.4269999999982,
                   "mainDocumentTransferSize": 4894
                 }
               ]
@@ -2178,7 +2195,7 @@
         "width": 1920,
         "height": 1080,
         "url": "https://demo.tech.fr",
-        "size": 1311.887,
+        "size": 1310.685,
         "nodes": 515,
         "requests": 31,
         "grade": "C",
@@ -2186,7 +2203,7 @@
         "ges": 1.7,
         "water": 2.55,
         "ecoindex_version": "5.4.2",
-        "date": "2023-07-02 01:17:44.612158",
+        "date": "2023-07-09 01:19:50.488946",
         "page_type": null
       }
     ],
@@ -2201,7 +2218,7 @@
       "cookiesCount": 2,
       "trackersGrade": "B",
       "trackersCount": 2,
-      "lighthouse_performance": 0.9763267517089844,
+      "lighthouse_performance": 0.9765567779541016,
       "lighthouse_performanceGrade": "A",
       "lighthouse_accessibility": 0.73,
       "lighthouse_accessibilityGrade": "B",
@@ -2228,7 +2245,7 @@
     "http": {
       "url": "https://www.bimcloud.fr",
       "algorithm_version": 2,
-      "end_time": "Sun, 25 Jun 2023 01:23:06 GMT",
+      "end_time": "Sun, 09 Jul 2023 01:22:50 GMT",
       "grade": "F",
       "hidden": false,
       "likelihood_indicator": "MEDIUM",
@@ -2236,16 +2253,16 @@
         "Cache-Control": "no-cache, no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0",
         "Content-Encoding": "gzip",
         "Content-Type": "text/html",
-        "Date": "Sun, 25 Jun 2023 01:23:04 GMT",
+        "Date": "Sun, 09 Jul 2023 01:22:49 GMT",
         "Etag": "W/\"648c39c3-1ebd\"",
-        "Expires": "Sun, 25 Jun 2023 01:23:03 GMT",
+        "Expires": "Sun, 09 Jul 2023 01:22:48 GMT",
         "Last-Modified": "Fri, 16 Jun 2023 10:30:27 GMT",
         "Server": "nginx",
         "Transfer-Encoding": "chunked"
       },
-      "scan_id": 38954050,
+      "scan_id": 39519789,
       "score": 20,
-      "start_time": "Sun, 25 Jun 2023 01:23:02 GMT",
+      "start_time": "Sun, 09 Jul 2023 01:22:46 GMT",
       "state": "FINISHED",
       "status_code": 200,
       "tests_failed": 5,
@@ -2763,7 +2780,7 @@
         "ip": "www.bimcloud.fr/54.37.80.118",
         "port": "443",
         "severity": "OK",
-        "finding": "78 >= 30 days"
+        "finding": "71 >= 30 days"
       },
       {
         "id": "cert_notBefore",
@@ -2959,14 +2976,14 @@
         "ip": "www.bimcloud.fr/54.37.80.118",
         "port": "443",
         "severity": "INFO",
-        "finding": "-1 seconds from localtime"
+        "finding": "0 seconds from localtime"
       },
       {
         "id": "HTTP_headerTime",
         "ip": "www.bimcloud.fr/54.37.80.118",
         "port": "443",
         "severity": "INFO",
-        "finding": "1688260864"
+        "finding": "1688865853"
       },
       {
         "id": "HSTS",
@@ -3529,7 +3546,7 @@
         "ip": "www.bimcloud.fr/54.37.80.118",
         "port": "443",
         "severity": "INFO",
-        "finding": "131"
+        "finding": "147"
       }
     ],
     "thirdparties": {
@@ -3539,9 +3556,9 @@
         "cache-control": "no-cache\nno-store, no-cache, must-revalidate, proxy-revalidate, max-age=0",
         "content-encoding": "gzip",
         "content-type": "text/html",
-        "date": "Sun, 02 Jul 2023 01:16:42 GMT",
+        "date": "Sun, 09 Jul 2023 01:18:29 GMT",
         "etag": "W/\"648c39c3-1ebd\"",
-        "expires": "Sun, 02 Jul 2023 01:16:41 GMT",
+        "expires": "Sun, 09 Jul 2023 01:18:28 GMT",
         "last-modified": "Fri, 16 Jun 2023 10:30:27 GMT",
         "server": "nginx"
       },
@@ -3580,10 +3597,25 @@
               }
             },
             "location": {
-              "accuracy_radius": 100,
+              "accuracy_radius": 500,
               "latitude": 48.8582,
               "longitude": 2.3387,
               "time_zone": "Europe/Paris"
+            },
+            "registered_country": {
+              "geoname_id": 3017382,
+              "is_in_european_union": true,
+              "iso_code": "FR",
+              "names": {
+                "de": "Frankreich",
+                "en": "France",
+                "es": "Francia",
+                "fr": "France",
+                "ja": "フランス共和国",
+                "pt-BR": "França",
+                "ru": "Франция",
+                "zh-CN": "法国"
+              }
             }
           }
         }
@@ -3947,7 +3979,7 @@
     "zap": {
       "@programName": "OWASP ZAP",
       "@version": "2.12.0",
-      "@generated": "Sun, 2 Jul 2023 01:19:40",
+      "@generated": "Sun, 9 Jul 2023 01:22:11",
       "site": [
         {
           "@name": "https://www.bimcloud.fr",
@@ -4062,8 +4094,10 @@
       {
         "requestedUrl": "https://www.bimcloud.fr/",
         "finalUrl": "https://www.bimcloud.fr/",
-        "fetchTime": "2023-07-02T01:19:56.230Z",
-        "runWarnings": [],
+        "fetchTime": "2023-07-09T01:22:32.843Z",
+        "runWarnings": [
+          "The tested device appears to have a slower CPU than  Lighthouse expects. This can negatively affect your performance score. Learn more about [calibrating an appropriate CPU slowdown multiplier](https://github.com/GoogleChrome/lighthouse/blob/master/docs/throttling.md#cpu-throttling)."
+        ],
         "categories": {
           "performance": {
             "title": "Performance",
@@ -4073,7 +4107,7 @@
               "snapshot"
             ],
             "id": "performance",
-            "score": 0.8179407119750977
+            "score": 0.8179389953613281
           },
           "accessibility": {
             "title": "Accessibility",
@@ -4125,53 +4159,53 @@
             "description": "Collects all available metrics.",
             "score": null,
             "scoreDisplayMode": "informative",
-            "numericValue": 11357,
+            "numericValue": 12081,
             "numericUnit": "millisecond",
             "details": {
               "type": "debugdata",
               "items": [
                 {
-                  "firstContentfulPaint": 9902,
-                  "firstMeaningfulPaint": 10555,
-                  "largestContentfulPaint": 11357,
-                  "interactive": 11357,
-                  "speedIndex": 9902,
-                  "totalBlockingTime": 1255,
-                  "maxPotentialFID": 1305,
+                  "firstContentfulPaint": 9909,
+                  "firstMeaningfulPaint": 10832,
+                  "largestContentfulPaint": 11905,
+                  "interactive": 12081,
+                  "speedIndex": 10829,
+                  "totalBlockingTime": 1797,
+                  "maxPotentialFID": 1846,
                   "cumulativeLayoutShift": 0,
                   "cumulativeLayoutShiftMainFrame": 0,
                   "totalCumulativeLayoutShift": 0,
                   "observedTimeOrigin": 0,
-                  "observedTimeOriginTs": 365519666,
+                  "observedTimeOriginTs": 405604945,
                   "observedNavigationStart": 0,
-                  "observedNavigationStartTs": 365519666,
-                  "observedFirstPaint": 2121,
-                  "observedFirstPaintTs": 367640766,
-                  "observedFirstContentfulPaint": 2121,
-                  "observedFirstContentfulPaintTs": 367640766,
-                  "observedFirstContentfulPaintAllFrames": 2121,
-                  "observedFirstContentfulPaintAllFramesTs": 367640766,
-                  "observedFirstMeaningfulPaint": 2121,
-                  "observedFirstMeaningfulPaintTs": 367640766,
-                  "observedLargestContentfulPaint": 2121,
-                  "observedLargestContentfulPaintTs": 367640766,
-                  "observedLargestContentfulPaintAllFrames": 2121,
-                  "observedLargestContentfulPaintAllFramesTs": 367640766,
-                  "observedTraceEnd": 4546,
-                  "observedTraceEndTs": 370065330,
-                  "observedLoad": 2234,
-                  "observedLoadTs": 367753814,
-                  "observedDomContentLoaded": 2097,
-                  "observedDomContentLoadedTs": 367616505,
+                  "observedNavigationStartTs": 405604945,
+                  "observedFirstPaint": 2774,
+                  "observedFirstPaintTs": 408378551,
+                  "observedFirstContentfulPaint": 2774,
+                  "observedFirstContentfulPaintTs": 408378551,
+                  "observedFirstContentfulPaintAllFrames": 2774,
+                  "observedFirstContentfulPaintAllFramesTs": 408378551,
+                  "observedFirstMeaningfulPaint": 2774,
+                  "observedFirstMeaningfulPaintTs": 408378551,
+                  "observedLargestContentfulPaint": 2774,
+                  "observedLargestContentfulPaintTs": 408378551,
+                  "observedLargestContentfulPaintAllFrames": 2774,
+                  "observedLargestContentfulPaintAllFramesTs": 408378551,
+                  "observedTraceEnd": 5238,
+                  "observedTraceEndTs": 410843194,
+                  "observedLoad": 2923,
+                  "observedLoadTs": 408527958,
+                  "observedDomContentLoaded": 2735,
+                  "observedDomContentLoadedTs": 408339921,
                   "observedCumulativeLayoutShift": 0,
                   "observedCumulativeLayoutShiftMainFrame": 0,
                   "observedTotalCumulativeLayoutShift": 0,
-                  "observedFirstVisualChange": 2132,
-                  "observedFirstVisualChangeTs": 367651666,
-                  "observedLastVisualChange": 2232,
-                  "observedLastVisualChangeTs": 367751666,
-                  "observedSpeedIndex": 2133,
-                  "observedSpeedIndexTs": 367652960
+                  "observedFirstVisualChange": 2778,
+                  "observedFirstVisualChangeTs": 408382945,
+                  "observedLastVisualChange": 2912,
+                  "observedLastVisualChangeTs": 408516945,
+                  "observedSpeedIndex": 2780,
+                  "observedSpeedIndexTs": 408384997
                 },
                 {
                   "lcpInvalidated": false
@@ -4193,18 +4227,18 @@
                   "numScripts": 3,
                   "numStylesheets": 2,
                   "numFonts": 2,
-                  "numTasks": 542,
-                  "numTasksOver10ms": 5,
+                  "numTasks": 685,
+                  "numTasksOver10ms": 8,
                   "numTasksOver25ms": 3,
                   "numTasksOver50ms": 2,
-                  "numTasksOver100ms": 1,
+                  "numTasksOver100ms": 2,
                   "numTasksOver500ms": 1,
-                  "rtt": 116.961,
-                  "throughput": 22090245.52639313,
-                  "maxRtt": 116.961,
-                  "maxServerLatency": 2.031000000000006,
-                  "totalByteWeight": 2003091,
-                  "totalTaskTime": 1013.9819999999983,
+                  "rtt": 149.29500000000002,
+                  "throughput": 17299776.20665589,
+                  "maxRtt": 149.29500000000002,
+                  "maxServerLatency": 9.125999999999976,
+                  "totalByteWeight": 2003100,
+                  "totalTaskTime": 1466.2079999999942,
                   "mainDocumentTransferSize": 2537
                 }
               ]
@@ -4228,7 +4262,7 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.bimcloud.fr",
-        "size": 2193.348,
+        "size": 2193.357,
         "nodes": 136,
         "requests": 14,
         "grade": "B",
@@ -4236,7 +4270,7 @@
         "ges": 1.42,
         "water": 2.13,
         "ecoindex_version": "5.4.2",
-        "date": "2023-07-02 01:17:47.387916",
+        "date": "2023-07-09 01:19:50.781349",
         "page_type": "website"
       }
     ],
@@ -4251,7 +4285,7 @@
       "cookiesCount": 0,
       "trackersGrade": "A",
       "trackersCount": 0,
-      "lighthouse_performance": 0.8179407119750977,
+      "lighthouse_performance": 0.8179389953613281,
       "lighthouse_performanceGrade": "B",
       "lighthouse_accessibility": 0.8,
       "lighthouse_accessibilityGrade": "B",
