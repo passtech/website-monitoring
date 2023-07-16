@@ -1,7 +1,7 @@
 {
 	"@programName": "OWASP ZAP",
-	"@version": "2.12.0",
-	"@generated": "Sun, 9 Jul 2023 01:22:11",
+	"@version": "2.13.0",
+	"@generated": "Sun, 16 Jul 2023 01:24:34",
 	"site":[ 
 		{
 			"@name": "https://www.bimcloud.fr",
@@ -57,7 +57,7 @@
 						{
 							"uri": "https://www.bimcloud.fr",
 							"method": "GET",
-							"param": "X-Frame-Options",
+							"param": "x-frame-options",
 							"attack": "",
 							"evidence": "",
 							"otherinfo": ""
@@ -65,7 +65,7 @@
 						{
 							"uri": "https://www.bimcloud.fr/",
 							"method": "GET",
-							"param": "X-Frame-Options",
+							"param": "x-frame-options",
 							"attack": "",
 							"evidence": "",
 							"otherinfo": ""
@@ -141,7 +141,7 @@
 					"desc": "<p>A dangerous JS function seems to be in use that would leave the site vulnerable.</p>",
 					"instances":[ 
 						{
-							"uri": "https://www.bimcloud.fr/main.92d52f9a90f170ef.js",
+							"uri": "https://www.bimcloud.fr/main.b50685d1a012345a.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -184,7 +184,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://www.bimcloud.fr/main.92d52f9a90f170ef.js",
+							"uri": "https://www.bimcloud.fr/main.b50685d1a012345a.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -200,7 +200,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://www.bimcloud.fr/runtime.98e3dda3c0212131.js",
+							"uri": "https://www.bimcloud.fr/runtime.b2077c02237aa22f.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -451,7 +451,7 @@
 						{
 							"uri": "https://www.bimcloud.fr",
 							"method": "GET",
-							"param": "X-Content-Type-Options",
+							"param": "x-content-type-options",
 							"attack": "",
 							"evidence": "",
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
@@ -459,7 +459,7 @@
 						{
 							"uri": "https://www.bimcloud.fr/",
 							"method": "GET",
-							"param": "X-Content-Type-Options",
+							"param": "x-content-type-options",
 							"attack": "",
 							"evidence": "",
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
@@ -467,7 +467,7 @@
 						{
 							"uri": "https://www.bimcloud.fr/assets/img/apple-icon-114x114.png",
 							"method": "GET",
-							"param": "X-Content-Type-Options",
+							"param": "x-content-type-options",
 							"attack": "",
 							"evidence": "",
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
@@ -475,7 +475,7 @@
 						{
 							"uri": "https://www.bimcloud.fr/assets/img/apple-icon-120x120.png",
 							"method": "GET",
-							"param": "X-Content-Type-Options",
+							"param": "x-content-type-options",
 							"attack": "",
 							"evidence": "",
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
@@ -483,7 +483,7 @@
 						{
 							"uri": "https://www.bimcloud.fr/assets/img/apple-icon-152x152.png",
 							"method": "GET",
-							"param": "X-Content-Type-Options",
+							"param": "x-content-type-options",
 							"attack": "",
 							"evidence": "",
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
@@ -491,7 +491,7 @@
 						{
 							"uri": "https://www.bimcloud.fr/assets/img/apple-icon-57x57.png",
 							"method": "GET",
-							"param": "X-Content-Type-Options",
+							"param": "x-content-type-options",
 							"attack": "",
 							"evidence": "",
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
@@ -499,7 +499,7 @@
 						{
 							"uri": "https://www.bimcloud.fr/assets/img/apple-icon-60x60.png",
 							"method": "GET",
-							"param": "X-Content-Type-Options",
+							"param": "x-content-type-options",
 							"attack": "",
 							"evidence": "",
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
@@ -507,7 +507,7 @@
 						{
 							"uri": "https://www.bimcloud.fr/assets/img/apple-icon-72x72.png",
 							"method": "GET",
-							"param": "X-Content-Type-Options",
+							"param": "x-content-type-options",
 							"attack": "",
 							"evidence": "",
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
@@ -515,7 +515,7 @@
 						{
 							"uri": "https://www.bimcloud.fr/assets/img/apple-icon-76x76.png",
 							"method": "GET",
-							"param": "X-Content-Type-Options",
+							"param": "x-content-type-options",
 							"attack": "",
 							"evidence": "",
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
@@ -523,7 +523,7 @@
 						{
 							"uri": "https://www.bimcloud.fr/robots.txt",
 							"method": "GET",
-							"param": "X-Content-Type-Options",
+							"param": "x-content-type-options",
 							"attack": "",
 							"evidence": "",
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
@@ -531,7 +531,7 @@
 						{
 							"uri": "https://www.bimcloud.fr/sitemap.xml",
 							"method": "GET",
-							"param": "X-Content-Type-Options",
+							"param": "x-content-type-options",
 							"attack": "",
 							"evidence": "",
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
@@ -556,7 +556,7 @@
 					"desc": "<p>Base64 encoded data was disclosed by the application/web server. Note: in the interests of performance not all base64 strings in the response were analyzed individually, the entire response should be looked at by the analyst/security team/developer(s).</p>",
 					"instances":[ 
 						{
-							"uri": "https://www.bimcloud.fr/main.92d52f9a90f170ef.js",
+							"uri": "https://www.bimcloud.fr/main.b50685d1a012345a.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -583,7 +583,7 @@
 					"desc": "<p>The response appears to contain suspicious comments which may help an attacker. Note: Matches made within script blocks or files are against the entire content not only comments.</p>",
 					"instances":[ 
 						{
-							"uri": "https://www.bimcloud.fr/main.92d52f9a90f170ef.js",
+							"uri": "https://www.bimcloud.fr/main.b50685d1a012345a.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -591,20 +591,20 @@
 							"otherinfo": "The following pattern was used: \\bFROM\\b and was detected 2 times, the first in the element starting with: \"              THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO T\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"uri": "https://www.bimcloud.fr/main.92d52f9a90f170ef.js",
+							"uri": "https://www.bimcloud.fr/main.b50685d1a012345a.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
 							"evidence": "TODO",
-							"otherinfo": "The following pattern was used: \\bTODO\\b and was detected 3 times, the first in the element starting with: \"(self.webpackChunkbimcloud_frontend=self.webpackChunkbimcloud_frontend||[]).push([[179],{77274:(fn,st,C)=>{\"use strict\";C.d(st,{\", see evidence field for the suspicious comment/snippet."
+							"otherinfo": "The following pattern was used: \\bTODO\\b and was detected 3 times, the first in the element starting with: \"(self.webpackChunkbimcloud_frontend=self.webpackChunkbimcloud_frontend||[]).push([[179],{77274:(hn,st,C)=>{\"use strict\";C.d(st,{\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"uri": "https://www.bimcloud.fr/main.92d52f9a90f170ef.js",
+							"uri": "https://www.bimcloud.fr/main.b50685d1a012345a.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
 							"evidence": "user",
-							"otherinfo": "The following pattern was used: \\bUSER\\b and was detected in the element starting with: \"function(nt){nt.loadFile=function(Ne,et,At){return function(Xt,Zt,wn){Zt=!1!==Zt,wn=\"function\"==typeof wn?wn:function(){};var On\", see evidence field for the suspicious comment/snippet."
+							"otherinfo": "The following pattern was used: \\bUSER\\b and was detected in the element starting with: \"function(nt){nt.loadFile=function(He,tt,Dt){return function(Xt,Zt,wn){Zt=!1!==Zt,wn=\"function\"==typeof wn?wn:function(){};var Ln\", see evidence field for the suspicious comment/snippet."
 						}
 					],
 					"count": "3",
@@ -630,7 +630,7 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<script src=\"runtime.98e3dda3c0212131.js\" type=\"module\"></script>",
+							"evidence": "<script src=\"runtime.b2077c02237aa22f.js\" type=\"module\"></script>",
 							"otherinfo": "No links have been found while there are scripts, which is an indication that this is a modern web application."
 						},
 						{
@@ -638,7 +638,7 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<script src=\"runtime.98e3dda3c0212131.js\" type=\"module\"></script>",
+							"evidence": "<script src=\"runtime.b2077c02237aa22f.js\" type=\"module\"></script>",
 							"otherinfo": "No links have been found while there are scripts, which is an indication that this is a modern web application."
 						}
 					],
@@ -698,7 +698,7 @@
 						{
 							"uri": "https://www.bimcloud.fr/robots.txt",
 							"method": "GET",
-							"param": "Cache-Control",
+							"param": "cache-control",
 							"attack": "",
 							"evidence": "max-age=86400",
 							"otherinfo": ""
@@ -706,7 +706,7 @@
 						{
 							"uri": "https://www.bimcloud.fr/sitemap.xml",
 							"method": "GET",
-							"param": "Cache-Control",
+							"param": "cache-control",
 							"attack": "",
 							"evidence": "max-age=86400",
 							"otherinfo": ""

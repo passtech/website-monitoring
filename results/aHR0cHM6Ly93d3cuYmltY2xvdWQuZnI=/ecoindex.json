@@ -3,7 +3,7 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.bimcloud.fr",
-        "size": 2193.357,
+        "size": 2197.076,
         "nodes": 136,
         "requests": 14,
         "grade": "B",
@@ -11,7 +11,7 @@
         "ges": 1.42,
         "water": 2.13,
         "ecoindex_version": "5.4.2",
-        "date": "2023-07-09 01:19:50.781349",
+        "date": "2023-07-16 01:22:49.198081",
         "page_type": "website"
     }
 ]
