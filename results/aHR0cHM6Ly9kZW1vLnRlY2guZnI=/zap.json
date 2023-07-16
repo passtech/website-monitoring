@@ -1,7 +1,7 @@
 {
 	"@programName": "OWASP ZAP",
-	"@version": "2.12.0",
-	"@generated": "Sun, 9 Jul 2023 01:21:58",
+	"@version": "2.13.0",
+	"@generated": "Sun, 16 Jul 2023 01:25:09",
 	"site":[ 
 		{
 			"@name": "https://demo.tech.fr",
@@ -73,7 +73,7 @@
 						{
 							"uri": "https://demo.tech.fr",
 							"method": "GET",
-							"param": "X-Frame-Options",
+							"param": "x-frame-options",
 							"attack": "",
 							"evidence": "",
 							"otherinfo": ""
@@ -81,7 +81,7 @@
 						{
 							"uri": "https://demo.tech.fr/",
 							"method": "GET",
-							"param": "X-Frame-Options",
+							"param": "x-frame-options",
 							"attack": "",
 							"evidence": "",
 							"otherinfo": ""
@@ -89,7 +89,7 @@
 						{
 							"uri": "https://demo.tech.fr/robots.txt",
 							"method": "GET",
-							"param": "X-Frame-Options",
+							"param": "x-frame-options",
 							"attack": "",
 							"evidence": "",
 							"otherinfo": ""
@@ -97,7 +97,7 @@
 						{
 							"uri": "https://demo.tech.fr/sitemap.xml",
 							"method": "GET",
-							"param": "X-Frame-Options",
+							"param": "x-frame-options",
 							"attack": "",
 							"evidence": "",
 							"otherinfo": ""
@@ -256,7 +256,7 @@
 					"desc": "<p>A dangerous JS function seems to be in use that would leave the site vulnerable.</p>",
 					"instances":[ 
 						{
-							"uri": "https://demo.tech.fr/main.92458a18357016f7.js",
+							"uri": "https://demo.tech.fr/main.2ff7a27c75e8d696.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -299,7 +299,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://demo.tech.fr/main.92458a18357016f7.js",
+							"uri": "https://demo.tech.fr/main.2ff7a27c75e8d696.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -323,7 +323,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://demo.tech.fr/runtime.0d546bb98aed675f.js",
+							"uri": "https://demo.tech.fr/runtime.c674b243dbeca89f.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -422,7 +422,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://demo.tech.fr/runtime.0d546bb98aed675f.js",
+							"uri": "https://demo.tech.fr/runtime.c674b243dbeca89f.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -475,7 +475,7 @@
 						{
 							"uri": "https://demo.tech.fr",
 							"method": "GET",
-							"param": "X-Content-Type-Options",
+							"param": "x-content-type-options",
 							"attack": "",
 							"evidence": "",
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
@@ -483,7 +483,7 @@
 						{
 							"uri": "https://demo.tech.fr/",
 							"method": "GET",
-							"param": "X-Content-Type-Options",
+							"param": "x-content-type-options",
 							"attack": "",
 							"evidence": "",
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
@@ -491,7 +491,7 @@
 						{
 							"uri": "https://demo.tech.fr/favicon.ico",
 							"method": "GET",
-							"param": "X-Content-Type-Options",
+							"param": "x-content-type-options",
 							"attack": "",
 							"evidence": "",
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
@@ -499,7 +499,7 @@
 						{
 							"uri": "https://demo.tech.fr/light.f8b4b97dd02ae3cb.css",
 							"method": "GET",
-							"param": "X-Content-Type-Options",
+							"param": "x-content-type-options",
 							"attack": "",
 							"evidence": "",
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
@@ -507,7 +507,7 @@
 						{
 							"uri": "https://demo.tech.fr/manifest.webmanifest",
 							"method": "GET",
-							"param": "X-Content-Type-Options",
+							"param": "x-content-type-options",
 							"attack": "",
 							"evidence": "",
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
@@ -515,7 +515,7 @@
 						{
 							"uri": "https://demo.tech.fr/polyfills.21a642622815af50.js",
 							"method": "GET",
-							"param": "X-Content-Type-Options",
+							"param": "x-content-type-options",
 							"attack": "",
 							"evidence": "",
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
@@ -523,15 +523,15 @@
 						{
 							"uri": "https://demo.tech.fr/robots.txt",
 							"method": "GET",
-							"param": "X-Content-Type-Options",
+							"param": "x-content-type-options",
 							"attack": "",
 							"evidence": "",
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"uri": "https://demo.tech.fr/runtime.0d546bb98aed675f.js",
+							"uri": "https://demo.tech.fr/runtime.c674b243dbeca89f.js",
 							"method": "GET",
-							"param": "X-Content-Type-Options",
+							"param": "x-content-type-options",
 							"attack": "",
 							"evidence": "",
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
@@ -539,7 +539,7 @@
 						{
 							"uri": "https://demo.tech.fr/scripts.c58ffa2410217b8d.js",
 							"method": "GET",
-							"param": "X-Content-Type-Options",
+							"param": "x-content-type-options",
 							"attack": "",
 							"evidence": "",
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
@@ -547,7 +547,7 @@
 						{
 							"uri": "https://demo.tech.fr/sitemap.xml",
 							"method": "GET",
-							"param": "X-Content-Type-Options",
+							"param": "x-content-type-options",
 							"attack": "",
 							"evidence": "",
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
@@ -555,7 +555,7 @@
 						{
 							"uri": "https://demo.tech.fr/styles.e45df39872bd7940.css",
 							"method": "GET",
-							"param": "X-Content-Type-Options",
+							"param": "x-content-type-options",
 							"attack": "",
 							"evidence": "",
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
@@ -596,7 +596,7 @@
 							"otherinfo": "r\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDjX\uFFFD\uFFFD{?\uFFFD^4\uFFFD\uFFFDT\uFFFD\\x001a\uFFFD\uFFFD6\\\uFFFD\\x0001\t\uFFFDW`\uFFFD\uFFFD\uFFFDh;\rp\uFFFDP\uFFFD\uFFFD"
 						},
 						{
-							"uri": "https://demo.tech.fr/main.92458a18357016f7.js",
+							"uri": "https://demo.tech.fr/main.2ff7a27c75e8d696.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -639,7 +639,7 @@
 					"desc": "<p>The response appears to contain suspicious comments which may help an attacker. Note: Matches made within script blocks or files are against the entire content not only comments.</p>",
 					"instances":[ 
 						{
-							"uri": "https://demo.tech.fr/main.92458a18357016f7.js",
+							"uri": "https://demo.tech.fr/main.2ff7a27c75e8d696.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -816,7 +816,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://demo.tech.fr/runtime.0d546bb98aed675f.js",
+							"uri": "https://demo.tech.fr/runtime.c674b243dbeca89f.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
