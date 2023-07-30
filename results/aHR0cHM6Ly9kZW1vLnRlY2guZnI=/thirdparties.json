@@ -10,7 +10,7 @@
     },
     {
       "type": "google analytics",
-      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-23VKXV49V7&gtm=45je37j0&_p=1239217953&cid=38883237.1690074479&ul=en-us&sr=800x600&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&_s=1&sid=1690074478&sct=1&seg=0&dl=https%3A%2F%2Fdemo.tech.fr%2F&dt=Application%20Bootstrap%20-%20Material&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1",
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-23VKXV49V7&gtm=45je37q0&_p=199687371&cid=616324817.1690678848&ul=en-us&sr=800x600&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&_s=1&sid=1690678847&sct=1&seg=0&dl=https%3A%2F%2Fdemo.tech.fr%2F&dt=Application%20Bootstrap%20-%20Material&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1",
       "details": {
         "id": "google analytics",
         "message": "Use hosted Matomo instance"
@@ -20,11 +20,11 @@
   "cookies": [
     {
       "name": "_ga",
-      "value": "GA1.1.38883237.1690074479",
+      "value": "GA1.1.616324817.1690678848",
       "domain": ".tech.fr",
       "path": "/",
-      "expires": 1753146478,
-      "size": 28,
+      "expires": 1753750847,
+      "size": 29,
       "httpOnly": false,
       "secure": false,
       "session": false,
@@ -33,11 +33,25 @@
       "sourcePort": 443
     },
     {
+      "name": "JSESSIONID",
+      "value": "7453B1F3A444D209914EDFD8BB4740CA",
+      "domain": "demo.tech.fr",
+      "path": "/",
+      "expires": -1,
+      "size": 42,
+      "httpOnly": true,
+      "secure": true,
+      "session": true,
+      "sameParty": false,
+      "sourceScheme": "Secure",
+      "sourcePort": 443
+    },
+    {
       "name": "_ga_23VKXV49V7",
-      "value": "GS1.1.1690074478.1.0.1690074478.0.0.0",
+      "value": "GS1.1.1690678847.1.0.1690678847.0.0.0",
       "domain": ".tech.fr",
       "path": "/",
-      "expires": 1753146478,
+      "expires": 1753750847,
       "size": 51,
       "httpOnly": false,
       "secure": false,
@@ -51,10 +65,10 @@
     "cache-control": "no-cache\nno-store, no-cache, must-revalidate, proxy-revalidate, max-age=0",
     "content-encoding": "gzip",
     "content-type": "text/html",
-    "date": "Sun, 23 Jul 2023 01:07:58 GMT",
-    "etag": "W/\"64aea8ad-3d84\"",
-    "expires": "Sun, 23 Jul 2023 01:07:57 GMT",
-    "last-modified": "Wed, 12 Jul 2023 13:20:45 GMT",
+    "date": "Sun, 30 Jul 2023 01:00:47 GMT",
+    "etag": "W/\"64c141b8-3d84\"",
+    "expires": "Sun, 30 Jul 2023 01:00:46 GMT",
+    "last-modified": "Wed, 26 Jul 2023 15:54:32 GMT",
     "server": "nginx"
   },
   "endpoints": [
@@ -116,8 +130,14 @@
     },
     {
       "hostname": "www.googletagmanager.com",
-      "ip": "172.253.122.97",
+      "ip": "142.251.46.168",
       "geoip": {
+        "city": {
+          "geoname_id": 4361736,
+          "names": {
+            "en": "Marriottsville"
+          }
+        },
         "continent": {
           "code": "NA",
           "geoname_id": 6255149,
@@ -148,9 +168,13 @@
         },
         "location": {
           "accuracy_radius": 1000,
-          "latitude": 37.751,
-          "longitude": -97.822,
-          "time_zone": "America/Chicago"
+          "latitude": 39.3385,
+          "longitude": -76.9201,
+          "metro_code": 512,
+          "time_zone": "America/New_York"
+        },
+        "postal": {
+          "code": "21104"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -165,13 +189,35 @@
             "ru": "США",
             "zh-CN": "美国"
           }
-        }
+        },
+        "subdivisions": [
+          {
+            "geoname_id": 4361885,
+            "iso_code": "MD",
+            "names": {
+              "de": "Maryland",
+              "en": "Maryland",
+              "es": "Maryland",
+              "fr": "Maryland",
+              "ja": "メリーランド州",
+              "pt-BR": "Maryland",
+              "ru": "Мэриленд",
+              "zh-CN": "马里兰州"
+            }
+          }
+        ]
       }
     },
     {
       "hostname": "www.google-analytics.com",
-      "ip": "142.251.16.113",
+      "ip": "142.250.191.78",
       "geoip": {
+        "city": {
+          "geoname_id": 4994862,
+          "names": {
+            "en": "Grosse Pointe"
+          }
+        },
         "continent": {
           "code": "NA",
           "geoname_id": 6255149,
@@ -201,10 +247,14 @@
           }
         },
         "location": {
-          "accuracy_radius": 1000,
-          "latitude": 37.751,
-          "longitude": -97.822,
-          "time_zone": "America/Chicago"
+          "accuracy_radius": 500,
+          "latitude": 42.3769,
+          "longitude": -82.9152,
+          "metro_code": 505,
+          "time_zone": "America/Detroit"
+        },
+        "postal": {
+          "code": "48230"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -219,7 +269,22 @@
             "ru": "США",
             "zh-CN": "美国"
           }
-        }
+        },
+        "subdivisions": [
+          {
+            "geoname_id": 5001836,
+            "iso_code": "MI",
+            "names": {
+              "en": "Michigan",
+              "es": "Michigan",
+              "fr": "Michigan",
+              "ja": "ミシガン州",
+              "pt-BR": "Michigão",
+              "ru": "Мичиган",
+              "zh-CN": "密歇根州"
+            }
+          }
+        ]
       }
     }
   ]
