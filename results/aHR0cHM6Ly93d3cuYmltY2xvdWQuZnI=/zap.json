@@ -1,7 +1,7 @@
 {
 	"@programName": "OWASP ZAP",
 	"@version": "2.13.0",
-	"@generated": "Sun, 23 Jul 2023 01:11:26",
+	"@generated": "Sun, 30 Jul 2023 01:04:44",
 	"site":[ 
 		{
 			"@name": "https://www.bimcloud.fr",
@@ -141,7 +141,7 @@
 					"desc": "<p>A dangerous JS function seems to be in use that would leave the site vulnerable.</p>",
 					"instances":[ 
 						{
-							"uri": "https://www.bimcloud.fr/main.914d475f5243b89e.js",
+							"uri": "https://www.bimcloud.fr/main.714266ca44eb7c5b.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -184,7 +184,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://www.bimcloud.fr/main.914d475f5243b89e.js",
+							"uri": "https://www.bimcloud.fr/main.714266ca44eb7c5b.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -200,7 +200,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://www.bimcloud.fr/runtime.7892e102895994f4.js",
+							"uri": "https://www.bimcloud.fr/runtime.a6dd0fbc3516da6d.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -259,7 +259,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://www.bimcloud.fr/assets/img/apple-icon-180x180.png",
+							"uri": "https://www.bimcloud.fr/assets/img/apple-icon-152x152.png",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -436,7 +436,7 @@
 					"reference": "<p>http://projects.webappsec.org/w/page/13246936/Information%20Leakage</p>",
 					"cweid": "200",
 					"wascid": "13",
-					"sourceid": "38"
+					"sourceid": "39"
 				},
 				{
 					"pluginid": "10021",
@@ -481,7 +481,7 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"uri": "https://www.bimcloud.fr/assets/img/apple-icon-180x180.png",
+							"uri": "https://www.bimcloud.fr/assets/img/apple-icon-152x152.png",
 							"method": "GET",
 							"param": "x-content-type-options",
 							"attack": "",
@@ -556,7 +556,7 @@
 					"desc": "<p>Base64 encoded data was disclosed by the application/web server. Note: in the interests of performance not all base64 strings in the response were analyzed individually, the entire response should be looked at by the analyst/security team/developer(s).</p>",
 					"instances":[ 
 						{
-							"uri": "https://www.bimcloud.fr/main.914d475f5243b89e.js",
+							"uri": "https://www.bimcloud.fr/main.714266ca44eb7c5b.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -583,7 +583,7 @@
 					"desc": "<p>The response appears to contain suspicious comments which may help an attacker. Note: Matches made within script blocks or files are against the entire content not only comments.</p>",
 					"instances":[ 
 						{
-							"uri": "https://www.bimcloud.fr/main.914d475f5243b89e.js",
+							"uri": "https://www.bimcloud.fr/main.714266ca44eb7c5b.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -591,20 +591,20 @@
 							"otherinfo": "The following pattern was used: \\bFROM\\b and was detected 2 times, the first in the element starting with: \"              THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO T\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"uri": "https://www.bimcloud.fr/main.914d475f5243b89e.js",
+							"uri": "https://www.bimcloud.fr/main.714266ca44eb7c5b.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
 							"evidence": "TODO",
-							"otherinfo": "The following pattern was used: \\bTODO\\b and was detected 3 times, the first in the element starting with: \"(self.webpackChunkbimcloud_frontend=self.webpackChunkbimcloud_frontend||[]).push([[179],{77274:(Hn,ut,S)=>{\"use strict\";S.d(ut,{\", see evidence field for the suspicious comment/snippet."
+							"otherinfo": "The following pattern was used: \\bTODO\\b and was detected 3 times, the first in the element starting with: \"(self.webpackChunkbimcloud_frontend=self.webpackChunkbimcloud_frontend||[]).push([[179],{77274:(Hn,ct,C)=>{\"use strict\";C.d(ct,{\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"uri": "https://www.bimcloud.fr/main.914d475f5243b89e.js",
+							"uri": "https://www.bimcloud.fr/main.714266ca44eb7c5b.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
 							"evidence": "user",
-							"otherinfo": "The following pattern was used: \\bUSER\\b and was detected in the element starting with: \"function(Xe){Xe.loadFile=function(Oe,Qe,At){return function(en,jt,In){jt=!1!==jt,In=\"function\"==typeof In?In:function(){};var Ln\", see evidence field for the suspicious comment/snippet."
+							"otherinfo": "The following pattern was used: \\bUSER\\b and was detected in the element starting with: \"function(tt){tt.loadFile=function(Ne,et,At){return function(Qt,zt,In){zt=!1!==zt,In=\"function\"==typeof In?In:function(){};var Ln\", see evidence field for the suspicious comment/snippet."
 						}
 					],
 					"count": "3",
@@ -630,7 +630,7 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<script src=\"runtime.7892e102895994f4.js\" type=\"module\"></script>",
+							"evidence": "<script src=\"runtime.a6dd0fbc3516da6d.js\" type=\"module\"></script>",
 							"otherinfo": "No links have been found while there are scripts, which is an indication that this is a modern web application."
 						},
 						{
@@ -638,7 +638,7 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<script src=\"runtime.7892e102895994f4.js\" type=\"module\"></script>",
+							"evidence": "<script src=\"runtime.a6dd0fbc3516da6d.js\" type=\"module\"></script>",
 							"otherinfo": "No links have been found while there are scripts, which is an indication that this is a modern web application."
 						}
 					],
@@ -718,7 +718,7 @@
 					"reference": "<p>https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html#web-content-caching</p><p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cache-Control</p><p>https://grayduck.mn/2021/09/13/cache-control-recommendations/</p>",
 					"cweid": "525",
 					"wascid": "13",
-					"sourceid": "7"
+					"sourceid": "6"
 				},
 				{
 					"pluginid": "90005",
@@ -919,7 +919,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://www.bimcloud.fr/assets/img/apple-icon-180x180.png",
+							"uri": "https://www.bimcloud.fr/assets/img/apple-icon-152x152.png",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -981,7 +981,7 @@
 					"reference": "<p>https://tools.ietf.org/html/rfc7234</p><p>https://tools.ietf.org/html/rfc7231</p><p>http://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html (obsoleted by rfc7234)</p>",
 					"cweid": "524",
 					"wascid": "13",
-					"sourceid": "38"
+					"sourceid": "39"
 				}
 			]
 		}
