@@ -13,7 +13,7 @@
     "http": {
       "url": "https://demo.tech.fr",
       "algorithm_version": 2,
-      "end_time": "Sun, 06 Aug 2023 00:57:27 GMT",
+      "end_time": "Sun, 13 Aug 2023 00:54:24 GMT",
       "grade": "F",
       "hidden": false,
       "likelihood_indicator": "MEDIUM",
@@ -21,16 +21,16 @@
         "Cache-Control": "no-cache, no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0",
         "Content-Encoding": "gzip",
         "Content-Type": "text/html",
-        "Date": "Sun, 06 Aug 2023 00:57:26 GMT",
-        "Etag": "W/\"64c141b8-3d84\"",
-        "Expires": "Sun, 06 Aug 2023 00:57:25 GMT",
-        "Last-Modified": "Wed, 26 Jul 2023 15:54:32 GMT",
+        "Date": "Sun, 13 Aug 2023 00:54:23 GMT",
+        "Etag": "W/\"64d65f45-3d84\"",
+        "Expires": "Sun, 13 Aug 2023 00:54:22 GMT",
+        "Last-Modified": "Fri, 11 Aug 2023 16:18:13 GMT",
         "Server": "nginx",
         "Transfer-Encoding": "chunked"
       },
-      "scan_id": 40396841,
+      "scan_id": 40734859,
       "score": 15,
-      "start_time": "Sun, 06 Aug 2023 00:57:22 GMT",
+      "start_time": "Sun, 13 Aug 2023 00:54:19 GMT",
       "state": "FINISHED",
       "status_code": 200,
       "tests_failed": 6,
@@ -553,7 +553,7 @@
         "ip": "demo.tech.fr/54.37.80.118",
         "port": "443",
         "severity": "OK",
-        "finding": "54 >= 30 days"
+        "finding": "47 >= 30 days"
       },
       {
         "id": "cert_notBefore",
@@ -756,7 +756,7 @@
         "ip": "demo.tech.fr/54.37.80.118",
         "port": "443",
         "severity": "INFO",
-        "finding": "1691283493"
+        "finding": "1691888141"
       },
       {
         "id": "HSTS",
@@ -1319,7 +1319,7 @@
         "ip": "demo.tech.fr/54.37.80.118",
         "port": "443",
         "severity": "INFO",
-        "finding": "79"
+        "finding": "136"
       }
     ],
     "thirdparties": {
@@ -1334,7 +1334,7 @@
         },
         {
           "type": "google analytics",
-          "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-23VKXV49V7&gtm=45je3820&_p=1867844878&cid=1160266695.1691283260&ul=en-us&sr=800x600&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&_s=1&sid=1691283259&sct=1&seg=0&dl=https%3A%2F%2Fdemo.tech.fr%2F&dt=Application%20Bootstrap%20-%20Material&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1",
+          "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-23VKXV49V7&gtm=45je3890&_p=258337594&cid=105741511.1691887866&ul=en-us&sr=800x600&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&_s=1&sid=1691887866&sct=1&seg=0&dl=https%3A%2F%2Fdemo.tech.fr%2F&dt=Application%20Bootstrap%20-%20Material&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1",
           "details": {
             "id": "google analytics",
             "message": "Use hosted Matomo instance"
@@ -1344,11 +1344,11 @@
       "cookies": [
         {
           "name": "_ga",
-          "value": "GA1.1.1160266695.1691283260",
+          "value": "GA1.1.105741511.1691887866",
           "domain": ".tech.fr",
           "path": "/",
-          "expires": 1754355259,
-          "size": 30,
+          "expires": 1754959866,
+          "size": 29,
           "httpOnly": false,
           "secure": false,
           "session": false,
@@ -1358,10 +1358,10 @@
         },
         {
           "name": "_ga_23VKXV49V7",
-          "value": "GS1.1.1691283259.1.0.1691283259.0.0.0",
+          "value": "GS1.1.1691887866.1.0.1691887866.0.0.0",
           "domain": ".tech.fr",
           "path": "/",
-          "expires": 1754355259,
+          "expires": 1754959866,
           "size": 51,
           "httpOnly": false,
           "secure": false,
@@ -1375,10 +1375,10 @@
         "cache-control": "no-cache\nno-store, no-cache, must-revalidate, proxy-revalidate, max-age=0",
         "content-encoding": "gzip",
         "content-type": "text/html",
-        "date": "Sun, 06 Aug 2023 00:54:19 GMT",
-        "etag": "W/\"64c141b8-3d84\"",
-        "expires": "Sun, 06 Aug 2023 00:54:18 GMT",
-        "last-modified": "Wed, 26 Jul 2023 15:54:32 GMT",
+        "date": "Sun, 13 Aug 2023 00:51:06 GMT",
+        "etag": "W/\"64d65f45-3d84\"",
+        "expires": "Sun, 13 Aug 2023 00:51:05 GMT",
+        "last-modified": "Fri, 11 Aug 2023 16:18:13 GMT",
         "server": "nginx"
       },
       "endpoints": [
@@ -1440,7 +1440,7 @@
         },
         {
           "hostname": "www.googletagmanager.com",
-          "ip": "172.253.122.97",
+          "ip": "172.217.12.136",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -1494,8 +1494,14 @@
         },
         {
           "hostname": "www.google-analytics.com",
-          "ip": "142.251.163.101",
+          "ip": "142.250.72.238",
           "geoip": {
+            "city": {
+              "geoname_id": 5102162,
+              "names": {
+                "en": "Old Bridge"
+              }
+            },
             "continent": {
               "code": "NA",
               "geoname_id": 6255149,
@@ -1525,10 +1531,14 @@
               }
             },
             "location": {
-              "accuracy_radius": 1000,
-              "latitude": 37.751,
-              "longitude": -97.822,
-              "time_zone": "America/Chicago"
+              "accuracy_radius": 500,
+              "latitude": 40.3913,
+              "longitude": -74.3247,
+              "metro_code": 501,
+              "time_zone": "America/New_York"
+            },
+            "postal": {
+              "code": "08857"
             },
             "registered_country": {
               "geoname_id": 6252001,
@@ -1543,7 +1553,22 @@
                 "ru": "США",
                 "zh-CN": "美国"
               }
-            }
+            },
+            "subdivisions": [
+              {
+                "geoname_id": 5101760,
+                "iso_code": "NJ",
+                "names": {
+                  "en": "New Jersey",
+                  "es": "Nueva Jersey",
+                  "fr": "New Jersey",
+                  "ja": "ニュージャージー州",
+                  "pt-BR": "Nova Jérsia",
+                  "ru": "Нью-Джерси",
+                  "zh-CN": "新泽西州"
+                }
+              }
+            ]
           }
         }
       ]
@@ -1574,6 +1599,42 @@
           "rootPath": true
         },
         {
+          "slug": "typo3-cms",
+          "name": "TYPO3 CMS",
+          "description": "TYPO3 is a free and open-source Web content management system written in PHP.",
+          "confidence": 100,
+          "version": null,
+          "icon": "TYPO3.svg",
+          "website": "https://typo3.org/",
+          "cpe": "cpe:2.3:a:typo3:typo3:*:*:*:*:*:*:*:*",
+          "categories": [
+            {
+              "id": 1,
+              "slug": "cms",
+              "name": "CMS"
+            }
+          ],
+          "rootPath": true
+        },
+        {
+          "slug": "magento",
+          "name": "Magento",
+          "description": "Magento is an open-source ecommerce platform written in PHP.",
+          "confidence": 100,
+          "version": null,
+          "icon": "Magento.svg",
+          "website": "https://magento.com",
+          "cpe": "cpe:2.3:a:magento:magento:*:*:*:*:*:*:*:*",
+          "categories": [
+            {
+              "id": 6,
+              "slug": "ecommerce",
+              "name": "Ecommerce"
+            }
+          ],
+          "rootPath": true
+        },
+        {
           "slug": "typescript",
           "name": "TypeScript",
           "description": "TypeScript is an open-source language which builds on JavaScript  by adding static type definitions.",
@@ -1582,6 +1643,40 @@
           "icon": "TypeScript.svg",
           "website": "https://www.typescriptlang.org",
           "cpe": null,
+          "categories": [
+            {
+              "id": 27,
+              "slug": "programming-languages",
+              "name": "Programming languages"
+            }
+          ]
+        },
+        {
+          "slug": "mysql",
+          "name": "MySQL",
+          "description": "MySQL is an open-source relational database management system.",
+          "confidence": 100,
+          "version": null,
+          "icon": "MySQL.svg",
+          "website": "https://mysql.com",
+          "cpe": "cpe:2.3:a:mysql:mysql:*:*:*:*:*:*:*:*",
+          "categories": [
+            {
+              "id": 34,
+              "slug": "databases",
+              "name": "Databases"
+            }
+          ]
+        },
+        {
+          "slug": "php",
+          "name": "PHP",
+          "description": "PHP is a general-purpose scripting language used for web development.",
+          "confidence": 100,
+          "version": null,
+          "icon": "PHP.svg",
+          "website": "https://php.net",
+          "cpe": "cpe:2.3:a:php:php:*:*:*:*:*:*:*:*",
           "categories": [
             {
               "id": 27,
@@ -1651,7 +1746,7 @@
           "version": "15.2.8",
           "icon": "Angular.svg",
           "website": "https://angular.io",
-          "cpe": "cpe:2.3:a:angularjs:angular:*:*:*:*:*:*:*:*:*",
+          "cpe": "cpe:2.3:a:angularjs:angular:*:*:*:*:*:*:*:*",
           "categories": [
             {
               "id": 12,
@@ -1867,7 +1962,7 @@
     "zap": {
       "@programName": "OWASP ZAP",
       "@version": "2.13.0",
-      "@generated": "Sun, 6 Aug 2023 00:56:55",
+      "@generated": "Sun, 13 Aug 2023 00:53:52",
       "site": [
         {
           "@name": "https://demo.tech.fr",
@@ -2003,7 +2098,7 @@
       {
         "requestedUrl": "https://demo.tech.fr/",
         "finalUrl": "https://demo.tech.fr/",
-        "fetchTime": "2023-08-06T00:57:11.832Z",
+        "fetchTime": "2023-08-13T00:54:08.218Z",
         "runWarnings": [],
         "categories": {
           "performance": {
@@ -2014,7 +2109,7 @@
               "snapshot"
             ],
             "id": "performance",
-            "score": 0.9877811431884765
+            "score": 0.9888345718383789
           },
           "accessibility": {
             "title": "Accessibility",
@@ -2066,53 +2161,53 @@
             "description": "Collects all available metrics.",
             "score": null,
             "scoreDisplayMode": "informative",
-            "numericValue": 7781,
+            "numericValue": 8159,
             "numericUnit": "millisecond",
             "details": {
               "type": "debugdata",
               "items": [
                 {
-                  "firstContentfulPaint": 5387,
-                  "firstMeaningfulPaint": 5387,
-                  "largestContentfulPaint": 7005,
-                  "interactive": 7781,
-                  "speedIndex": 5387,
-                  "totalBlockingTime": 932,
-                  "maxPotentialFID": 1204,
+                  "firstContentfulPaint": 5798,
+                  "firstMeaningfulPaint": 5798,
+                  "largestContentfulPaint": 7244,
+                  "interactive": 8159,
+                  "speedIndex": 6006,
+                  "totalBlockingTime": 841,
+                  "maxPotentialFID": 1179,
                   "cumulativeLayoutShift": 0,
                   "cumulativeLayoutShiftMainFrame": 0,
                   "totalCumulativeLayoutShift": 0,
                   "observedTimeOrigin": 0,
-                  "observedTimeOriginTs": 353321514,
+                  "observedTimeOriginTs": 257588717,
                   "observedNavigationStart": 0,
-                  "observedNavigationStartTs": 353321514,
-                  "observedFirstPaint": 311,
-                  "observedFirstPaintTs": 353632290,
-                  "observedFirstContentfulPaint": 1194,
-                  "observedFirstContentfulPaintTs": 354515865,
-                  "observedFirstContentfulPaintAllFrames": 1194,
-                  "observedFirstContentfulPaintAllFramesTs": 354515865,
-                  "observedFirstMeaningfulPaint": 1194,
-                  "observedFirstMeaningfulPaintTs": 354515865,
-                  "observedLargestContentfulPaint": 1194,
-                  "observedLargestContentfulPaintTs": 354515865,
-                  "observedLargestContentfulPaintAllFrames": 1194,
-                  "observedLargestContentfulPaintAllFramesTs": 354515865,
-                  "observedTraceEnd": 3595,
-                  "observedTraceEndTs": 356916683,
-                  "observedLoad": 1280,
-                  "observedLoadTs": 354601369,
-                  "observedDomContentLoaded": 1166,
-                  "observedDomContentLoadedTs": 354487561,
+                  "observedNavigationStartTs": 257588717,
+                  "observedFirstPaint": 511,
+                  "observedFirstPaintTs": 258100104,
+                  "observedFirstContentfulPaint": 1781,
+                  "observedFirstContentfulPaintTs": 259370184,
+                  "observedFirstContentfulPaintAllFrames": 1781,
+                  "observedFirstContentfulPaintAllFramesTs": 259370184,
+                  "observedFirstMeaningfulPaint": 1781,
+                  "observedFirstMeaningfulPaintTs": 259370184,
+                  "observedLargestContentfulPaint": 1781,
+                  "observedLargestContentfulPaintTs": 259370184,
+                  "observedLargestContentfulPaintAllFrames": 1781,
+                  "observedLargestContentfulPaintAllFramesTs": 259370184,
+                  "observedTraceEnd": 4250,
+                  "observedTraceEndTs": 261838805,
+                  "observedLoad": 1939,
+                  "observedLoadTs": 259528174,
+                  "observedDomContentLoaded": 1757,
+                  "observedDomContentLoadedTs": 259346116,
                   "observedCumulativeLayoutShift": 0,
                   "observedCumulativeLayoutShiftMainFrame": 0,
                   "observedTotalCumulativeLayoutShift": 0,
-                  "observedFirstVisualChange": 597,
-                  "observedFirstVisualChangeTs": 353918514,
-                  "observedLastVisualChange": 1197,
-                  "observedLastVisualChangeTs": 354518514,
-                  "observedSpeedIndex": 1192,
-                  "observedSpeedIndexTs": 354513152
+                  "observedFirstVisualChange": 1000,
+                  "observedFirstVisualChangeTs": 258588717,
+                  "observedLastVisualChange": 1784,
+                  "observedLastVisualChangeTs": 259372717,
+                  "observedSpeedIndex": 1776,
+                  "observedSpeedIndexTs": 259365125
                 },
                 {
                   "lcpInvalidated": false
@@ -2130,22 +2225,22 @@
               "type": "debugdata",
               "items": [
                 {
-                  "numRequests": 14,
+                  "numRequests": 13,
                   "numScripts": 6,
                   "numStylesheets": 2,
                   "numFonts": 1,
-                  "numTasks": 574,
-                  "numTasksOver10ms": 10,
+                  "numTasks": 2027,
+                  "numTasksOver10ms": 8,
                   "numTasksOver25ms": 4,
-                  "numTasksOver50ms": 1,
+                  "numTasksOver50ms": 2,
                   "numTasksOver100ms": 1,
                   "numTasksOver500ms": 0,
-                  "rtt": 2.5360000000000005,
-                  "throughput": 20381797.697230477,
-                  "maxRtt": 83.69200000000001,
-                  "maxServerLatency": 15.232,
-                  "totalByteWeight": 1112638,
-                  "totalTaskTime": 617.0289999999943,
+                  "rtt": 9.683,
+                  "throughput": 10917075.54188023,
+                  "maxRtt": 148.774,
+                  "maxServerLatency": 34.812999999999995,
+                  "totalByteWeight": 1107115,
+                  "totalTaskTime": 638.3639999999442,
                   "mainDocumentTransferSize": 4893
                 }
               ]
@@ -2169,15 +2264,15 @@
         "width": 1920,
         "height": 1080,
         "url": "https://demo.tech.fr",
-        "size": 1222.451,
+        "size": 1216.835,
         "nodes": 98,
-        "requests": 17,
+        "requests": 16,
         "grade": "A",
-        "score": 83,
-        "ges": 1.34,
-        "water": 2.01,
+        "score": 84,
+        "ges": 1.32,
+        "water": 1.98,
         "ecoindex_version": "5.4.2",
-        "date": "2023-08-06 00:55:21.823154",
+        "date": "2023-08-13 00:52:12.512375",
         "page_type": null
       }
     ],
@@ -2192,7 +2287,7 @@
       "cookiesCount": 2,
       "trackersGrade": "B",
       "trackersCount": 2,
-      "lighthouse_performance": 0.9877811431884765,
+      "lighthouse_performance": 0.9888345718383789,
       "lighthouse_performanceGrade": "A",
       "lighthouse_accessibility": 0.7,
       "lighthouse_accessibilityGrade": "B",
@@ -2219,7 +2314,7 @@
     "http": {
       "url": "https://www.bimcloud.fr",
       "algorithm_version": 2,
-      "end_time": "Sun, 06 Aug 2023 00:57:51 GMT",
+      "end_time": "Sun, 13 Aug 2023 00:54:37 GMT",
       "grade": "F",
       "hidden": false,
       "likelihood_indicator": "MEDIUM",
@@ -2227,16 +2322,16 @@
         "Cache-Control": "no-cache, no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0",
         "Content-Encoding": "gzip",
         "Content-Type": "text/html",
-        "Date": "Sun, 06 Aug 2023 00:57:50 GMT",
-        "Etag": "W/\"64c3e590-1ebd\"",
-        "Expires": "Sun, 06 Aug 2023 00:57:49 GMT",
-        "Last-Modified": "Fri, 28 Jul 2023 15:58:08 GMT",
+        "Date": "Sun, 13 Aug 2023 00:54:36 GMT",
+        "Etag": "W/\"64d64b0b-1ebd\"",
+        "Expires": "Sun, 13 Aug 2023 00:54:35 GMT",
+        "Last-Modified": "Fri, 11 Aug 2023 14:51:55 GMT",
         "Server": "nginx",
         "Transfer-Encoding": "chunked"
       },
-      "scan_id": 40396845,
+      "scan_id": 40734863,
       "score": 20,
-      "start_time": "Sun, 06 Aug 2023 00:57:47 GMT",
+      "start_time": "Sun, 13 Aug 2023 00:54:34 GMT",
       "state": "FINISHED",
       "status_code": 200,
       "tests_failed": 5,
@@ -2754,7 +2849,7 @@
         "ip": "www.bimcloud.fr/54.37.80.118",
         "port": "443",
         "severity": "OK",
-        "finding": "43 >= 30 days"
+        "finding": "36 >= 30 days"
       },
       {
         "id": "cert_notBefore",
@@ -2957,7 +3052,7 @@
         "ip": "www.bimcloud.fr/54.37.80.118",
         "port": "443",
         "severity": "INFO",
-        "finding": "1691283520"
+        "finding": "1691888125"
       },
       {
         "id": "HSTS",
@@ -3520,7 +3615,7 @@
         "ip": "www.bimcloud.fr/54.37.80.118",
         "port": "443",
         "severity": "INFO",
-        "finding": "80"
+        "finding": "78"
       }
     ],
     "thirdparties": {
@@ -3530,10 +3625,10 @@
         "cache-control": "no-cache\nno-store, no-cache, must-revalidate, proxy-revalidate, max-age=0",
         "content-encoding": "gzip",
         "content-type": "text/html",
-        "date": "Sun, 06 Aug 2023 00:54:22 GMT",
-        "etag": "W/\"64c3e590-1ebd\"",
-        "expires": "Sun, 06 Aug 2023 00:54:21 GMT",
-        "last-modified": "Fri, 28 Jul 2023 15:58:08 GMT",
+        "date": "Sun, 13 Aug 2023 00:50:52 GMT",
+        "etag": "W/\"64d64b0b-1ebd\"",
+        "expires": "Sun, 13 Aug 2023 00:50:51 GMT",
+        "last-modified": "Fri, 11 Aug 2023 14:51:55 GMT",
         "server": "nginx"
       },
       "endpoints": [
@@ -3602,6 +3697,24 @@
         }
       },
       "technologies": [
+        {
+          "slug": "typo3-cms",
+          "name": "TYPO3 CMS",
+          "description": "TYPO3 is a free and open-source Web content management system written in PHP.",
+          "confidence": 100,
+          "version": null,
+          "icon": "TYPO3.svg",
+          "website": "https://typo3.org/",
+          "cpe": "cpe:2.3:a:typo3:typo3:*:*:*:*:*:*:*:*",
+          "categories": [
+            {
+              "id": 1,
+              "slug": "cms",
+              "name": "CMS"
+            }
+          ],
+          "rootPath": true
+        },
         {
           "slug": "sitecore",
           "name": "Sitecore",
@@ -3786,7 +3899,7 @@
           "version": "16.0.2",
           "icon": "Angular.svg",
           "website": "https://angular.io",
-          "cpe": "cpe:2.3:a:angularjs:angular:*:*:*:*:*:*:*:*:*",
+          "cpe": "cpe:2.3:a:angularjs:angular:*:*:*:*:*:*:*:*",
           "categories": [
             {
               "id": 12,
@@ -3953,7 +4066,7 @@
     "zap": {
       "@programName": "OWASP ZAP",
       "@version": "2.13.0",
-      "@generated": "Sun, 6 Aug 2023 00:57:20",
+      "@generated": "Sun, 13 Aug 2023 00:53:39",
       "site": [
         {
           "@name": "https://www.bimcloud.fr",
@@ -4096,7 +4209,7 @@
       {
         "requestedUrl": "https://www.bimcloud.fr/",
         "finalUrl": "https://www.bimcloud.fr/",
-        "fetchTime": "2023-08-06T00:57:36.153Z",
+        "fetchTime": "2023-08-13T00:53:55.564Z",
         "runWarnings": [
           "The tested device appears to have a slower CPU than  Lighthouse expects. This can negatively affect your performance score. Learn more about [calibrating an appropriate CPU slowdown multiplier](https://github.com/GoogleChrome/lighthouse/blob/master/docs/throttling.md#cpu-throttling)."
         ],
@@ -4109,7 +4222,7 @@
               "snapshot"
             ],
             "id": "performance",
-            "score": 0.8170309066772461
+            "score": 0.8161079406738281
           },
           "accessibility": {
             "title": "Accessibility",
@@ -4161,53 +4274,53 @@
             "description": "Collects all available metrics.",
             "score": null,
             "scoreDisplayMode": "informative",
-            "numericValue": 11441,
+            "numericValue": 11412,
             "numericUnit": "millisecond",
             "details": {
               "type": "debugdata",
               "items": [
                 {
-                  "firstContentfulPaint": 9901,
-                  "firstMeaningfulPaint": 10559,
-                  "largestContentfulPaint": 11366,
-                  "interactive": 11441,
-                  "speedIndex": 9901,
-                  "totalBlockingTime": 1190,
-                  "maxPotentialFID": 1315,
+                  "firstContentfulPaint": 9902,
+                  "firstMeaningfulPaint": 10507,
+                  "largestContentfulPaint": 11262,
+                  "interactive": 11412,
+                  "speedIndex": 9902,
+                  "totalBlockingTime": 1160,
+                  "maxPotentialFID": 1210,
                   "cumulativeLayoutShift": 0,
                   "cumulativeLayoutShiftMainFrame": 0,
                   "totalCumulativeLayoutShift": 0,
                   "observedTimeOrigin": 0,
-                  "observedTimeOriginTs": 397665723,
+                  "observedTimeOriginTs": 338843729,
                   "observedNavigationStart": 0,
-                  "observedNavigationStartTs": 397665723,
-                  "observedFirstPaint": 1794,
-                  "observedFirstPaintTs": 399459637,
-                  "observedFirstContentfulPaint": 1794,
-                  "observedFirstContentfulPaintTs": 399459637,
-                  "observedFirstContentfulPaintAllFrames": 1794,
-                  "observedFirstContentfulPaintAllFramesTs": 399459637,
-                  "observedFirstMeaningfulPaint": 1794,
-                  "observedFirstMeaningfulPaintTs": 399459637,
-                  "observedLargestContentfulPaint": 1794,
-                  "observedLargestContentfulPaintTs": 399459637,
-                  "observedLargestContentfulPaintAllFrames": 1794,
-                  "observedLargestContentfulPaintAllFramesTs": 399459637,
-                  "observedTraceEnd": 4190,
-                  "observedTraceEndTs": 401856199,
-                  "observedLoad": 1879,
-                  "observedLoadTs": 399544374,
-                  "observedDomContentLoaded": 1764,
-                  "observedDomContentLoadedTs": 399429275,
+                  "observedNavigationStartTs": 338843729,
+                  "observedFirstPaint": 1748,
+                  "observedFirstPaintTs": 340592099,
+                  "observedFirstContentfulPaint": 1748,
+                  "observedFirstContentfulPaintTs": 340592099,
+                  "observedFirstContentfulPaintAllFrames": 1748,
+                  "observedFirstContentfulPaintAllFramesTs": 340592099,
+                  "observedFirstMeaningfulPaint": 1748,
+                  "observedFirstMeaningfulPaintTs": 340592099,
+                  "observedLargestContentfulPaint": 1748,
+                  "observedLargestContentfulPaintTs": 340592099,
+                  "observedLargestContentfulPaintAllFrames": 1748,
+                  "observedLargestContentfulPaintAllFramesTs": 340592099,
+                  "observedTraceEnd": 4150,
+                  "observedTraceEndTs": 342993239,
+                  "observedLoad": 1832,
+                  "observedLoadTs": 340675363,
+                  "observedDomContentLoaded": 1725,
+                  "observedDomContentLoadedTs": 340569207,
                   "observedCumulativeLayoutShift": 0,
                   "observedCumulativeLayoutShiftMainFrame": 0,
                   "observedTotalCumulativeLayoutShift": 0,
-                  "observedFirstVisualChange": 1801,
-                  "observedFirstVisualChangeTs": 399466723,
-                  "observedLastVisualChange": 1868,
-                  "observedLastVisualChangeTs": 399533723,
-                  "observedSpeedIndex": 1802,
-                  "observedSpeedIndexTs": 399468021
+                  "observedFirstVisualChange": 1759,
+                  "observedFirstVisualChangeTs": 340602729,
+                  "observedLastVisualChange": 1842,
+                  "observedLastVisualChangeTs": 340685729,
+                  "observedSpeedIndex": 1760,
+                  "observedSpeedIndexTs": 340603875
                 },
                 {
                   "lcpInvalidated": false
@@ -4229,19 +4342,19 @@
                   "numScripts": 3,
                   "numStylesheets": 2,
                   "numFonts": 2,
-                  "numTasks": 858,
-                  "numTasksOver10ms": 7,
+                  "numTasks": 2523,
+                  "numTasksOver10ms": 5,
                   "numTasksOver25ms": 3,
                   "numTasksOver50ms": 2,
                   "numTasksOver100ms": 1,
                   "numTasksOver500ms": 1,
-                  "rtt": 83.089,
-                  "throughput": 29536543.521788903,
-                  "maxRtt": 83.089,
-                  "maxServerLatency": 1.1769999999999925,
-                  "totalByteWeight": 2007861,
-                  "totalTaskTime": 1068.96899999999,
-                  "mainDocumentTransferSize": 2536
+                  "rtt": 87.04599999999999,
+                  "throughput": 30265368.95645582,
+                  "maxRtt": 87.04599999999999,
+                  "maxServerLatency": 2.3910000000000053,
+                  "totalByteWeight": 2012700,
+                  "totalTaskTime": 1021.6189999999493,
+                  "mainDocumentTransferSize": 2537
                 }
               ]
             }
@@ -4264,7 +4377,7 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.bimcloud.fr",
-        "size": 2198.132,
+        "size": 2202.918,
         "nodes": 136,
         "requests": 14,
         "grade": "B",
@@ -4272,7 +4385,7 @@
         "ges": 1.42,
         "water": 2.13,
         "ecoindex_version": "5.4.2",
-        "date": "2023-08-06 00:55:26.990383",
+        "date": "2023-08-13 00:51:54.470689",
         "page_type": "website"
       }
     ],
@@ -4287,7 +4400,7 @@
       "cookiesCount": 0,
       "trackersGrade": "A",
       "trackersCount": 0,
-      "lighthouse_performance": 0.8170309066772461,
+      "lighthouse_performance": 0.8161079406738281,
       "lighthouse_performanceGrade": "B",
       "lighthouse_accessibility": 0.8,
       "lighthouse_accessibilityGrade": "B",
