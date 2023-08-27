@@ -10,7 +10,7 @@
     },
     {
       "type": "google analytics",
-      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-23VKXV49V7&gtm=45je3890&_p=258337594&cid=105741511.1691887866&ul=en-us&sr=800x600&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&_s=1&sid=1691887866&sct=1&seg=0&dl=https%3A%2F%2Fdemo.tech.fr%2F&dt=Application%20Bootstrap%20-%20Material&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1",
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-23VKXV49V7&gtm=45je38n0&_p=1541496513&cid=838071239.1693097534&ul=en-us&sr=800x600&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&_s=1&sid=1693097533&sct=1&seg=0&dl=https%3A%2F%2Fdemo.tech.fr%2F&dt=Application%20Bootstrap%20-%20Material&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1",
       "details": {
         "id": "google analytics",
         "message": "Use hosted Matomo instance"
@@ -20,10 +20,10 @@
   "cookies": [
     {
       "name": "_ga",
-      "value": "GA1.1.105741511.1691887866",
+      "value": "GA1.1.838071239.1693097534",
       "domain": ".tech.fr",
       "path": "/",
-      "expires": 1754959866,
+      "expires": 1756169533,
       "size": 29,
       "httpOnly": false,
       "secure": false,
@@ -34,10 +34,10 @@
     },
     {
       "name": "_ga_23VKXV49V7",
-      "value": "GS1.1.1691887866.1.0.1691887866.0.0.0",
+      "value": "GS1.1.1693097533.1.0.1693097533.0.0.0",
       "domain": ".tech.fr",
       "path": "/",
-      "expires": 1754959866,
+      "expires": 1756169533,
       "size": 51,
       "httpOnly": false,
       "secure": false,
@@ -51,10 +51,10 @@
     "cache-control": "no-cache\nno-store, no-cache, must-revalidate, proxy-revalidate, max-age=0",
     "content-encoding": "gzip",
     "content-type": "text/html",
-    "date": "Sun, 13 Aug 2023 00:51:06 GMT",
-    "etag": "W/\"64d65f45-3d84\"",
-    "expires": "Sun, 13 Aug 2023 00:51:05 GMT",
-    "last-modified": "Fri, 11 Aug 2023 16:18:13 GMT",
+    "date": "Sun, 27 Aug 2023 00:52:13 GMT",
+    "etag": "W/\"64e8f74f-7abf\"",
+    "expires": "Sun, 27 Aug 2023 00:52:12 GMT",
+    "last-modified": "Fri, 25 Aug 2023 18:47:43 GMT",
     "server": "nginx"
   },
   "endpoints": [
@@ -116,61 +116,7 @@
     },
     {
       "hostname": "www.googletagmanager.com",
-      "ip": "172.217.12.136",
-      "geoip": {
-        "continent": {
-          "code": "NA",
-          "geoname_id": 6255149,
-          "names": {
-            "de": "Nordamerika",
-            "en": "North America",
-            "es": "Norteamérica",
-            "fr": "Amérique du Nord",
-            "ja": "北アメリカ",
-            "pt-BR": "América do Norte",
-            "ru": "Северная Америка",
-            "zh-CN": "北美洲"
-          }
-        },
-        "country": {
-          "geoname_id": 6252001,
-          "iso_code": "US",
-          "names": {
-            "de": "Vereinigte Staaten",
-            "en": "United States",
-            "es": "Estados Unidos",
-            "fr": "États Unis",
-            "ja": "アメリカ",
-            "pt-BR": "EUA",
-            "ru": "США",
-            "zh-CN": "美国"
-          }
-        },
-        "location": {
-          "accuracy_radius": 1000,
-          "latitude": 37.751,
-          "longitude": -97.822,
-          "time_zone": "America/Chicago"
-        },
-        "registered_country": {
-          "geoname_id": 6252001,
-          "iso_code": "US",
-          "names": {
-            "de": "Vereinigte Staaten",
-            "en": "United States",
-            "es": "Estados Unidos",
-            "fr": "États Unis",
-            "ja": "アメリカ",
-            "pt-BR": "EUA",
-            "ru": "США",
-            "zh-CN": "美国"
-          }
-        }
-      }
-    },
-    {
-      "hostname": "www.google-analytics.com",
-      "ip": "142.250.72.238",
+      "ip": "142.250.68.72",
       "geoip": {
         "city": {
           "geoname_id": 5102162,
@@ -245,6 +191,60 @@
             }
           }
         ]
+      }
+    },
+    {
+      "hostname": "www.google-analytics.com",
+      "ip": "142.250.191.78",
+      "geoip": {
+        "continent": {
+          "code": "NA",
+          "geoname_id": 6255149,
+          "names": {
+            "de": "Nordamerika",
+            "en": "North America",
+            "es": "Norteamérica",
+            "fr": "Amérique du Nord",
+            "ja": "北アメリカ",
+            "pt-BR": "América do Norte",
+            "ru": "Северная Америка",
+            "zh-CN": "北美洲"
+          }
+        },
+        "country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "Vereinigte Staaten",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        },
+        "location": {
+          "accuracy_radius": 1000,
+          "latitude": 37.751,
+          "longitude": -97.822,
+          "time_zone": "America/Chicago"
+        },
+        "registered_country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "Vereinigte Staaten",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        }
       }
     }
   ]

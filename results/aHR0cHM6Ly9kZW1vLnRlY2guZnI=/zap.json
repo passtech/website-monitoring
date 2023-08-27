@@ -1,7 +1,7 @@
 {
-	"@programName": "OWASP ZAP",
+	"@programName": "ZAP",
 	"@version": "2.13.0",
-	"@generated": "Sun, 13 Aug 2023 00:53:52",
+	"@generated": "Sun, 27 Aug 2023 00:55:52",
 	"site":[ 
 		{
 			"@name": "https://demo.tech.fr",
@@ -126,7 +126,7 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin=\"\">",
+							"evidence": "<link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>",
 							"otherinfo": ""
 						},
 						{
@@ -134,7 +134,7 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<script async=\"\" src=\"https://www.googletagmanager.com/gtag/js?id=G-23VKXV49V7\"></script>",
+							"evidence": "<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-23VKXV49V7\"></script>",
 							"otherinfo": ""
 						},
 						{
@@ -142,7 +142,7 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin=\"\">",
+							"evidence": "<link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>",
 							"otherinfo": ""
 						},
 						{
@@ -150,7 +150,7 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<script async=\"\" src=\"https://www.googletagmanager.com/gtag/js?id=G-23VKXV49V7\"></script>",
+							"evidence": "<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-23VKXV49V7\"></script>",
 							"otherinfo": ""
 						},
 						{
@@ -158,7 +158,7 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin=\"\">",
+							"evidence": "<link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>",
 							"otherinfo": ""
 						},
 						{
@@ -166,7 +166,7 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<script async=\"\" src=\"https://www.googletagmanager.com/gtag/js?id=G-23VKXV49V7\"></script>",
+							"evidence": "<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-23VKXV49V7\"></script>",
 							"otherinfo": ""
 						},
 						{
@@ -174,7 +174,7 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin=\"\">",
+							"evidence": "<link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>",
 							"otherinfo": ""
 						},
 						{
@@ -182,7 +182,7 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<script async=\"\" src=\"https://www.googletagmanager.com/gtag/js?id=G-23VKXV49V7\"></script>",
+							"evidence": "<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-23VKXV49V7\"></script>",
 							"otherinfo": ""
 						}
 					],
@@ -209,7 +209,7 @@
 							"method": "GET",
 							"param": "https://www.googletagmanager.com/gtag/js?id=G-23VKXV49V7",
 							"attack": "",
-							"evidence": "<script async=\"\" src=\"https://www.googletagmanager.com/gtag/js?id=G-23VKXV49V7\"></script>",
+							"evidence": "<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-23VKXV49V7\"></script>",
 							"otherinfo": ""
 						},
 						{
@@ -217,7 +217,7 @@
 							"method": "GET",
 							"param": "https://www.googletagmanager.com/gtag/js?id=G-23VKXV49V7",
 							"attack": "",
-							"evidence": "<script async=\"\" src=\"https://www.googletagmanager.com/gtag/js?id=G-23VKXV49V7\"></script>",
+							"evidence": "<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-23VKXV49V7\"></script>",
 							"otherinfo": ""
 						},
 						{
@@ -225,7 +225,7 @@
 							"method": "GET",
 							"param": "https://www.googletagmanager.com/gtag/js?id=G-23VKXV49V7",
 							"attack": "",
-							"evidence": "<script async=\"\" src=\"https://www.googletagmanager.com/gtag/js?id=G-23VKXV49V7\"></script>",
+							"evidence": "<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-23VKXV49V7\"></script>",
 							"otherinfo": ""
 						},
 						{
@@ -233,7 +233,7 @@
 							"method": "GET",
 							"param": "https://www.googletagmanager.com/gtag/js?id=G-23VKXV49V7",
 							"attack": "",
-							"evidence": "<script async=\"\" src=\"https://www.googletagmanager.com/gtag/js?id=G-23VKXV49V7\"></script>",
+							"evidence": "<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-23VKXV49V7\"></script>",
 							"otherinfo": ""
 						}
 					],
@@ -256,7 +256,7 @@
 					"desc": "<p>A dangerous JS function seems to be in use that would leave the site vulnerable.</p>",
 					"instances":[ 
 						{
-							"uri": "https://demo.tech.fr/main.9de007a31a87f20f.js",
+							"uri": "https://demo.tech.fr/main.2816ef50dafd323c.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -299,7 +299,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://demo.tech.fr/main.9de007a31a87f20f.js",
+							"uri": "https://demo.tech.fr/main.2816ef50dafd323c.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -307,7 +307,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://demo.tech.fr/polyfills.21a642622815af50.js",
+							"uri": "https://demo.tech.fr/polyfills.e5da0abbf9edd924.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -323,7 +323,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://demo.tech.fr/runtime.747dd1624ea74c11.js",
+							"uri": "https://demo.tech.fr/runtime.c2f8a7ed3fd40011.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -331,7 +331,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://demo.tech.fr/scripts.c58ffa2410217b8d.js",
+							"uri": "https://demo.tech.fr/scripts.f6d16775ba80479d.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -390,7 +390,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://demo.tech.fr/light.f8b4b97dd02ae3cb.css",
+							"uri": "https://demo.tech.fr/light.666cab167baaa582.css",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -406,7 +406,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://demo.tech.fr/polyfills.21a642622815af50.js",
+							"uri": "https://demo.tech.fr/polyfills.e5da0abbf9edd924.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -422,7 +422,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://demo.tech.fr/runtime.747dd1624ea74c11.js",
+							"uri": "https://demo.tech.fr/runtime.c2f8a7ed3fd40011.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -430,7 +430,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://demo.tech.fr/scripts.c58ffa2410217b8d.js",
+							"uri": "https://demo.tech.fr/scripts.f6d16775ba80479d.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -497,7 +497,7 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"uri": "https://demo.tech.fr/light.f8b4b97dd02ae3cb.css",
+							"uri": "https://demo.tech.fr/light.666cab167baaa582.css",
 							"method": "GET",
 							"param": "x-content-type-options",
 							"attack": "",
@@ -513,7 +513,7 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"uri": "https://demo.tech.fr/polyfills.21a642622815af50.js",
+							"uri": "https://demo.tech.fr/polyfills.e5da0abbf9edd924.js",
 							"method": "GET",
 							"param": "x-content-type-options",
 							"attack": "",
@@ -529,7 +529,7 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"uri": "https://demo.tech.fr/runtime.747dd1624ea74c11.js",
+							"uri": "https://demo.tech.fr/runtime.c2f8a7ed3fd40011.js",
 							"method": "GET",
 							"param": "x-content-type-options",
 							"attack": "",
@@ -537,7 +537,7 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"uri": "https://demo.tech.fr/scripts.c58ffa2410217b8d.js",
+							"uri": "https://demo.tech.fr/scripts.f6d16775ba80479d.js",
 							"method": "GET",
 							"param": "x-content-type-options",
 							"attack": "",
@@ -596,7 +596,7 @@
 							"otherinfo": "r\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDjX\uFFFD\uFFFD{?\uFFFD^4\uFFFD\uFFFDT\uFFFD\\x001a\uFFFD\uFFFD6\\\uFFFD\\x0001\t\uFFFDW`\uFFFD\uFFFD\uFFFDh;\rp\uFFFDP\uFFFD\uFFFD"
 						},
 						{
-							"uri": "https://demo.tech.fr/main.9de007a31a87f20f.js",
+							"uri": "https://demo.tech.fr/main.2816ef50dafd323c.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -639,41 +639,41 @@
 					"desc": "<p>The response appears to contain suspicious comments which may help an attacker. Note: Matches made within script blocks or files are against the entire content not only comments.</p>",
 					"instances":[ 
 						{
-							"uri": "https://demo.tech.fr/main.9de007a31a87f20f.js",
+							"uri": "https://demo.tech.fr/main.2816ef50dafd323c.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "query",
-							"otherinfo": "The following pattern was used: \\bQUERY\\b and was detected in the element starting with: \"(self.webpackChunksample_material_bootstrap=self.webpackChunksample_material_bootstrap||[]).push([[179],{26642:(I,o,i)=>{\"use st\", see evidence field for the suspicious comment/snippet."
+							"evidence": "bugs",
+							"otherinfo": "The following pattern was used: \\bBUGS\\b and was detected in the element starting with: \"      `}};var z;(0,Fr.gn)([ys(),(0,Fr.w6)(\"design:type\",Number)],Ea.prototype,\"width\",void 0),(0,Fr.gn)([ys(),(0,Fr.w6)(\"design:\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"uri": "https://demo.tech.fr/main.9de007a31a87f20f.js",
+							"uri": "https://demo.tech.fr/main.2816ef50dafd323c.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "XXX",
-							"otherinfo": "The following pattern was used: \\bXXX\\b and was detected in the element starting with: \"      `}};var P;(0,Nn.gn)([x2(),(0,Nn.w6)(\"design:type\",Number)],G3.prototype,\"width\",void 0),(0,Nn.gn)([x2(),(0,Nn.w6)(\"design:\", see evidence field for the suspicious comment/snippet."
+							"evidence": "Query",
+							"otherinfo": "The following pattern was used: \\bQUERY\\b and was detected in the element starting with: \"(self.webpackChunksample_material_bootstrap=self.webpackChunksample_material_bootstrap||[]).push([[179],{60382:(O,a)=>{\"use stri\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"uri": "https://demo.tech.fr/polyfills.21a642622815af50.js",
+							"uri": "https://demo.tech.fr/polyfills.e5da0abbf9edd924.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
 							"evidence": "from",
-							"otherinfo": "The following pattern was used: \\bFROM\\b and was detected in the element starting with: \"\"use strict\";(self.webpackChunksample_material_bootstrap=self.webpackChunksample_material_bootstrap||[]).push([[429],{58970:(le,\", see evidence field for the suspicious comment/snippet."
+							"otherinfo": "The following pattern was used: \\bFROM\\b and was detected in the element starting with: \"\"use strict\";(self.webpackChunksample_material_bootstrap=self.webpackChunksample_material_bootstrap||[]).push([[429],{72652:(fe,\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"uri": "https://demo.tech.fr/scripts.c58ffa2410217b8d.js",
+							"uri": "https://demo.tech.fr/scripts.f6d16775ba80479d.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
 							"evidence": "select",
-							"otherinfo": "The following pattern was used: \\bSELECT\\b and was detected in the element starting with: \"!function(D,$){\"object\"==typeof exports&&typeof module<\"u\"?$(exports):\"function\"==typeof define&&define.amd?define([\"exports\"],$\", see evidence field for the suspicious comment/snippet."
+							"otherinfo": "The following pattern was used: \\bSELECT\\b and was detected in the element starting with: \"!function(f,z){\"object\"==typeof exports&&typeof module<\"u\"?z(exports):\"function\"==typeof define&&define.amd?define([\"exports\"],z\", see evidence field for the suspicious comment/snippet."
 						}
 					],
 					"count": "4",
 					"solution": "<p>Remove all comments that return information that may help an attacker and fix any underlying problems they refer to.</p>",
-					"otherinfo": "<p>The following pattern was used: \\bQUERY\\b and was detected in the element starting with: \"(self.webpackChunksample_material_bootstrap=self.webpackChunksample_material_bootstrap||[]).push([[179],{26642:(I,o,i)=>{\"use st\", see evidence field for the suspicious comment/snippet.</p>",
+					"otherinfo": "<p>The following pattern was used: \\bBUGS\\b and was detected in the element starting with: \"      `}};var z;(0,Fr.gn)([ys(),(0,Fr.w6)(\"design:type\",Number)],Ea.prototype,\"width\",void 0),(0,Fr.gn)([ys(),(0,Fr.w6)(\"design:\", see evidence field for the suspicious comment/snippet.</p>",
 					"reference": "",
 					"cweid": "200",
 					"wascid": "13",
@@ -800,7 +800,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://demo.tech.fr/sitemap.xml",
+							"uri": "https://demo.tech.fr/robots.txt",
 							"method": "GET",
 							"param": "Sec-Fetch-Dest",
 							"attack": "",
@@ -835,7 +835,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://demo.tech.fr/sitemap.xml",
+							"uri": "https://demo.tech.fr/robots.txt",
 							"method": "GET",
 							"param": "Sec-Fetch-Mode",
 							"attack": "",
@@ -870,7 +870,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://demo.tech.fr/sitemap.xml",
+							"uri": "https://demo.tech.fr/robots.txt",
 							"method": "GET",
 							"param": "Sec-Fetch-Site",
 							"attack": "",
@@ -905,7 +905,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://demo.tech.fr/sitemap.xml",
+							"uri": "https://demo.tech.fr/robots.txt",
 							"method": "GET",
 							"param": "Sec-Fetch-User",
 							"attack": "",
@@ -940,7 +940,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://demo.tech.fr/light.f8b4b97dd02ae3cb.css",
+							"uri": "https://demo.tech.fr/light.666cab167baaa582.css",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -956,7 +956,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://demo.tech.fr/polyfills.21a642622815af50.js",
+							"uri": "https://demo.tech.fr/polyfills.e5da0abbf9edd924.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -964,7 +964,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://demo.tech.fr/runtime.747dd1624ea74c11.js",
+							"uri": "https://demo.tech.fr/runtime.c2f8a7ed3fd40011.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -972,7 +972,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://demo.tech.fr/scripts.c58ffa2410217b8d.js",
+							"uri": "https://demo.tech.fr/scripts.f6d16775ba80479d.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -994,7 +994,7 @@
 					"reference": "<p>https://tools.ietf.org/html/rfc7234</p><p>https://tools.ietf.org/html/rfc7231</p><p>http://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html (obsoleted by rfc7234)</p>",
 					"cweid": "524",
 					"wascid": "13",
-					"sourceid": "19"
+					"sourceid": "18"
 				}
 			]
 		}
