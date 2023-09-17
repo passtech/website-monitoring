@@ -1,7 +1,7 @@
 {
 	"@programName": "ZAP",
 	"@version": "2.13.0",
-	"@generated": "Sun, 10 Sep 2023 00:56:16",
+	"@generated": "Sun, 17 Sep 2023 00:56:02",
 	"site":[ 
 		{
 			"@name": "https://demo.tech.fr",
@@ -256,7 +256,7 @@
 					"desc": "<p>A dangerous JS function seems to be in use that would leave the site vulnerable.</p>",
 					"instances":[ 
 						{
-							"uri": "https://demo.tech.fr/main.0e04b9ca17376db8.js",
+							"uri": "https://demo.tech.fr/main.e5b88824284fdf91.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -299,7 +299,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://demo.tech.fr/main.0e04b9ca17376db8.js",
+							"uri": "https://demo.tech.fr/main.e5b88824284fdf91.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -596,7 +596,7 @@
 							"otherinfo": "r\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDjX\uFFFD\uFFFD{?\uFFFD^4\uFFFD\uFFFDT\uFFFD\\x001a\uFFFD\uFFFD6\\\uFFFD\\x0001\t\uFFFDW`\uFFFD\uFFFD\uFFFDh;\rp\uFFFDP\uFFFD\uFFFD"
 						},
 						{
-							"uri": "https://demo.tech.fr/main.0e04b9ca17376db8.js",
+							"uri": "https://demo.tech.fr/main.e5b88824284fdf91.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -639,20 +639,20 @@
 					"desc": "<p>The response appears to contain suspicious comments which may help an attacker. Note: Matches made within script blocks or files are against the entire content not only comments.</p>",
 					"instances":[ 
 						{
-							"uri": "https://demo.tech.fr/main.0e04b9ca17376db8.js",
+							"uri": "https://demo.tech.fr/main.e5b88824284fdf91.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
 							"evidence": "bugs",
-							"otherinfo": "The following pattern was used: \\bBUGS\\b and was detected in the element starting with: \"      `}};var F;(0,zr.gn)([gs(),(0,zr.w6)(\"design:type\",Number)],kr.prototype,\"width\",void 0),(0,zr.gn)([gs(),(0,zr.w6)(\"design:\", see evidence field for the suspicious comment/snippet."
+							"otherinfo": "The following pattern was used: \\bBUGS\\b and was detected in the element starting with: \"      `}};var v;(0,Or.gn)([ds(),(0,Or.w6)(\"design:type\",Number)],re.prototype,\"width\",void 0),(0,Or.gn)([ds(),(0,Or.w6)(\"design:\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"uri": "https://demo.tech.fr/main.0e04b9ca17376db8.js",
+							"uri": "https://demo.tech.fr/main.e5b88824284fdf91.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
 							"evidence": "Query",
-							"otherinfo": "The following pattern was used: \\bQUERY\\b and was detected in the element starting with: \"(self.webpackChunksample_material_bootstrap=self.webpackChunksample_material_bootstrap||[]).push([[179],{60382:(O,a)=>{\"use stri\", see evidence field for the suspicious comment/snippet."
+							"otherinfo": "The following pattern was used: \\bQUERY\\b and was detected in the element starting with: \"(self.webpackChunksample_material_bootstrap=self.webpackChunksample_material_bootstrap||[]).push([[179],{60382:(P,a)=>{\"use stri\", see evidence field for the suspicious comment/snippet."
 						},
 						{
 							"uri": "https://demo.tech.fr/polyfills.e5da0abbf9edd924.js",
@@ -673,7 +673,7 @@
 					],
 					"count": "4",
 					"solution": "<p>Remove all comments that return information that may help an attacker and fix any underlying problems they refer to.</p>",
-					"otherinfo": "<p>The following pattern was used: \\bBUGS\\b and was detected in the element starting with: \"      `}};var F;(0,zr.gn)([gs(),(0,zr.w6)(\"design:type\",Number)],kr.prototype,\"width\",void 0),(0,zr.gn)([gs(),(0,zr.w6)(\"design:\", see evidence field for the suspicious comment/snippet.</p>",
+					"otherinfo": "<p>The following pattern was used: \\bBUGS\\b and was detected in the element starting with: \"      `}};var v;(0,Or.gn)([ds(),(0,Or.w6)(\"design:type\",Number)],re.prototype,\"width\",void 0),(0,Or.gn)([ds(),(0,Or.w6)(\"design:\", see evidence field for the suspicious comment/snippet.</p>",
 					"reference": "",
 					"cweid": "200",
 					"wascid": "13",
@@ -800,7 +800,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://demo.tech.fr/sitemap.xml",
+							"uri": "https://demo.tech.fr/robots.txt",
 							"method": "GET",
 							"param": "Sec-Fetch-Dest",
 							"attack": "",
@@ -835,7 +835,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://demo.tech.fr/sitemap.xml",
+							"uri": "https://demo.tech.fr/robots.txt",
 							"method": "GET",
 							"param": "Sec-Fetch-Mode",
 							"attack": "",
@@ -870,7 +870,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://demo.tech.fr/sitemap.xml",
+							"uri": "https://demo.tech.fr/robots.txt",
 							"method": "GET",
 							"param": "Sec-Fetch-Site",
 							"attack": "",
@@ -905,7 +905,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://demo.tech.fr/sitemap.xml",
+							"uri": "https://demo.tech.fr/robots.txt",
 							"method": "GET",
 							"param": "Sec-Fetch-User",
 							"attack": "",
@@ -994,7 +994,7 @@
 					"reference": "<p>https://datatracker.ietf.org/doc/html/rfc7234</p><p>https://datatracker.ietf.org/doc/html/rfc7231</p><p>https://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html</p>",
 					"cweid": "524",
 					"wascid": "13",
-					"sourceid": "18"
+					"sourceid": "19"
 				}
 			]
 		}
