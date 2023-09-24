@@ -1,7 +1,7 @@
 {
 	"@programName": "ZAP",
 	"@version": "2.13.0",
-	"@generated": "Sun, 17 Sep 2023 00:56:02",
+	"@generated": "Sun, 24 Sep 2023 00:56:07",
 	"site":[ 
 		{
 			"@name": "https://demo.tech.fr",
@@ -58,7 +58,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/Security/CSP/Introducing_Content_Security_Policy</p><p>https://cheatsheetseries.owasp.org/cheatsheets/Content_Security_Policy_Cheat_Sheet.html</p><p>http://www.w3.org/TR/CSP/</p><p>http://w3c.github.io/webappsec/specs/content-security-policy/csp-specification.dev.html</p><p>http://www.html5rocks.com/en/tutorials/security/content-security-policy/</p><p>http://caniuse.com/#feat=contentsecuritypolicy</p><p>http://content-security-policy.com/</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "1"
+					"sourceid": "6"
 				},
 				{
 					"pluginid": "10020",
@@ -243,7 +243,7 @@
 					"reference": "",
 					"cweid": "829",
 					"wascid": "15",
-					"sourceid": "1"
+					"sourceid": "6"
 				},
 				{
 					"pluginid": "10110",
@@ -256,7 +256,7 @@
 					"desc": "<p>A dangerous JS function seems to be in use that would leave the site vulnerable.</p>",
 					"instances":[ 
 						{
-							"uri": "https://demo.tech.fr/main.e5b88824284fdf91.js",
+							"uri": "https://demo.tech.fr/main.3ecf808ced182509.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -299,7 +299,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://demo.tech.fr/main.e5b88824284fdf91.js",
+							"uri": "https://demo.tech.fr/main.3ecf808ced182509.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -323,7 +323,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://demo.tech.fr/runtime.c2f8a7ed3fd40011.js",
+							"uri": "https://demo.tech.fr/runtime.7f79497a157f040c.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -422,7 +422,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://demo.tech.fr/runtime.c2f8a7ed3fd40011.js",
+							"uri": "https://demo.tech.fr/runtime.7f79497a157f040c.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -529,7 +529,7 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"uri": "https://demo.tech.fr/runtime.c2f8a7ed3fd40011.js",
+							"uri": "https://demo.tech.fr/runtime.7f79497a157f040c.js",
 							"method": "GET",
 							"param": "x-content-type-options",
 							"attack": "",
@@ -596,7 +596,7 @@
 							"otherinfo": "r\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDjX\uFFFD\uFFFD{?\uFFFD^4\uFFFD\uFFFDT\uFFFD\\x001a\uFFFD\uFFFD6\\\uFFFD\\x0001\t\uFFFDW`\uFFFD\uFFFD\uFFFDh;\rp\uFFFDP\uFFFD\uFFFD"
 						},
 						{
-							"uri": "https://demo.tech.fr/main.e5b88824284fdf91.js",
+							"uri": "https://demo.tech.fr/main.3ecf808ced182509.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -639,20 +639,20 @@
 					"desc": "<p>The response appears to contain suspicious comments which may help an attacker. Note: Matches made within script blocks or files are against the entire content not only comments.</p>",
 					"instances":[ 
 						{
-							"uri": "https://demo.tech.fr/main.e5b88824284fdf91.js",
+							"uri": "https://demo.tech.fr/main.3ecf808ced182509.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
 							"evidence": "bugs",
-							"otherinfo": "The following pattern was used: \\bBUGS\\b and was detected in the element starting with: \"      `}};var v;(0,Or.gn)([ds(),(0,Or.w6)(\"design:type\",Number)],re.prototype,\"width\",void 0),(0,Or.gn)([ds(),(0,Or.w6)(\"design:\", see evidence field for the suspicious comment/snippet."
+							"otherinfo": "The following pattern was used: \\bBUGS\\b and was detected in the element starting with: \"      `}};var V;(0,wr.gn)([cs(),(0,wr.w6)(\"design:type\",Number)],rc.prototype,\"width\",void 0),(0,wr.gn)([cs(),(0,wr.w6)(\"design:\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"uri": "https://demo.tech.fr/main.e5b88824284fdf91.js",
+							"uri": "https://demo.tech.fr/main.3ecf808ced182509.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
 							"evidence": "Query",
-							"otherinfo": "The following pattern was used: \\bQUERY\\b and was detected in the element starting with: \"(self.webpackChunksample_material_bootstrap=self.webpackChunksample_material_bootstrap||[]).push([[179],{60382:(P,a)=>{\"use stri\", see evidence field for the suspicious comment/snippet."
+							"otherinfo": "The following pattern was used: \\bQUERY\\b and was detected in the element starting with: \"(self.webpackChunksample_material_bootstrap=self.webpackChunksample_material_bootstrap||[]).push([[179],{60382:(I,a)=>{\"use stri\", see evidence field for the suspicious comment/snippet."
 						},
 						{
 							"uri": "https://demo.tech.fr/polyfills.e5da0abbf9edd924.js",
@@ -673,7 +673,7 @@
 					],
 					"count": "4",
 					"solution": "<p>Remove all comments that return information that may help an attacker and fix any underlying problems they refer to.</p>",
-					"otherinfo": "<p>The following pattern was used: \\bBUGS\\b and was detected in the element starting with: \"      `}};var v;(0,Or.gn)([ds(),(0,Or.w6)(\"design:type\",Number)],re.prototype,\"width\",void 0),(0,Or.gn)([ds(),(0,Or.w6)(\"design:\", see evidence field for the suspicious comment/snippet.</p>",
+					"otherinfo": "<p>The following pattern was used: \\bBUGS\\b and was detected in the element starting with: \"      `}};var V;(0,wr.gn)([cs(),(0,wr.w6)(\"design:type\",Number)],rc.prototype,\"width\",void 0),(0,wr.gn)([cs(),(0,wr.w6)(\"design:\", see evidence field for the suspicious comment/snippet.</p>",
 					"reference": "",
 					"cweid": "200",
 					"wascid": "13",
@@ -728,7 +728,7 @@
 					"reference": "",
 					"cweid": "-1",
 					"wascid": "-1",
-					"sourceid": "1"
+					"sourceid": "6"
 				},
 				{
 					"pluginid": "10049",
@@ -779,7 +779,7 @@
 					"reference": "<p>https://datatracker.ietf.org/doc/html/rfc7234</p><p>https://datatracker.ietf.org/doc/html/rfc7231</p><p>https://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html</p>",
 					"cweid": "524",
 					"wascid": "13",
-					"sourceid": "1"
+					"sourceid": "6"
 				},
 				{
 					"pluginid": "90005",
@@ -806,9 +806,17 @@
 							"attack": "",
 							"evidence": "",
 							"otherinfo": ""
+						},
+						{
+							"uri": "https://demo.tech.fr/sitemap.xml",
+							"method": "GET",
+							"param": "Sec-Fetch-Dest",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
 						}
 					],
-					"count": "2",
+					"count": "3",
 					"solution": "<p>Ensure that Sec-Fetch-Dest header is included in request headers.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-Dest</p>",
@@ -841,9 +849,17 @@
 							"attack": "",
 							"evidence": "",
 							"otherinfo": ""
+						},
+						{
+							"uri": "https://demo.tech.fr/sitemap.xml",
+							"method": "GET",
+							"param": "Sec-Fetch-Mode",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
 						}
 					],
-					"count": "2",
+					"count": "3",
 					"solution": "<p>Ensure that Sec-Fetch-Mode header is included in request headers.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-Mode</p>",
@@ -876,9 +892,17 @@
 							"attack": "",
 							"evidence": "",
 							"otherinfo": ""
+						},
+						{
+							"uri": "https://demo.tech.fr/sitemap.xml",
+							"method": "GET",
+							"param": "Sec-Fetch-Site",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
 						}
 					],
-					"count": "2",
+					"count": "3",
 					"solution": "<p>Ensure that Sec-Fetch-Site header is included in request headers.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-Site</p>",
@@ -911,9 +935,17 @@
 							"attack": "",
 							"evidence": "",
 							"otherinfo": ""
+						},
+						{
+							"uri": "https://demo.tech.fr/sitemap.xml",
+							"method": "GET",
+							"param": "Sec-Fetch-User",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
 						}
 					],
-					"count": "2",
+					"count": "3",
 					"solution": "<p>Ensure that Sec-Fetch-User header is included in user initiated requests.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-User</p>",
@@ -964,7 +996,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://demo.tech.fr/runtime.c2f8a7ed3fd40011.js",
+							"uri": "https://demo.tech.fr/runtime.7f79497a157f040c.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
