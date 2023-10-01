@@ -1,7 +1,7 @@
 {
 	"@programName": "ZAP",
 	"@version": "2.13.0",
-	"@generated": "Sun, 24 Sep 2023 00:56:07",
+	"@generated": "Sun, 1 Oct 2023 01:00:25",
 	"site":[ 
 		{
 			"@name": "https://demo.tech.fr",
@@ -109,7 +109,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options</p>",
 					"cweid": "1021",
 					"wascid": "15",
-					"sourceid": "1"
+					"sourceid": "6"
 				},
 				{
 					"pluginid": "90003",
@@ -192,7 +192,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/Security/Subresource_Integrity</p>",
 					"cweid": "345",
 					"wascid": "15",
-					"sourceid": "1"
+					"sourceid": "6"
 				},
 				{
 					"pluginid": "10017",
@@ -256,7 +256,7 @@
 					"desc": "<p>A dangerous JS function seems to be in use that would leave the site vulnerable.</p>",
 					"instances":[ 
 						{
-							"uri": "https://demo.tech.fr/main.3ecf808ced182509.js",
+							"uri": "https://demo.tech.fr/main.5e833c1e7dd1b445.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -299,7 +299,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://demo.tech.fr/main.3ecf808ced182509.js",
+							"uri": "https://demo.tech.fr/main.5e833c1e7dd1b445.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -323,7 +323,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://demo.tech.fr/runtime.7f79497a157f040c.js",
+							"uri": "https://demo.tech.fr/runtime.1c7d619a5ccd362c.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -390,7 +390,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://demo.tech.fr/light.666cab167baaa582.css",
+							"uri": "https://demo.tech.fr/light.9505cc8701e7fc21.css",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -422,7 +422,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://demo.tech.fr/runtime.7f79497a157f040c.js",
+							"uri": "https://demo.tech.fr/runtime.1c7d619a5ccd362c.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -497,7 +497,7 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"uri": "https://demo.tech.fr/light.666cab167baaa582.css",
+							"uri": "https://demo.tech.fr/light.9505cc8701e7fc21.css",
 							"method": "GET",
 							"param": "x-content-type-options",
 							"attack": "",
@@ -529,7 +529,7 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"uri": "https://demo.tech.fr/runtime.7f79497a157f040c.js",
+							"uri": "https://demo.tech.fr/runtime.1c7d619a5ccd362c.js",
 							"method": "GET",
 							"param": "x-content-type-options",
 							"attack": "",
@@ -567,7 +567,7 @@
 					"reference": "<p>http://msdn.microsoft.com/en-us/library/ie/gg622941%28v=vs.85%29.aspx</p><p>https://owasp.org/www-community/Security_Headers</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "1"
+					"sourceid": "6"
 				},
 				{
 					"pluginid": "10094",
@@ -596,7 +596,7 @@
 							"otherinfo": "r\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDjX\uFFFD\uFFFD{?\uFFFD^4\uFFFD\uFFFDT\uFFFD\\x001a\uFFFD\uFFFD6\\\uFFFD\\x0001\t\uFFFDW`\uFFFD\uFFFD\uFFFDh;\rp\uFFFDP\uFFFD\uFFFD"
 						},
 						{
-							"uri": "https://demo.tech.fr/main.3ecf808ced182509.js",
+							"uri": "https://demo.tech.fr/main.5e833c1e7dd1b445.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -639,20 +639,20 @@
 					"desc": "<p>The response appears to contain suspicious comments which may help an attacker. Note: Matches made within script blocks or files are against the entire content not only comments.</p>",
 					"instances":[ 
 						{
-							"uri": "https://demo.tech.fr/main.3ecf808ced182509.js",
+							"uri": "https://demo.tech.fr/main.5e833c1e7dd1b445.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
 							"evidence": "bugs",
-							"otherinfo": "The following pattern was used: \\bBUGS\\b and was detected in the element starting with: \"      `}};var V;(0,wr.gn)([cs(),(0,wr.w6)(\"design:type\",Number)],rc.prototype,\"width\",void 0),(0,wr.gn)([cs(),(0,wr.w6)(\"design:\", see evidence field for the suspicious comment/snippet."
+							"otherinfo": "The following pattern was used: \\bBUGS\\b and was detected in the element starting with: \"      `}};var H;(0,kr.gn)([ps(),(0,kr.w6)(\"design:type\",Number)],rr.prototype,\"width\",void 0),(0,kr.gn)([ps(),(0,kr.w6)(\"design:\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"uri": "https://demo.tech.fr/main.3ecf808ced182509.js",
+							"uri": "https://demo.tech.fr/main.5e833c1e7dd1b445.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
 							"evidence": "Query",
-							"otherinfo": "The following pattern was used: \\bQUERY\\b and was detected in the element starting with: \"(self.webpackChunksample_material_bootstrap=self.webpackChunksample_material_bootstrap||[]).push([[179],{60382:(I,a)=>{\"use stri\", see evidence field for the suspicious comment/snippet."
+							"otherinfo": "The following pattern was used: \\bQUERY\\b and was detected in the element starting with: \"(self.webpackChunksample_material_bootstrap=self.webpackChunksample_material_bootstrap||[]).push([[179],{60382:(O,a)=>{\"use stri\", see evidence field for the suspicious comment/snippet."
 						},
 						{
 							"uri": "https://demo.tech.fr/polyfills.e5da0abbf9edd924.js",
@@ -673,7 +673,7 @@
 					],
 					"count": "4",
 					"solution": "<p>Remove all comments that return information that may help an attacker and fix any underlying problems they refer to.</p>",
-					"otherinfo": "<p>The following pattern was used: \\bBUGS\\b and was detected in the element starting with: \"      `}};var V;(0,wr.gn)([cs(),(0,wr.w6)(\"design:type\",Number)],rc.prototype,\"width\",void 0),(0,wr.gn)([cs(),(0,wr.w6)(\"design:\", see evidence field for the suspicious comment/snippet.</p>",
+					"otherinfo": "<p>The following pattern was used: \\bBUGS\\b and was detected in the element starting with: \"      `}};var H;(0,kr.gn)([ps(),(0,kr.w6)(\"design:type\",Number)],rr.prototype,\"width\",void 0),(0,kr.gn)([ps(),(0,kr.w6)(\"design:\", see evidence field for the suspicious comment/snippet.</p>",
 					"reference": "",
 					"cweid": "200",
 					"wascid": "13",
@@ -800,14 +800,6 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://demo.tech.fr/robots.txt",
-							"method": "GET",
-							"param": "Sec-Fetch-Dest",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
 							"uri": "https://demo.tech.fr/sitemap.xml",
 							"method": "GET",
 							"param": "Sec-Fetch-Dest",
@@ -816,13 +808,13 @@
 							"otherinfo": ""
 						}
 					],
-					"count": "3",
+					"count": "2",
 					"solution": "<p>Ensure that Sec-Fetch-Dest header is included in request headers.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-Dest</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "1"
+					"sourceid": "6"
 				},
 				{
 					"pluginid": "90005",
@@ -843,14 +835,6 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://demo.tech.fr/robots.txt",
-							"method": "GET",
-							"param": "Sec-Fetch-Mode",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
 							"uri": "https://demo.tech.fr/sitemap.xml",
 							"method": "GET",
 							"param": "Sec-Fetch-Mode",
@@ -859,13 +843,13 @@
 							"otherinfo": ""
 						}
 					],
-					"count": "3",
+					"count": "2",
 					"solution": "<p>Ensure that Sec-Fetch-Mode header is included in request headers.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-Mode</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "1"
+					"sourceid": "6"
 				},
 				{
 					"pluginid": "90005",
@@ -886,14 +870,6 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://demo.tech.fr/robots.txt",
-							"method": "GET",
-							"param": "Sec-Fetch-Site",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
 							"uri": "https://demo.tech.fr/sitemap.xml",
 							"method": "GET",
 							"param": "Sec-Fetch-Site",
@@ -902,13 +878,13 @@
 							"otherinfo": ""
 						}
 					],
-					"count": "3",
+					"count": "2",
 					"solution": "<p>Ensure that Sec-Fetch-Site header is included in request headers.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-Site</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "1"
+					"sourceid": "6"
 				},
 				{
 					"pluginid": "90005",
@@ -929,14 +905,6 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://demo.tech.fr/robots.txt",
-							"method": "GET",
-							"param": "Sec-Fetch-User",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
 							"uri": "https://demo.tech.fr/sitemap.xml",
 							"method": "GET",
 							"param": "Sec-Fetch-User",
@@ -945,13 +913,13 @@
 							"otherinfo": ""
 						}
 					],
-					"count": "3",
+					"count": "2",
 					"solution": "<p>Ensure that Sec-Fetch-User header is included in user initiated requests.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-User</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "1"
+					"sourceid": "6"
 				},
 				{
 					"pluginid": "10049",
@@ -972,7 +940,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://demo.tech.fr/light.666cab167baaa582.css",
+							"uri": "https://demo.tech.fr/light.9505cc8701e7fc21.css",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -996,7 +964,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://demo.tech.fr/runtime.7f79497a157f040c.js",
+							"uri": "https://demo.tech.fr/runtime.1c7d619a5ccd362c.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1026,7 +994,7 @@
 					"reference": "<p>https://datatracker.ietf.org/doc/html/rfc7234</p><p>https://datatracker.ietf.org/doc/html/rfc7231</p><p>https://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html</p>",
 					"cweid": "524",
 					"wascid": "13",
-					"sourceid": "19"
+					"sourceid": "20"
 				}
 			]
 		}

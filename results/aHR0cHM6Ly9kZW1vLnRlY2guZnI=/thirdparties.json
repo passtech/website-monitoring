@@ -10,7 +10,7 @@
     },
     {
       "type": "google analytics",
-      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-23VKXV49V7&gtm=45je39k2&_p=1787820939&cid=198889747.1695516795&ul=en-us&sr=800x600&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&_s=1&sid=1695516795&sct=1&seg=0&dl=https%3A%2F%2Fdemo.tech.fr%2F&dt=Application%20Bootstrap%20-%20Material&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1",
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-23VKXV49V7&gtm=45je39r0&_p=671465047&cid=2044805117.1696121846&ul=en-us&sr=800x600&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&ngs=1&_s=1&sid=1696121846&sct=1&seg=0&dl=https%3A%2F%2Fdemo.tech.fr%2F&dt=Application%20Bootstrap%20-%20Material&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1",
       "details": {
         "id": "google analytics",
         "message": "Use hosted Matomo instance"
@@ -20,11 +20,11 @@
   "cookies": [
     {
       "name": "_ga",
-      "value": "GA1.1.198889747.1695516795",
+      "value": "GA1.1.2044805117.1696121846",
       "domain": ".tech.fr",
       "path": "/",
-      "expires": 1758588795,
-      "size": 29,
+      "expires": 1759193846,
+      "size": 30,
       "httpOnly": false,
       "secure": false,
       "session": false,
@@ -34,7 +34,7 @@
     },
     {
       "name": "JSESSIONID",
-      "value": "5BFEC47AEECD2C547B2D4ED818787E04",
+      "value": "059E6B9DDDFC0FECF898D398F470224E",
       "domain": "demo.tech.fr",
       "path": "/",
       "expires": -1,
@@ -48,10 +48,10 @@
     },
     {
       "name": "_ga_23VKXV49V7",
-      "value": "GS1.1.1695516795.1.0.1695516795.0.0.0",
+      "value": "GS1.1.1696121846.1.0.1696121846.0.0.0",
       "domain": ".tech.fr",
       "path": "/",
-      "expires": 1758588795,
+      "expires": 1759193846,
       "size": 51,
       "httpOnly": false,
       "secure": false,
@@ -65,10 +65,10 @@
     "cache-control": "no-cache\nno-store, no-cache, must-revalidate, proxy-revalidate, max-age=0",
     "content-encoding": "gzip",
     "content-type": "text/html",
-    "date": "Sun, 24 Sep 2023 00:53:15 GMT",
-    "etag": "W/\"650db11e-7abf\"",
-    "expires": "Sun, 24 Sep 2023 00:53:14 GMT",
-    "last-modified": "Fri, 22 Sep 2023 15:22:06 GMT",
+    "date": "Sun, 01 Oct 2023 00:57:25 GMT",
+    "etag": "W/\"6516ef54-7abf\"",
+    "expires": "Sun, 01 Oct 2023 00:57:24 GMT",
+    "last-modified": "Fri, 29 Sep 2023 15:37:56 GMT",
     "server": "nginx"
   },
   "endpoints": [
@@ -130,7 +130,7 @@
     },
     {
       "hostname": "www.googletagmanager.com",
-      "ip": "172.253.122.97",
+      "ip": "172.253.63.97",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -184,7 +184,7 @@
     },
     {
       "hostname": "www.google-analytics.com",
-      "ip": "172.253.122.139",
+      "ip": "172.253.62.113",
       "geoip": {
         "continent": {
           "code": "NA",
