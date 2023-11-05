@@ -346,7 +346,7 @@
               "ip"           : "www.bimcloud.fr/54.37.80.118",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "79 >= 30 days"
+              "finding"      : "72 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -549,7 +549,7 @@
               "ip"           : "www.bimcloud.fr/54.37.80.118",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1698541128"
+              "finding"      : "1699146041"
           }
 ,         {
               "id"           : "HSTS",
@@ -1112,6 +1112,6 @@
               "ip"           : "www.bimcloud.fr/54.37.80.118",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "85"
+              "finding"      : "136"
           }
 ]
