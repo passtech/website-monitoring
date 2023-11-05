@@ -10,7 +10,7 @@
     },
     {
       "type": "google analytics",
-      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-23VKXV49V7&gtm=45je3ap0v892596863&_p=806130118&gcd=11l1l1l1l1&cid=2024051586.1698540853&ul=en-us&sr=800x600&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&_s=1&sid=1698540853&sct=1&seg=0&dl=https%3A%2F%2Fdemo.tech.fr%2F&dt=Application%20Bootstrap%20-%20Material&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1",
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-23VKXV49V7&gtm=45je3b11v892596863&_p=1699145720525&gcd=11l1l1l1l1&cid=935452775.1699145721&ul=en-us&sr=800x600&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&_s=1&sid=1699145720&sct=1&seg=0&dl=https%3A%2F%2Fdemo.tech.fr%2F&dt=Application%20Bootstrap%20-%20Material&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=767",
       "details": {
         "id": "google analytics",
         "message": "Use hosted Matomo instance"
@@ -20,11 +20,11 @@
   "cookies": [
     {
       "name": "_ga",
-      "value": "GA1.1.2024051586.1698540853",
+      "value": "GA1.1.935452775.1699145721",
       "domain": ".tech.fr",
       "path": "/",
-      "expires": 1761612853,
-      "size": 30,
+      "expires": 1762217720,
+      "size": 29,
       "httpOnly": false,
       "secure": false,
       "session": false,
@@ -33,11 +33,25 @@
       "sourcePort": 443
     },
     {
+      "name": "JSESSIONID",
+      "value": "3CF0B26D10C8FDC476FDC9223236FD17",
+      "domain": "demo.tech.fr",
+      "path": "/",
+      "expires": -1,
+      "size": 42,
+      "httpOnly": true,
+      "secure": true,
+      "session": true,
+      "sameParty": false,
+      "sourceScheme": "Secure",
+      "sourcePort": 443
+    },
+    {
       "name": "_ga_23VKXV49V7",
-      "value": "GS1.1.1698540853.1.0.1698540853.0.0.0",
+      "value": "GS1.1.1699145720.1.0.1699145720.0.0.0",
       "domain": ".tech.fr",
       "path": "/",
-      "expires": 1761612853,
+      "expires": 1762217720,
       "size": 51,
       "httpOnly": false,
       "secure": false,
@@ -51,9 +65,9 @@
     "cache-control": "no-cache\nno-store, no-cache, must-revalidate, proxy-revalidate, max-age=0",
     "content-encoding": "gzip",
     "content-type": "text/html",
-    "date": "Sun, 29 Oct 2023 00:54:12 GMT",
+    "date": "Sun, 05 Nov 2023 00:55:20 GMT",
     "etag": "W/\"65311c6a-7abf\"",
-    "expires": "Sun, 29 Oct 2023 00:54:11 GMT",
+    "expires": "Sun, 05 Nov 2023 00:55:19 GMT",
     "last-modified": "Thu, 19 Oct 2023 12:09:14 GMT",
     "server": "nginx"
   },
@@ -116,7 +130,7 @@
     },
     {
       "hostname": "www.googletagmanager.com",
-      "ip": "142.250.188.232",
+      "ip": "142.251.6.97",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -170,7 +184,7 @@
     },
     {
       "hostname": "www.google-analytics.com",
-      "ip": "216.239.32.178",
+      "ip": "209.85.200.100",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -202,9 +216,9 @@
         },
         "location": {
           "accuracy_radius": 1000,
-          "latitude": 34.0544,
-          "longitude": -118.244,
-          "time_zone": "America/Los_Angeles"
+          "latitude": 37.751,
+          "longitude": -97.822,
+          "time_zone": "America/Chicago"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -219,23 +233,7 @@
             "ru": "США",
             "zh-CN": "美国"
           }
-        },
-        "subdivisions": [
-          {
-            "geoname_id": 5332921,
-            "iso_code": "CA",
-            "names": {
-              "de": "Kalifornien",
-              "en": "California",
-              "es": "California",
-              "fr": "Californie",
-              "ja": "カリフォルニア州",
-              "pt-BR": "Califórnia",
-              "ru": "Калифорния",
-              "zh-CN": "加州"
-            }
-          }
-        ]
+        }
       }
     }
   ]
