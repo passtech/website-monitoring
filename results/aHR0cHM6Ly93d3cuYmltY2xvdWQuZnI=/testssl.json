@@ -328,6 +328,13 @@
               "finding"      : "Ok via SAN wildcard (SNI mandatory)"
           }
 ,         {
+              "id"           : "cert_trust_wildcard",
+              "ip"           : "www.bimcloud.fr/54.37.80.118",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "trust is via wildcard"
+          }
+,         {
               "id"           : "cert_chain_of_trust",
               "ip"           : "www.bimcloud.fr/54.37.80.118",
               "port"         : "443",
@@ -346,7 +353,7 @@
               "ip"           : "www.bimcloud.fr/54.37.80.118",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "72 >= 30 days"
+              "finding"      : "65 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -549,7 +556,7 @@
               "ip"           : "www.bimcloud.fr/54.37.80.118",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1699146041"
+              "finding"      : "1699750846"
           }
 ,         {
               "id"           : "HSTS",
@@ -1112,6 +1119,6 @@
               "ip"           : "www.bimcloud.fr/54.37.80.118",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "136"
+              "finding"      : "134"
           }
 ]
