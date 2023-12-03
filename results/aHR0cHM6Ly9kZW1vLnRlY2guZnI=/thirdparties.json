@@ -10,7 +10,7 @@
     },
     {
       "type": "google analytics",
-      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-23VKXV49V7&gtm=45je3b81v892596863&_p=1700960201903&gcd=11l1l1l1l1&dma=0&cid=531174705.1700960202&ul=en-us&sr=800x600&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&_s=1&sid=1700960202&sct=1&seg=0&dl=https%3A%2F%2Fdemo.tech.fr%2F&dt=Application%20Bootstrap%20-%20Material&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=1098",
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-23VKXV49V7&gtm=45je3bt0v892596863&_p=1701565016241&gcd=11l1l1l1l1&dma=0&cid=1751258462.1701565016&ul=en-us&sr=800x600&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&_s=1&sid=1701565016&sct=1&seg=0&dl=https%3A%2F%2Fdemo.tech.fr%2F&dt=Application%20Bootstrap%20-%20Material&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=527",
       "details": {
         "id": "google analytics",
         "message": "Use hosted Matomo instance"
@@ -20,11 +20,11 @@
   "cookies": [
     {
       "name": "_ga",
-      "value": "GA1.1.531174705.1700960202",
+      "value": "GA1.1.1751258462.1701565016",
       "domain": ".tech.fr",
       "path": "/",
-      "expires": 1764032202,
-      "size": 29,
+      "expires": 1764637016,
+      "size": 30,
       "httpOnly": false,
       "secure": false,
       "session": false,
@@ -33,11 +33,25 @@
       "sourcePort": 443
     },
     {
+      "name": "JSESSIONID",
+      "value": "BC9FDF8ECE699B84E74321C57155752D",
+      "domain": "demo.tech.fr",
+      "path": "/",
+      "expires": -1,
+      "size": 42,
+      "httpOnly": true,
+      "secure": true,
+      "session": true,
+      "sameParty": false,
+      "sourceScheme": "Secure",
+      "sourcePort": 443
+    },
+    {
       "name": "_ga_23VKXV49V7",
-      "value": "GS1.1.1700960202.1.0.1700960202.0.0.0",
+      "value": "GS1.1.1701565016.1.0.1701565016.0.0.0",
       "domain": ".tech.fr",
       "path": "/",
-      "expires": 1764032202,
+      "expires": 1764637016,
       "size": 51,
       "httpOnly": false,
       "secure": false,
@@ -51,9 +65,9 @@
     "cache-control": "no-cache\nno-store, no-cache, must-revalidate, proxy-revalidate, max-age=0",
     "content-encoding": "gzip",
     "content-type": "text/html",
-    "date": "Sun, 26 Nov 2023 00:56:41 GMT",
+    "date": "Sun, 03 Dec 2023 00:56:56 GMT",
     "etag": "W/\"6553b9df-7abf\"",
-    "expires": "Sun, 26 Nov 2023 00:56:40 GMT",
+    "expires": "Sun, 03 Dec 2023 00:56:55 GMT",
     "last-modified": "Tue, 14 Nov 2023 18:18:07 GMT",
     "server": "nginx"
   },
@@ -170,7 +184,7 @@
     },
     {
       "hostname": "www.google-analytics.com",
-      "ip": "216.239.36.178",
+      "ip": "216.239.34.178",
       "geoip": {
         "continent": {
           "code": "NA",
