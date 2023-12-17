@@ -1,7 +1,7 @@
 {
 	"@programName": "ZAP",
 	"@version": "2.14.0",
-	"@generated": "Sun, 10 Dec 2023 01:00:52",
+	"@generated": "Sun, 17 Dec 2023 01:00:57",
 	"site":[ 
 		{
 			"@name": "https://demo.tech.fr",
@@ -58,7 +58,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/Security/CSP/Introducing_Content_Security_Policy</p><p>https://cheatsheetseries.owasp.org/cheatsheets/Content_Security_Policy_Cheat_Sheet.html</p><p>http://www.w3.org/TR/CSP/</p><p>http://w3c.github.io/webappsec/specs/content-security-policy/csp-specification.dev.html</p><p>http://www.html5rocks.com/en/tutorials/security/content-security-policy/</p><p>http://caniuse.com/#feat=contentsecuritypolicy</p><p>http://content-security-policy.com/</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "7"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10020",
@@ -109,7 +109,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options</p>",
 					"cweid": "1021",
 					"wascid": "15",
-					"sourceid": "7"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "90003",
@@ -192,7 +192,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/Security/Subresource_Integrity</p>",
 					"cweid": "345",
 					"wascid": "15",
-					"sourceid": "7"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10017",
@@ -243,7 +243,7 @@
 					"reference": "",
 					"cweid": "829",
 					"wascid": "15",
-					"sourceid": "7"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10110",
@@ -353,7 +353,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Permissions-Policy</p><p>https://developer.chrome.com/blog/feature-policy/</p><p>https://scotthelme.co.uk/a-new-security-header-feature-policy/</p><p>https://w3c.github.io/webappsec-feature-policy/</p><p>https://www.smashingmagazine.com/2018/12/feature-policy/</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "7"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10035",
@@ -779,7 +779,7 @@
 					"reference": "<p>https://datatracker.ietf.org/doc/html/rfc7234</p><p>https://datatracker.ietf.org/doc/html/rfc7231</p><p>https://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html</p>",
 					"cweid": "524",
 					"wascid": "13",
-					"sourceid": "7"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "90005",
@@ -800,7 +800,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://demo.tech.fr/robots.txt",
+							"uri": "https://demo.tech.fr/manifest.webmanifest",
 							"method": "GET",
 							"param": "Sec-Fetch-Dest",
 							"attack": "",
@@ -808,7 +808,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://demo.tech.fr/sitemap.xml",
+							"uri": "https://demo.tech.fr/runtime.0961d73c48fbadf9.js",
 							"method": "GET",
 							"param": "Sec-Fetch-Dest",
 							"attack": "",
@@ -822,7 +822,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-Dest</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "7"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "90005",
@@ -843,7 +843,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://demo.tech.fr/robots.txt",
+							"uri": "https://demo.tech.fr/manifest.webmanifest",
 							"method": "GET",
 							"param": "Sec-Fetch-Mode",
 							"attack": "",
@@ -851,7 +851,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://demo.tech.fr/sitemap.xml",
+							"uri": "https://demo.tech.fr/runtime.0961d73c48fbadf9.js",
 							"method": "GET",
 							"param": "Sec-Fetch-Mode",
 							"attack": "",
@@ -865,7 +865,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-Mode</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "7"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "90005",
@@ -886,7 +886,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://demo.tech.fr/robots.txt",
+							"uri": "https://demo.tech.fr/manifest.webmanifest",
 							"method": "GET",
 							"param": "Sec-Fetch-Site",
 							"attack": "",
@@ -894,7 +894,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://demo.tech.fr/sitemap.xml",
+							"uri": "https://demo.tech.fr/runtime.0961d73c48fbadf9.js",
 							"method": "GET",
 							"param": "Sec-Fetch-Site",
 							"attack": "",
@@ -908,7 +908,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-Site</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "7"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "90005",
@@ -929,7 +929,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://demo.tech.fr/robots.txt",
+							"uri": "https://demo.tech.fr/manifest.webmanifest",
 							"method": "GET",
 							"param": "Sec-Fetch-User",
 							"attack": "",
@@ -937,7 +937,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://demo.tech.fr/sitemap.xml",
+							"uri": "https://demo.tech.fr/runtime.0961d73c48fbadf9.js",
 							"method": "GET",
 							"param": "Sec-Fetch-User",
 							"attack": "",
@@ -951,7 +951,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-User</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "7"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10049",
@@ -1026,7 +1026,7 @@
 					"reference": "<p>https://datatracker.ietf.org/doc/html/rfc7234</p><p>https://datatracker.ietf.org/doc/html/rfc7231</p><p>https://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html</p>",
 					"cweid": "524",
 					"wascid": "13",
-					"sourceid": "20"
+					"sourceid": "22"
 				}
 			]
 		}
