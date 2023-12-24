@@ -353,7 +353,7 @@
               "ip"           : "demo.tech.fr/54.37.80.118",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "41 >= 30 days"
+              "finding"      : "34 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -556,7 +556,7 @@
               "ip"           : "demo.tech.fr/54.37.80.118",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1702774966"
+              "finding"      : "1703379608"
           }
 ,         {
               "id"           : "HSTS",
@@ -1119,6 +1119,6 @@
               "ip"           : "demo.tech.fr/54.37.80.118",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "136"
+              "finding"      : "73"
           }
 ]

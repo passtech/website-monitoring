@@ -10,7 +10,7 @@
     },
     {
       "type": "google analytics",
-      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-23VKXV49V7&gtm=45je3bt0v892596863&_p=1702774679568&gcd=11l1l1l1l1&dma=0&cid=586035556.1702774680&ul=en-us&sr=800x600&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&_s=1&sid=1702774679&sct=1&seg=0&dl=https%3A%2F%2Fdemo.tech.fr%2F&dt=Application%20Bootstrap%20-%20Material&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=1294",
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-23VKXV49V7&gtm=45je3bt0v892596863&_p=1703379394851&gcd=11l1l1l1l1&dma=0&cid=1989604526.1703379395&ul=en-us&sr=800x600&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&_s=1&sid=1703379394&sct=1&seg=0&dl=https%3A%2F%2Fdemo.tech.fr%2F&dt=Application%20Bootstrap%20-%20Material&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=645",
       "details": {
         "id": "google analytics",
         "message": "Use hosted Matomo instance"
@@ -20,11 +20,11 @@
   "cookies": [
     {
       "name": "_ga",
-      "value": "GA1.1.586035556.1702774680",
+      "value": "GA1.1.1989604526.1703379395",
       "domain": ".tech.fr",
       "path": "/",
-      "expires": 1765846679,
-      "size": 29,
+      "expires": 1766451394,
+      "size": 30,
       "httpOnly": false,
       "secure": false,
       "session": false,
@@ -34,7 +34,7 @@
     },
     {
       "name": "JSESSIONID",
-      "value": "E54DC4AABAA97BC573E67721313977CE",
+      "value": "FA563B86947769B823B9BAB8F9FF2807",
       "domain": "demo.tech.fr",
       "path": "/",
       "expires": -1,
@@ -48,10 +48,10 @@
     },
     {
       "name": "_ga_23VKXV49V7",
-      "value": "GS1.1.1702774679.1.0.1702774679.0.0.0",
+      "value": "GS1.1.1703379394.1.0.1703379394.0.0.0",
       "domain": ".tech.fr",
       "path": "/",
-      "expires": 1765846679,
+      "expires": 1766451394,
       "size": 51,
       "httpOnly": false,
       "secure": false,
@@ -65,9 +65,9 @@
     "cache-control": "no-cache\nno-store, no-cache, must-revalidate, proxy-revalidate, max-age=0",
     "content-encoding": "gzip",
     "content-type": "text/html",
-    "date": "Sun, 17 Dec 2023 00:57:59 GMT",
+    "date": "Sun, 24 Dec 2023 00:56:34 GMT",
     "etag": "W/\"6553b9df-7abf\"",
-    "expires": "Sun, 17 Dec 2023 00:57:58 GMT",
+    "expires": "Sun, 24 Dec 2023 00:56:33 GMT",
     "last-modified": "Tue, 14 Nov 2023 18:18:07 GMT",
     "server": "nginx"
   },
@@ -130,7 +130,7 @@
     },
     {
       "hostname": "www.googletagmanager.com",
-      "ip": "142.251.46.232",
+      "ip": "172.253.122.97",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -184,7 +184,7 @@
     },
     {
       "hostname": "www.google-analytics.com",
-      "ip": "142.251.214.142",
+      "ip": "142.251.163.138",
       "geoip": {
         "continent": {
           "code": "NA",
