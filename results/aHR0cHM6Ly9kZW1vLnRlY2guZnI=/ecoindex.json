@@ -3,7 +3,7 @@
         "width": 1920,
         "height": 1080,
         "url": "https://demo.tech.fr",
-        "size": 1220.468,
+        "size": 1220.075,
         "nodes": 99,
         "requests": 16,
         "grade": "A",
@@ -11,7 +11,7 @@
         "ges": 1.32,
         "water": 1.98,
         "ecoindex_version": "5.4.2",
-        "date": "2024-01-07 00:59:50.613595",
+        "date": "2024-01-14 01:00:17.760712",
         "page_type": null
     }
 ]
