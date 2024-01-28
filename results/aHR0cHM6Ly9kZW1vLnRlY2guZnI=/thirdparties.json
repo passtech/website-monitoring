@@ -10,7 +10,7 @@
     },
     {
       "type": "google analytics",
-      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-23VKXV49V7&gtm=45je41h0v892596863&_p=1705798760746&gcd=11l1l1l1l1&dma=0&cid=391732780.1705798761&ul=en-us&sr=800x600&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&_s=1&sid=1705798760&sct=1&seg=0&dl=https%3A%2F%2Fdemo.tech.fr%2F&dt=Application%20Bootstrap%20-%20Material&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=913",
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-23VKXV49V7&gtm=45je41o0v892596863&_p=1706403250426&gcd=11l1l1l1l1&dma=0&cid=1165117335.1706403251&ul=en-us&sr=800x600&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&_s=1&sid=1706403250&sct=1&seg=0&dl=https%3A%2F%2Fdemo.tech.fr%2F&dt=Application%20Bootstrap%20-%20Material&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=657",
       "details": {
         "id": "google analytics",
         "message": "Use hosted Matomo instance"
@@ -20,11 +20,11 @@
   "cookies": [
     {
       "name": "_ga",
-      "value": "GA1.1.391732780.1705798761",
+      "value": "GA1.1.1165117335.1706403251",
       "domain": ".tech.fr",
       "path": "/",
-      "expires": 1768870760,
-      "size": 29,
+      "expires": 1769475250,
+      "size": 30,
       "httpOnly": false,
       "secure": false,
       "session": false,
@@ -34,7 +34,7 @@
     },
     {
       "name": "JSESSIONID",
-      "value": "8A57DA079680B8DF6B72AEE33FE9DEE0",
+      "value": "E49749369F8A8D2C8471DDBFDE92C131",
       "domain": "demo.tech.fr",
       "path": "/",
       "expires": -1,
@@ -48,10 +48,10 @@
     },
     {
       "name": "_ga_23VKXV49V7",
-      "value": "GS1.1.1705798760.1.0.1705798760.0.0.0",
+      "value": "GS1.1.1706403250.1.0.1706403250.0.0.0",
       "domain": ".tech.fr",
       "path": "/",
-      "expires": 1768870760,
+      "expires": 1769475250,
       "size": 51,
       "httpOnly": false,
       "secure": false,
@@ -65,9 +65,9 @@
     "cache-control": "no-cache\nno-store, no-cache, must-revalidate, proxy-revalidate, max-age=0",
     "content-encoding": "gzip",
     "content-type": "text/html",
-    "date": "Sun, 21 Jan 2024 00:59:20 GMT",
+    "date": "Sun, 28 Jan 2024 00:54:10 GMT",
     "etag": "W/\"6553b9df-7abf\"",
-    "expires": "Sun, 21 Jan 2024 00:59:19 GMT",
+    "expires": "Sun, 28 Jan 2024 00:54:09 GMT",
     "last-modified": "Tue, 14 Nov 2023 18:18:07 GMT",
     "server": "nginx"
   },
@@ -106,7 +106,7 @@
           }
         },
         "location": {
-          "accuracy_radius": 500,
+          "accuracy_radius": 1000,
           "latitude": 48.8582,
           "longitude": 2.3387,
           "time_zone": "Europe/Paris"
@@ -130,8 +130,14 @@
     },
     {
       "hostname": "www.googletagmanager.com",
-      "ip": "142.251.32.8",
+      "ip": "142.251.163.97",
       "geoip": {
+        "city": {
+          "geoname_id": 5116931,
+          "names": {
+            "en": "Farmingdale"
+          }
+        },
         "continent": {
           "code": "NA",
           "geoname_id": 6255149,
@@ -161,10 +167,14 @@
           }
         },
         "location": {
-          "accuracy_radius": 1000,
-          "latitude": 37.751,
-          "longitude": -97.822,
-          "time_zone": "America/Chicago"
+          "accuracy_radius": 500,
+          "latitude": 40.7306,
+          "longitude": -73.4313,
+          "metro_code": 501,
+          "time_zone": "America/New_York"
+        },
+        "postal": {
+          "code": "11735"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -179,12 +189,28 @@
             "ru": "США",
             "zh-CN": "美国"
           }
-        }
+        },
+        "subdivisions": [
+          {
+            "geoname_id": 5128638,
+            "iso_code": "NY",
+            "names": {
+              "de": "New York",
+              "en": "New York",
+              "es": "Nueva York",
+              "fr": "New York",
+              "ja": "ニューヨーク州",
+              "pt-BR": "Nova Iorque",
+              "ru": "Нью-Йорк",
+              "zh-CN": "纽约州"
+            }
+          }
+        ]
       }
     },
     {
       "hostname": "www.google-analytics.com",
-      "ip": "142.251.32.14",
+      "ip": "216.239.34.178",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -216,9 +242,9 @@
         },
         "location": {
           "accuracy_radius": 1000,
-          "latitude": 37.751,
-          "longitude": -97.822,
-          "time_zone": "America/Chicago"
+          "latitude": 34.0544,
+          "longitude": -118.244,
+          "time_zone": "America/Los_Angeles"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -233,7 +259,23 @@
             "ru": "США",
             "zh-CN": "美国"
           }
-        }
+        },
+        "subdivisions": [
+          {
+            "geoname_id": 5332921,
+            "iso_code": "CA",
+            "names": {
+              "de": "Kalifornien",
+              "en": "California",
+              "es": "California",
+              "fr": "Californie",
+              "ja": "カリフォルニア州",
+              "pt-BR": "Califórnia",
+              "ru": "Калифорния",
+              "zh-CN": "加州"
+            }
+          }
+        ]
       }
     }
   ]
