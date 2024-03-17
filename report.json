@@ -13,7 +13,7 @@
     "http": {
       "url": "https://demo.tech.fr",
       "algorithm_version": 3,
-      "end_time": "Sun, 10 Mar 2024 00:58:40 GMT",
+      "end_time": "Sun, 17 Mar 2024 00:58:03 GMT",
       "grade": "D-",
       "hidden": false,
       "likelihood_indicator": "MEDIUM",
@@ -21,16 +21,16 @@
         "Cache-Control": "no-cache, no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0",
         "Content-Encoding": "gzip",
         "Content-Type": "text/html",
-        "Date": "Sun, 10 Mar 2024 00:58:39 GMT",
+        "Date": "Sun, 17 Mar 2024 00:58:02 GMT",
         "Etag": "W/\"6553b9df-7abf\"",
-        "Expires": "Sun, 10 Mar 2024 00:58:38 GMT",
+        "Expires": "Sun, 17 Mar 2024 00:58:01 GMT",
         "Last-Modified": "Tue, 14 Nov 2023 18:18:07 GMT",
         "Server": "nginx",
         "Transfer-Encoding": "chunked"
       },
-      "scan_id": 48671708,
+      "scan_id": 48950899,
       "score": 25,
-      "start_time": "Sun, 10 Mar 2024 00:58:38 GMT",
+      "start_time": "Sun, 17 Mar 2024 00:58:01 GMT",
       "state": "FINISHED",
       "status_code": 200,
       "tests_failed": 5,
@@ -545,7 +545,7 @@
         "ip": "demo.tech.fr/54.37.80.118",
         "port": "443",
         "severity": "OK",
-        "finding": "77 >= 30 days"
+        "finding": "70 >= 30 days"
       },
       {
         "id": "cert_notBefore",
@@ -706,7 +706,7 @@
         "ip": "demo.tech.fr/54.37.80.118",
         "port": "443",
         "severity": "INFO",
-        "finding": "1710032346"
+        "finding": "1710637109"
       },
       {
         "id": "HSTS",
@@ -1269,7 +1269,7 @@
         "ip": "demo.tech.fr/54.37.80.118",
         "port": "443",
         "severity": "INFO",
-        "finding": "70"
+        "finding": "69"
       }
     ],
     "thirdparties": {
@@ -1284,7 +1284,7 @@
         },
         {
           "type": "google analytics",
-          "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-23VKXV49V7&gtm=45je4360v892596863za200&_p=1710032077411&gcd=13l3l3l3l1&npa=0&dma=0&cid=1952255469.1710032078&ul=en-us&sr=800x600&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&pscdl=noapi&_s=1&sid=1710032077&sct=1&seg=0&dl=https%3A%2F%2Fdemo.tech.fr%2F&dt=Application%20Bootstrap%20-%20Material&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=1395",
+          "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-23VKXV49V7&gtm=45je43d0v892596863za200&_p=1710636864445&gcd=13l3l3l3l1&npa=0&dma=0&cid=1335410430.1710636865&ul=en-us&sr=800x600&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&pscdl=noapi&_s=1&sid=1710636864&sct=1&seg=0&dl=https%3A%2F%2Fdemo.tech.fr%2F&dt=Application%20Bootstrap%20-%20Material&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=1046",
           "details": {
             "id": "google analytics",
             "message": "Use hosted Matomo instance"
@@ -1294,10 +1294,10 @@
       "cookies": [
         {
           "name": "_ga",
-          "value": "GA1.1.1952255469.1710032078",
+          "value": "GA1.1.1335410430.1710636865",
           "domain": ".tech.fr",
           "path": "/",
-          "expires": 1773104077,
+          "expires": 1773708864,
           "size": 30,
           "httpOnly": false,
           "secure": false,
@@ -1308,10 +1308,10 @@
         },
         {
           "name": "_ga_23VKXV49V7",
-          "value": "GS1.1.1710032077.1.0.1710032077.0.0.0",
+          "value": "GS1.1.1710636864.1.0.1710636864.0.0.0",
           "domain": ".tech.fr",
           "path": "/",
-          "expires": 1773104077,
+          "expires": 1773708864,
           "size": 51,
           "httpOnly": false,
           "secure": false,
@@ -1325,9 +1325,9 @@
         "cache-control": "no-cache\nno-store, no-cache, must-revalidate, proxy-revalidate, max-age=0",
         "content-encoding": "gzip",
         "content-type": "text/html",
-        "date": "Sun, 10 Mar 2024 00:54:37 GMT",
+        "date": "Sun, 17 Mar 2024 00:54:24 GMT",
         "etag": "W/\"6553b9df-7abf\"",
-        "expires": "Sun, 10 Mar 2024 00:54:36 GMT",
+        "expires": "Sun, 17 Mar 2024 00:54:23 GMT",
         "last-modified": "Tue, 14 Nov 2023 18:18:07 GMT",
         "server": "nginx"
       },
@@ -1444,14 +1444,8 @@
         },
         {
           "hostname": "www.google-analytics.com",
-          "ip": "142.251.163.102",
+          "ip": "172.253.62.139",
           "geoip": {
-            "city": {
-              "geoname_id": 5116931,
-              "names": {
-                "en": "Farmingdale"
-              }
-            },
             "continent": {
               "code": "NA",
               "geoname_id": 6255149,
@@ -1481,14 +1475,10 @@
               }
             },
             "location": {
-              "accuracy_radius": 500,
-              "latitude": 40.7306,
-              "longitude": -73.4313,
-              "metro_code": 501,
-              "time_zone": "America/New_York"
-            },
-            "postal": {
-              "code": "11735"
+              "accuracy_radius": 1000,
+              "latitude": 37.751,
+              "longitude": -97.822,
+              "time_zone": "America/Chicago"
             },
             "registered_country": {
               "geoname_id": 6252001,
@@ -1503,23 +1493,7 @@
                 "ru": "США",
                 "zh-CN": "美国"
               }
-            },
-            "subdivisions": [
-              {
-                "geoname_id": 5128638,
-                "iso_code": "NY",
-                "names": {
-                  "de": "New York",
-                  "en": "New York",
-                  "es": "Nueva York",
-                  "fr": "New York",
-                  "ja": "ニューヨーク州",
-                  "pt-BR": "Nova Iorque",
-                  "ru": "Нью-Йорк",
-                  "zh-CN": "纽约州"
-                }
-              }
-            ]
+            }
           }
         }
       ]
@@ -1532,24 +1506,6 @@
       },
       "technologies": [
         {
-          "slug": "typo3-cms",
-          "name": "TYPO3 CMS",
-          "description": "TYPO3 is a free and open-source Web content management system written in PHP.",
-          "confidence": 100,
-          "version": null,
-          "icon": "TYPO3.svg",
-          "website": "https://typo3.org/",
-          "cpe": "cpe:2.3:a:typo3:typo3:*:*:*:*:*:*:*:*",
-          "categories": [
-            {
-              "id": 1,
-              "slug": "cms",
-              "name": "CMS"
-            }
-          ],
-          "rootPath": true
-        },
-        {
           "slug": "typescript",
           "name": "TypeScript",
           "description": "TypeScript is an open-source language which builds on JavaScript  by adding static type definitions.",
@@ -1558,23 +1514,6 @@
           "icon": "TypeScript.svg",
           "website": "https://www.typescriptlang.org",
           "cpe": null,
-          "categories": [
-            {
-              "id": 27,
-              "slug": "programming-languages",
-              "name": "Programming languages"
-            }
-          ]
-        },
-        {
-          "slug": "php",
-          "name": "PHP",
-          "description": "PHP is a general-purpose scripting language used for web development.",
-          "confidence": 100,
-          "version": null,
-          "icon": "PHP.svg",
-          "website": "https://php.net",
-          "cpe": "cpe:2.3:a:php:php:*:*:*:*:*:*:*:*",
           "categories": [
             {
               "id": 27,
@@ -1843,7 +1782,7 @@
     "zap": {
       "@programName": "ZAP",
       "@version": "2.14.0",
-      "@generated": "Sun, 10 Mar 2024 00:58:12",
+      "@generated": "Sun, 17 Mar 2024 00:57:36",
       "site": [
         {
           "@name": "https://demo.tech.fr",
@@ -2007,7 +1946,7 @@
         "type": "dns",
         "host": "demo.tech.fr.",
         "matched-at": "demo.tech.fr",
-        "timestamp": "2024-03-10T01:00:07.996621605Z",
+        "timestamp": "2024-03-17T00:59:29.943062061Z",
         "matcher-status": true
       },
       {
@@ -2033,7 +1972,7 @@
         "host": "https://demo.tech.fr",
         "matched-at": "https://demo.tech.fr",
         "ip": "54.37.80.118",
-        "timestamp": "2024-03-10T01:00:46.287909193Z",
+        "timestamp": "2024-03-17T01:00:07.812253227Z",
         "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://demo.tech.fr'",
         "matcher-status": true
       },
@@ -2070,340 +2009,7 @@
         "host": "https://demo.tech.fr",
         "matched-at": "https://demo.tech.fr",
         "ip": "54.37.80.118",
-        "timestamp": "2024-03-10T01:00:54.333432084Z",
-        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://demo.tech.fr'",
-        "matcher-status": true
-      },
-      {
-        "template": "http/misconfiguration/http-missing-security-headers.yaml",
-        "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
-        "template-id": "http-missing-security-headers",
-        "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
-        "info": {
-          "name": "HTTP Missing Security Headers",
-          "author": [
-            "socketz",
-            "geeknik",
-            "g4l1t0",
-            "convisoappsec",
-            "kurohost",
-            "dawid-czarnecki",
-            "forgedhallpass",
-            "jub0bs"
-          ],
-          "tags": [
-            "misconfig",
-            "headers",
-            "generic"
-          ],
-          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
-          "severity": "info",
-          "metadata": {
-            "max-request": 1
-          }
-        },
-        "matcher-name": "x-frame-options",
-        "type": "http",
-        "host": "https://demo.tech.fr",
-        "matched-at": "https://demo.tech.fr",
-        "ip": "54.37.80.118",
-        "timestamp": "2024-03-10T01:00:54.333470896Z",
-        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://demo.tech.fr'",
-        "matcher-status": true
-      },
-      {
-        "template": "http/misconfiguration/http-missing-security-headers.yaml",
-        "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
-        "template-id": "http-missing-security-headers",
-        "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
-        "info": {
-          "name": "HTTP Missing Security Headers",
-          "author": [
-            "socketz",
-            "geeknik",
-            "g4l1t0",
-            "convisoappsec",
-            "kurohost",
-            "dawid-czarnecki",
-            "forgedhallpass",
-            "jub0bs"
-          ],
-          "tags": [
-            "misconfig",
-            "headers",
-            "generic"
-          ],
-          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
-          "severity": "info",
-          "metadata": {
-            "max-request": 1
-          }
-        },
-        "matcher-name": "cross-origin-opener-policy",
-        "type": "http",
-        "host": "https://demo.tech.fr",
-        "matched-at": "https://demo.tech.fr",
-        "ip": "54.37.80.118",
-        "timestamp": "2024-03-10T01:00:54.333481616Z",
-        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://demo.tech.fr'",
-        "matcher-status": true
-      },
-      {
-        "template": "http/misconfiguration/http-missing-security-headers.yaml",
-        "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
-        "template-id": "http-missing-security-headers",
-        "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
-        "info": {
-          "name": "HTTP Missing Security Headers",
-          "author": [
-            "socketz",
-            "geeknik",
-            "g4l1t0",
-            "convisoappsec",
-            "kurohost",
-            "dawid-czarnecki",
-            "forgedhallpass",
-            "jub0bs"
-          ],
-          "tags": [
-            "misconfig",
-            "headers",
-            "generic"
-          ],
-          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
-          "severity": "info",
-          "metadata": {
-            "max-request": 1
-          }
-        },
-        "matcher-name": "cross-origin-embedder-policy",
-        "type": "http",
-        "host": "https://demo.tech.fr",
-        "matched-at": "https://demo.tech.fr",
-        "ip": "54.37.80.118",
-        "timestamp": "2024-03-10T01:00:54.333491284Z",
-        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://demo.tech.fr'",
-        "matcher-status": true
-      },
-      {
-        "template": "http/misconfiguration/http-missing-security-headers.yaml",
-        "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
-        "template-id": "http-missing-security-headers",
-        "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
-        "info": {
-          "name": "HTTP Missing Security Headers",
-          "author": [
-            "socketz",
-            "geeknik",
-            "g4l1t0",
-            "convisoappsec",
-            "kurohost",
-            "dawid-czarnecki",
-            "forgedhallpass",
-            "jub0bs"
-          ],
-          "tags": [
-            "misconfig",
-            "headers",
-            "generic"
-          ],
-          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
-          "severity": "info",
-          "metadata": {
-            "max-request": 1
-          }
-        },
-        "matcher-name": "cross-origin-resource-policy",
-        "type": "http",
-        "host": "https://demo.tech.fr",
-        "matched-at": "https://demo.tech.fr",
-        "ip": "54.37.80.118",
-        "timestamp": "2024-03-10T01:00:54.333500882Z",
-        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://demo.tech.fr'",
-        "matcher-status": true
-      },
-      {
-        "template": "http/misconfiguration/http-missing-security-headers.yaml",
-        "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
-        "template-id": "http-missing-security-headers",
-        "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
-        "info": {
-          "name": "HTTP Missing Security Headers",
-          "author": [
-            "socketz",
-            "geeknik",
-            "g4l1t0",
-            "convisoappsec",
-            "kurohost",
-            "dawid-czarnecki",
-            "forgedhallpass",
-            "jub0bs"
-          ],
-          "tags": [
-            "misconfig",
-            "headers",
-            "generic"
-          ],
-          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
-          "severity": "info",
-          "metadata": {
-            "max-request": 1
-          }
-        },
-        "matcher-name": "content-security-policy",
-        "type": "http",
-        "host": "https://demo.tech.fr",
-        "matched-at": "https://demo.tech.fr",
-        "ip": "54.37.80.118",
-        "timestamp": "2024-03-10T01:00:54.333515629Z",
-        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://demo.tech.fr'",
-        "matcher-status": true
-      },
-      {
-        "template": "http/misconfiguration/http-missing-security-headers.yaml",
-        "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
-        "template-id": "http-missing-security-headers",
-        "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
-        "info": {
-          "name": "HTTP Missing Security Headers",
-          "author": [
-            "socketz",
-            "geeknik",
-            "g4l1t0",
-            "convisoappsec",
-            "kurohost",
-            "dawid-czarnecki",
-            "forgedhallpass",
-            "jub0bs"
-          ],
-          "tags": [
-            "misconfig",
-            "headers",
-            "generic"
-          ],
-          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
-          "severity": "info",
-          "metadata": {
-            "max-request": 1
-          }
-        },
-        "matcher-name": "permissions-policy",
-        "type": "http",
-        "host": "https://demo.tech.fr",
-        "matched-at": "https://demo.tech.fr",
-        "ip": "54.37.80.118",
-        "timestamp": "2024-03-10T01:00:54.333529645Z",
-        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://demo.tech.fr'",
-        "matcher-status": true
-      },
-      {
-        "template": "http/misconfiguration/http-missing-security-headers.yaml",
-        "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
-        "template-id": "http-missing-security-headers",
-        "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
-        "info": {
-          "name": "HTTP Missing Security Headers",
-          "author": [
-            "socketz",
-            "geeknik",
-            "g4l1t0",
-            "convisoappsec",
-            "kurohost",
-            "dawid-czarnecki",
-            "forgedhallpass",
-            "jub0bs"
-          ],
-          "tags": [
-            "misconfig",
-            "headers",
-            "generic"
-          ],
-          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
-          "severity": "info",
-          "metadata": {
-            "max-request": 1
-          }
-        },
-        "matcher-name": "x-content-type-options",
-        "type": "http",
-        "host": "https://demo.tech.fr",
-        "matched-at": "https://demo.tech.fr",
-        "ip": "54.37.80.118",
-        "timestamp": "2024-03-10T01:00:54.333545575Z",
-        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://demo.tech.fr'",
-        "matcher-status": true
-      },
-      {
-        "template": "http/misconfiguration/http-missing-security-headers.yaml",
-        "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
-        "template-id": "http-missing-security-headers",
-        "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
-        "info": {
-          "name": "HTTP Missing Security Headers",
-          "author": [
-            "socketz",
-            "geeknik",
-            "g4l1t0",
-            "convisoappsec",
-            "kurohost",
-            "dawid-czarnecki",
-            "forgedhallpass",
-            "jub0bs"
-          ],
-          "tags": [
-            "misconfig",
-            "headers",
-            "generic"
-          ],
-          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
-          "severity": "info",
-          "metadata": {
-            "max-request": 1
-          }
-        },
-        "matcher-name": "x-permitted-cross-domain-policies",
-        "type": "http",
-        "host": "https://demo.tech.fr",
-        "matched-at": "https://demo.tech.fr",
-        "ip": "54.37.80.118",
-        "timestamp": "2024-03-10T01:00:54.333558729Z",
-        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://demo.tech.fr'",
-        "matcher-status": true
-      },
-      {
-        "template": "http/misconfiguration/http-missing-security-headers.yaml",
-        "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
-        "template-id": "http-missing-security-headers",
-        "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
-        "info": {
-          "name": "HTTP Missing Security Headers",
-          "author": [
-            "socketz",
-            "geeknik",
-            "g4l1t0",
-            "convisoappsec",
-            "kurohost",
-            "dawid-czarnecki",
-            "forgedhallpass",
-            "jub0bs"
-          ],
-          "tags": [
-            "misconfig",
-            "headers",
-            "generic"
-          ],
-          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
-          "severity": "info",
-          "metadata": {
-            "max-request": 1
-          }
-        },
-        "matcher-name": "referrer-policy",
-        "type": "http",
-        "host": "https://demo.tech.fr",
-        "matched-at": "https://demo.tech.fr",
-        "ip": "54.37.80.118",
-        "timestamp": "2024-03-10T01:00:54.333572776Z",
+        "timestamp": "2024-03-17T01:00:15.795804422Z",
         "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://demo.tech.fr'",
         "matcher-status": true
       },
@@ -2440,7 +2046,340 @@
         "host": "https://demo.tech.fr",
         "matched-at": "https://demo.tech.fr",
         "ip": "54.37.80.118",
-        "timestamp": "2024-03-10T01:00:54.333585519Z",
+        "timestamp": "2024-03-17T01:00:15.795849757Z",
+        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://demo.tech.fr'",
+        "matcher-status": true
+      },
+      {
+        "template": "http/misconfiguration/http-missing-security-headers.yaml",
+        "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
+        "template-id": "http-missing-security-headers",
+        "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
+        "info": {
+          "name": "HTTP Missing Security Headers",
+          "author": [
+            "socketz",
+            "geeknik",
+            "g4l1t0",
+            "convisoappsec",
+            "kurohost",
+            "dawid-czarnecki",
+            "forgedhallpass",
+            "jub0bs"
+          ],
+          "tags": [
+            "misconfig",
+            "headers",
+            "generic"
+          ],
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "severity": "info",
+          "metadata": {
+            "max-request": 1
+          }
+        },
+        "matcher-name": "cross-origin-opener-policy",
+        "type": "http",
+        "host": "https://demo.tech.fr",
+        "matched-at": "https://demo.tech.fr",
+        "ip": "54.37.80.118",
+        "timestamp": "2024-03-17T01:00:15.795865938Z",
+        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://demo.tech.fr'",
+        "matcher-status": true
+      },
+      {
+        "template": "http/misconfiguration/http-missing-security-headers.yaml",
+        "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
+        "template-id": "http-missing-security-headers",
+        "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
+        "info": {
+          "name": "HTTP Missing Security Headers",
+          "author": [
+            "socketz",
+            "geeknik",
+            "g4l1t0",
+            "convisoappsec",
+            "kurohost",
+            "dawid-czarnecki",
+            "forgedhallpass",
+            "jub0bs"
+          ],
+          "tags": [
+            "misconfig",
+            "headers",
+            "generic"
+          ],
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "severity": "info",
+          "metadata": {
+            "max-request": 1
+          }
+        },
+        "matcher-name": "cross-origin-resource-policy",
+        "type": "http",
+        "host": "https://demo.tech.fr",
+        "matched-at": "https://demo.tech.fr",
+        "ip": "54.37.80.118",
+        "timestamp": "2024-03-17T01:00:15.795880435Z",
+        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://demo.tech.fr'",
+        "matcher-status": true
+      },
+      {
+        "template": "http/misconfiguration/http-missing-security-headers.yaml",
+        "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
+        "template-id": "http-missing-security-headers",
+        "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
+        "info": {
+          "name": "HTTP Missing Security Headers",
+          "author": [
+            "socketz",
+            "geeknik",
+            "g4l1t0",
+            "convisoappsec",
+            "kurohost",
+            "dawid-czarnecki",
+            "forgedhallpass",
+            "jub0bs"
+          ],
+          "tags": [
+            "misconfig",
+            "headers",
+            "generic"
+          ],
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "severity": "info",
+          "metadata": {
+            "max-request": 1
+          }
+        },
+        "matcher-name": "content-security-policy",
+        "type": "http",
+        "host": "https://demo.tech.fr",
+        "matched-at": "https://demo.tech.fr",
+        "ip": "54.37.80.118",
+        "timestamp": "2024-03-17T01:00:15.795893509Z",
+        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://demo.tech.fr'",
+        "matcher-status": true
+      },
+      {
+        "template": "http/misconfiguration/http-missing-security-headers.yaml",
+        "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
+        "template-id": "http-missing-security-headers",
+        "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
+        "info": {
+          "name": "HTTP Missing Security Headers",
+          "author": [
+            "socketz",
+            "geeknik",
+            "g4l1t0",
+            "convisoappsec",
+            "kurohost",
+            "dawid-czarnecki",
+            "forgedhallpass",
+            "jub0bs"
+          ],
+          "tags": [
+            "misconfig",
+            "headers",
+            "generic"
+          ],
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "severity": "info",
+          "metadata": {
+            "max-request": 1
+          }
+        },
+        "matcher-name": "permissions-policy",
+        "type": "http",
+        "host": "https://demo.tech.fr",
+        "matched-at": "https://demo.tech.fr",
+        "ip": "54.37.80.118",
+        "timestamp": "2024-03-17T01:00:15.795910952Z",
+        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://demo.tech.fr'",
+        "matcher-status": true
+      },
+      {
+        "template": "http/misconfiguration/http-missing-security-headers.yaml",
+        "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
+        "template-id": "http-missing-security-headers",
+        "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
+        "info": {
+          "name": "HTTP Missing Security Headers",
+          "author": [
+            "socketz",
+            "geeknik",
+            "g4l1t0",
+            "convisoappsec",
+            "kurohost",
+            "dawid-czarnecki",
+            "forgedhallpass",
+            "jub0bs"
+          ],
+          "tags": [
+            "misconfig",
+            "headers",
+            "generic"
+          ],
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "severity": "info",
+          "metadata": {
+            "max-request": 1
+          }
+        },
+        "matcher-name": "x-frame-options",
+        "type": "http",
+        "host": "https://demo.tech.fr",
+        "matched-at": "https://demo.tech.fr",
+        "ip": "54.37.80.118",
+        "timestamp": "2024-03-17T01:00:15.795930839Z",
+        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://demo.tech.fr'",
+        "matcher-status": true
+      },
+      {
+        "template": "http/misconfiguration/http-missing-security-headers.yaml",
+        "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
+        "template-id": "http-missing-security-headers",
+        "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
+        "info": {
+          "name": "HTTP Missing Security Headers",
+          "author": [
+            "socketz",
+            "geeknik",
+            "g4l1t0",
+            "convisoappsec",
+            "kurohost",
+            "dawid-czarnecki",
+            "forgedhallpass",
+            "jub0bs"
+          ],
+          "tags": [
+            "misconfig",
+            "headers",
+            "generic"
+          ],
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "severity": "info",
+          "metadata": {
+            "max-request": 1
+          }
+        },
+        "matcher-name": "x-content-type-options",
+        "type": "http",
+        "host": "https://demo.tech.fr",
+        "matched-at": "https://demo.tech.fr",
+        "ip": "54.37.80.118",
+        "timestamp": "2024-03-17T01:00:15.795952179Z",
+        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://demo.tech.fr'",
+        "matcher-status": true
+      },
+      {
+        "template": "http/misconfiguration/http-missing-security-headers.yaml",
+        "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
+        "template-id": "http-missing-security-headers",
+        "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
+        "info": {
+          "name": "HTTP Missing Security Headers",
+          "author": [
+            "socketz",
+            "geeknik",
+            "g4l1t0",
+            "convisoappsec",
+            "kurohost",
+            "dawid-czarnecki",
+            "forgedhallpass",
+            "jub0bs"
+          ],
+          "tags": [
+            "misconfig",
+            "headers",
+            "generic"
+          ],
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "severity": "info",
+          "metadata": {
+            "max-request": 1
+          }
+        },
+        "matcher-name": "x-permitted-cross-domain-policies",
+        "type": "http",
+        "host": "https://demo.tech.fr",
+        "matched-at": "https://demo.tech.fr",
+        "ip": "54.37.80.118",
+        "timestamp": "2024-03-17T01:00:15.795971766Z",
+        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://demo.tech.fr'",
+        "matcher-status": true
+      },
+      {
+        "template": "http/misconfiguration/http-missing-security-headers.yaml",
+        "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
+        "template-id": "http-missing-security-headers",
+        "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
+        "info": {
+          "name": "HTTP Missing Security Headers",
+          "author": [
+            "socketz",
+            "geeknik",
+            "g4l1t0",
+            "convisoappsec",
+            "kurohost",
+            "dawid-czarnecki",
+            "forgedhallpass",
+            "jub0bs"
+          ],
+          "tags": [
+            "misconfig",
+            "headers",
+            "generic"
+          ],
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "severity": "info",
+          "metadata": {
+            "max-request": 1
+          }
+        },
+        "matcher-name": "referrer-policy",
+        "type": "http",
+        "host": "https://demo.tech.fr",
+        "matched-at": "https://demo.tech.fr",
+        "ip": "54.37.80.118",
+        "timestamp": "2024-03-17T01:00:15.795991353Z",
+        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://demo.tech.fr'",
+        "matcher-status": true
+      },
+      {
+        "template": "http/misconfiguration/http-missing-security-headers.yaml",
+        "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
+        "template-id": "http-missing-security-headers",
+        "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
+        "info": {
+          "name": "HTTP Missing Security Headers",
+          "author": [
+            "socketz",
+            "geeknik",
+            "g4l1t0",
+            "convisoappsec",
+            "kurohost",
+            "dawid-czarnecki",
+            "forgedhallpass",
+            "jub0bs"
+          ],
+          "tags": [
+            "misconfig",
+            "headers",
+            "generic"
+          ],
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "severity": "info",
+          "metadata": {
+            "max-request": 1
+          }
+        },
+        "matcher-name": "cross-origin-embedder-policy",
+        "type": "http",
+        "host": "https://demo.tech.fr",
+        "matched-at": "https://demo.tech.fr",
+        "ip": "54.37.80.118",
+        "timestamp": "2024-03-17T01:00:15.796009126Z",
         "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://demo.tech.fr'",
         "matcher-status": true
       },
@@ -2477,7 +2416,7 @@
           "https://www.googletagmanager.com/gtag/js?id=G-23VKXV49V7"
         ],
         "ip": "54.37.80.118",
-        "timestamp": "2024-03-10T01:01:10.553830472Z",
+        "timestamp": "2024-03-17T01:00:32.011062676Z",
         "curl-command": "curl -X 'GET' -d '' -H 'Host: demo.tech.fr' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://demo.tech.fr/'",
         "matcher-status": true
       },
@@ -2517,7 +2456,7 @@
         "host": "https://demo.tech.fr",
         "matched-at": "https://demo.tech.fr/",
         "ip": "54.37.80.118",
-        "timestamp": "2024-03-10T01:01:17.849552102Z",
+        "timestamp": "2024-03-17T01:00:39.268178236Z",
         "curl-command": "curl -X 'POST' -d '_=<script>alert(1)</script>' -H 'Content-Type: application/x-www-form-urlencoded' -H 'Host: demo.tech.fr' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://demo.tech.fr/'",
         "matcher-status": true
       },
@@ -2567,7 +2506,7 @@
           "SSH-2.0-OpenSSH_7.4p1 Debian-10+deb9u4\n"
         ],
         "ip": "54.37.80.118",
-        "timestamp": "2024-03-10T01:01:39.366666123Z",
+        "timestamp": "2024-03-17T01:01:00.545452912Z",
         "matcher-status": true
       },
       {
@@ -2608,7 +2547,7 @@
         "host": "demo.tech.fr:111",
         "matched-at": "demo.tech.fr:111",
         "ip": "54.37.80.118",
-        "timestamp": "2024-03-10T01:01:39.502734024Z",
+        "timestamp": "2024-03-17T01:01:00.693932696Z",
         "matcher-status": true
       },
       {
@@ -2638,7 +2577,7 @@
           "Let's Encrypt"
         ],
         "ip": "54.37.80.118",
-        "timestamp": "2024-03-10T01:01:49.909013294Z",
+        "timestamp": "2024-03-17T01:01:11.111397136Z",
         "matcher-status": true
       },
       {
@@ -2665,11 +2604,11 @@
         "host": "demo.tech.fr",
         "matched-at": "demo.tech.fr:443",
         "extracted-results": [
-          "tech.fr",
-          "*.tech.fr"
+          "*.tech.fr",
+          "tech.fr"
         ],
         "ip": "54.37.80.118",
-        "timestamp": "2024-03-10T01:01:49.909136152Z",
+        "timestamp": "2024-03-17T01:01:11.111516289Z",
         "matcher-status": true
       },
       {
@@ -2689,7 +2628,7 @@
           ],
           "description": "Checks a sites certificate to see if there are wildcard CN or SAN entries.\n",
           "reference": [
-            "https://cheatsheetseries.owasp.org/cheatsheets/transport_layer_protection_cheat_sheet.html#carefully-consider-the-use-of-wildcard-certificates"
+            "https://cheatsheetseries.owasp.org/cheatsheets/transport_layer_security_cheat_sheet.html#carefully-consider-the-use-of-wildcard-certificates"
           ],
           "severity": "info",
           "metadata": {
@@ -2700,11 +2639,11 @@
         "host": "demo.tech.fr",
         "matched-at": "demo.tech.fr:443",
         "extracted-results": [
-          " SAN: [*.tech.fr tech.fr]",
-          "CN: tech.fr"
+          "CN: tech.fr",
+          " SAN: [*.tech.fr tech.fr]"
         ],
         "ip": "54.37.80.118",
-        "timestamp": "2024-03-10T01:01:49.90917764Z",
+        "timestamp": "2024-03-17T01:01:11.111561264Z",
         "matcher-status": true
       },
       {
@@ -2735,7 +2674,7 @@
           "tls12"
         ],
         "ip": "54.37.80.118",
-        "timestamp": "2024-03-10T01:01:51.661774054Z",
+        "timestamp": "2024-03-17T01:01:12.70798245Z",
         "matcher-status": true
       },
       {
@@ -2766,7 +2705,7 @@
           "tls13"
         ],
         "ip": "54.37.80.118",
-        "timestamp": "2024-03-10T01:01:51.868622915Z",
+        "timestamp": "2024-03-17T01:01:12.921708323Z",
         "matcher-status": true
       }
     ],
@@ -2774,7 +2713,7 @@
       {
         "requestedUrl": "https://demo.tech.fr/",
         "finalUrl": "https://demo.tech.fr/",
-        "fetchTime": "2024-03-10T00:58:26.611Z",
+        "fetchTime": "2024-03-17T00:57:50.448Z",
         "runWarnings": [],
         "categories": {
           "performance": {
@@ -2785,7 +2724,7 @@
               "snapshot"
             ],
             "id": "performance",
-            "score": 0.991880989074707
+            "score": 0.9918439865112305
           },
           "accessibility": {
             "title": "Accessibility",
@@ -2837,53 +2776,53 @@
             "description": "Collects all available metrics.",
             "score": null,
             "scoreDisplayMode": "informative",
-            "numericValue": 7639,
+            "numericValue": 7332,
             "numericUnit": "millisecond",
             "details": {
               "type": "debugdata",
               "items": [
                 {
-                  "firstContentfulPaint": 5584,
-                  "firstMeaningfulPaint": 5584,
-                  "largestContentfulPaint": 6961,
-                  "interactive": 7639,
-                  "speedIndex": 5584,
-                  "totalBlockingTime": 858,
-                  "maxPotentialFID": 1023,
+                  "firstContentfulPaint": 5447,
+                  "firstMeaningfulPaint": 6289,
+                  "largestContentfulPaint": 7342,
+                  "interactive": 7332,
+                  "speedIndex": 5450,
+                  "totalBlockingTime": 666,
+                  "maxPotentialFID": 950,
                   "cumulativeLayoutShift": 0,
                   "cumulativeLayoutShiftMainFrame": 0,
                   "totalCumulativeLayoutShift": 0,
                   "observedTimeOrigin": 0,
-                  "observedTimeOriginTs": 539342830,
+                  "observedTimeOriginTs": 514487941,
                   "observedNavigationStart": 0,
-                  "observedNavigationStartTs": 539342830,
-                  "observedFirstPaint": 477,
-                  "observedFirstPaintTs": 539819994,
-                  "observedFirstContentfulPaint": 1560,
-                  "observedFirstContentfulPaintTs": 540903083,
-                  "observedFirstContentfulPaintAllFrames": 1560,
-                  "observedFirstContentfulPaintAllFramesTs": 540903083,
-                  "observedFirstMeaningfulPaint": 1560,
-                  "observedFirstMeaningfulPaintTs": 540903083,
-                  "observedLargestContentfulPaint": 1560,
-                  "observedLargestContentfulPaintTs": 540903083,
-                  "observedLargestContentfulPaintAllFrames": 1560,
-                  "observedLargestContentfulPaintAllFramesTs": 540903083,
-                  "observedTraceEnd": 4001,
-                  "observedTraceEndTs": 543343955,
-                  "observedLoad": 1693,
-                  "observedLoadTs": 541035494,
-                  "observedDomContentLoaded": 1544,
-                  "observedDomContentLoadedTs": 540886910,
+                  "observedNavigationStartTs": 514487941,
+                  "observedFirstPaint": 415,
+                  "observedFirstPaintTs": 514902855,
+                  "observedFirstContentfulPaint": 1208,
+                  "observedFirstContentfulPaintTs": 515696061,
+                  "observedFirstContentfulPaintAllFrames": 1208,
+                  "observedFirstContentfulPaintAllFramesTs": 515696061,
+                  "observedFirstMeaningfulPaint": 1208,
+                  "observedFirstMeaningfulPaintTs": 515696061,
+                  "observedLargestContentfulPaint": 1208,
+                  "observedLargestContentfulPaintTs": 515696061,
+                  "observedLargestContentfulPaintAllFrames": 1208,
+                  "observedLargestContentfulPaintAllFramesTs": 515696061,
+                  "observedTraceEnd": 3617,
+                  "observedTraceEndTs": 518104916,
+                  "observedLoad": 1308,
+                  "observedLoadTs": 515796073,
+                  "observedDomContentLoaded": 1189,
+                  "observedDomContentLoadedTs": 515677283,
                   "observedCumulativeLayoutShift": 0,
                   "observedCumulativeLayoutShiftMainFrame": 0,
                   "observedTotalCumulativeLayoutShift": 0,
-                  "observedFirstVisualChange": 885,
-                  "observedFirstVisualChangeTs": 540227830,
-                  "observedLastVisualChange": 1568,
-                  "observedLastVisualChangeTs": 540910830,
-                  "observedSpeedIndex": 1562,
-                  "observedSpeedIndexTs": 540904863
+                  "observedFirstVisualChange": 674,
+                  "observedFirstVisualChangeTs": 515161941,
+                  "observedLastVisualChange": 1208,
+                  "observedLastVisualChangeTs": 515695941,
+                  "observedSpeedIndex": 1203,
+                  "observedSpeedIndexTs": 515690705
                 },
                 {
                   "lcpInvalidated": false
@@ -2905,18 +2844,18 @@
                   "numScripts": 6,
                   "numStylesheets": 2,
                   "numFonts": 1,
-                  "numTasks": 362,
-                  "numTasksOver10ms": 6,
+                  "numTasks": 277,
+                  "numTasksOver10ms": 7,
                   "numTasksOver25ms": 4,
                   "numTasksOver50ms": 3,
-                  "numTasksOver100ms": 2,
+                  "numTasksOver100ms": 1,
                   "numTasksOver500ms": 0,
-                  "rtt": 6.288,
-                  "throughput": 9649078.201565567,
-                  "maxRtt": 85.757,
-                  "maxServerLatency": 17.659000000000002,
-                  "totalByteWeight": 1091143,
-                  "totalTaskTime": 611.1259999999999,
+                  "rtt": 2.492,
+                  "throughput": 16303678.03459207,
+                  "maxRtt": 86.347,
+                  "maxServerLatency": 17.282,
+                  "totalByteWeight": 1091337,
+                  "totalTaskTime": 538.209999999999,
                   "mainDocumentTransferSize": 6864
                 }
               ]
@@ -2939,7 +2878,7 @@
         "width": 1920,
         "height": 1080,
         "url": "https://demo.tech.fr",
-        "size": 1222.775,
+        "size": 1223,
         "nodes": 99,
         "requests": 16,
         "grade": "A",
@@ -2947,7 +2886,7 @@
         "ges": 1.34,
         "water": 2.01,
         "ecoindex_version": "5.4.2",
-        "date": "2024-03-10 00:55:47.243460",
+        "date": "2024-03-17 00:55:35.053347",
         "page_type": null
       }
     ],
@@ -2965,7 +2904,7 @@
       "trackersCount": 2,
       "zapCount": 8,
       "zapGrade": "D",
-      "lighthouse_performance": 0.991880989074707,
+      "lighthouse_performance": 0.9918439865112305,
       "lighthouse_performanceGrade": "A",
       "lighthouse_accessibility": 0.7,
       "lighthouse_accessibilityGrade": "B",
@@ -2992,7 +2931,7 @@
     "http": {
       "url": "https://www.bimcloud.fr",
       "algorithm_version": 3,
-      "end_time": "Sun, 10 Mar 2024 00:57:52 GMT",
+      "end_time": "Sun, 17 Mar 2024 00:58:24 GMT",
       "grade": "D",
       "hidden": false,
       "likelihood_indicator": "MEDIUM",
@@ -3000,16 +2939,16 @@
         "Cache-Control": "no-cache, no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0",
         "Content-Encoding": "gzip",
         "Content-Type": "text/html",
-        "Date": "Sun, 10 Mar 2024 00:57:51 GMT",
+        "Date": "Sun, 17 Mar 2024 00:58:23 GMT",
         "Etag": "W/\"6553ba6f-69fe\"",
-        "Expires": "Sun, 10 Mar 2024 00:57:50 GMT",
+        "Expires": "Sun, 17 Mar 2024 00:58:22 GMT",
         "Last-Modified": "Tue, 14 Nov 2023 18:20:31 GMT",
         "Server": "nginx",
         "Transfer-Encoding": "chunked"
       },
-      "scan_id": 48671704,
+      "scan_id": 48950902,
       "score": 30,
-      "start_time": "Sun, 10 Mar 2024 00:57:49 GMT",
+      "start_time": "Sun, 17 Mar 2024 00:58:21 GMT",
       "state": "FINISHED",
       "status_code": 200,
       "tests_failed": 4,
@@ -3519,7 +3458,7 @@
         "ip": "www.bimcloud.fr/54.37.80.118",
         "port": "443",
         "severity": "OK",
-        "finding": "66 >= 30 days"
+        "finding": "59 >= 30 days"
       },
       {
         "id": "cert_notBefore",
@@ -3680,7 +3619,7 @@
         "ip": "www.bimcloud.fr/54.37.80.118",
         "port": "443",
         "severity": "INFO",
-        "finding": "1710032298"
+        "finding": "1710637162"
       },
       {
         "id": "HSTS",
@@ -4243,7 +4182,7 @@
         "ip": "www.bimcloud.fr/54.37.80.118",
         "port": "443",
         "severity": "INFO",
-        "finding": "70"
+        "finding": "130"
       }
     ],
     "thirdparties": {
@@ -4253,9 +4192,9 @@
         "cache-control": "no-cache\nno-store, no-cache, must-revalidate, proxy-revalidate, max-age=0",
         "content-encoding": "gzip",
         "content-type": "text/html",
-        "date": "Sun, 10 Mar 2024 00:54:22 GMT",
+        "date": "Sun, 17 Mar 2024 00:54:24 GMT",
         "etag": "W/\"6553ba6f-69fe\"",
-        "expires": "Sun, 10 Mar 2024 00:54:21 GMT",
+        "expires": "Sun, 17 Mar 2024 00:54:23 GMT",
         "last-modified": "Tue, 14 Nov 2023 18:20:31 GMT",
         "server": "nginx"
       },
@@ -4624,7 +4563,7 @@
     "zap": {
       "@programName": "ZAP",
       "@version": "2.14.0",
-      "@generated": "Sun, 10 Mar 2024 00:57:20",
+      "@generated": "Sun, 17 Mar 2024 00:57:54",
       "site": [
         {
           "@name": "https://www.bimcloud.fr",
@@ -5581,7 +5520,7 @@
       {
         "requestedUrl": "https://www.bimcloud.fr/",
         "finalUrl": "https://www.bimcloud.fr/",
-        "fetchTime": "2024-03-10T00:57:34.808Z",
+        "fetchTime": "2024-03-17T00:58:09.312Z",
         "runWarnings": [],
         "categories": {
           "performance": {
@@ -5592,7 +5531,7 @@
               "snapshot"
             ],
             "id": "performance",
-            "score": 0.8397432327270508
+            "score": 0.8397327423095703
           },
           "accessibility": {
             "title": "Accessibility",
@@ -5644,53 +5583,53 @@
             "description": "Collects all available metrics.",
             "score": null,
             "scoreDisplayMode": "informative",
-            "numericValue": 10406,
+            "numericValue": 10314,
             "numericUnit": "millisecond",
             "details": {
               "type": "debugdata",
               "items": [
                 {
-                  "firstContentfulPaint": 9377,
-                  "firstMeaningfulPaint": 9867,
-                  "largestContentfulPaint": 10494,
-                  "interactive": 10406,
-                  "speedIndex": 12916,
-                  "totalBlockingTime": 829,
-                  "maxPotentialFID": 954,
+                  "firstContentfulPaint": 9301,
+                  "firstMeaningfulPaint": 9784,
+                  "largestContentfulPaint": 9934,
+                  "interactive": 10314,
+                  "speedIndex": 9898,
+                  "totalBlockingTime": 813,
+                  "maxPotentialFID": 938,
                   "cumulativeLayoutShift": 0,
                   "cumulativeLayoutShiftMainFrame": 0,
                   "totalCumulativeLayoutShift": 0,
                   "observedTimeOrigin": 0,
-                  "observedTimeOriginTs": 485348888,
+                  "observedTimeOriginTs": 367940022,
                   "observedNavigationStart": 0,
-                  "observedNavigationStartTs": 485348888,
-                  "observedFirstPaint": 4538,
-                  "observedFirstPaintTs": 489887347,
-                  "observedFirstContentfulPaint": 4538,
-                  "observedFirstContentfulPaintTs": 489887347,
-                  "observedFirstContentfulPaintAllFrames": 4538,
-                  "observedFirstContentfulPaintAllFramesTs": 489887347,
-                  "observedFirstMeaningfulPaint": 4538,
-                  "observedFirstMeaningfulPaintTs": 489887347,
-                  "observedLargestContentfulPaint": 4538,
-                  "observedLargestContentfulPaintTs": 489887347,
-                  "observedLargestContentfulPaintAllFrames": 4538,
-                  "observedLargestContentfulPaintAllFramesTs": 489887347,
-                  "observedTraceEnd": 7021,
-                  "observedTraceEndTs": 492369911,
-                  "observedLoad": 4697,
-                  "observedLoadTs": 490046304,
-                  "observedDomContentLoaded": 4523,
-                  "observedDomContentLoadedTs": 489871886,
+                  "observedNavigationStartTs": 367940022,
+                  "observedFirstPaint": 2528,
+                  "observedFirstPaintTs": 370467752,
+                  "observedFirstContentfulPaint": 2528,
+                  "observedFirstContentfulPaintTs": 370467752,
+                  "observedFirstContentfulPaintAllFrames": 2528,
+                  "observedFirstContentfulPaintAllFramesTs": 370467752,
+                  "observedFirstMeaningfulPaint": 2528,
+                  "observedFirstMeaningfulPaintTs": 370467752,
+                  "observedLargestContentfulPaint": 2528,
+                  "observedLargestContentfulPaintTs": 370467752,
+                  "observedLargestContentfulPaintAllFrames": 2528,
+                  "observedLargestContentfulPaintAllFramesTs": 370467752,
+                  "observedTraceEnd": 5024,
+                  "observedTraceEndTs": 372963745,
+                  "observedLoad": 2670,
+                  "observedLoadTs": 370609776,
+                  "observedDomContentLoaded": 2511,
+                  "observedDomContentLoadedTs": 370450977,
                   "observedCumulativeLayoutShift": 0,
                   "observedCumulativeLayoutShiftMainFrame": 0,
                   "observedTotalCumulativeLayoutShift": 0,
-                  "observedFirstVisualChange": 4548,
-                  "observedFirstVisualChangeTs": 489896888,
-                  "observedLastVisualChange": 4714,
-                  "observedLastVisualChangeTs": 490062888,
-                  "observedSpeedIndex": 4550,
-                  "observedSpeedIndexTs": 489898737
+                  "observedFirstVisualChange": 2528,
+                  "observedFirstVisualChangeTs": 370468022,
+                  "observedLastVisualChange": 2678,
+                  "observedLastVisualChangeTs": 370618022,
+                  "observedSpeedIndex": 2530,
+                  "observedSpeedIndexTs": 370470014
                 },
                 {
                   "lcpInvalidated": false
@@ -5712,18 +5651,18 @@
                   "numScripts": 3,
                   "numStylesheets": 2,
                   "numFonts": 2,
-                  "numTasks": 739,
-                  "numTasksOver10ms": 5,
+                  "numTasks": 575,
+                  "numTasksOver10ms": 4,
                   "numTasksOver25ms": 2,
                   "numTasksOver50ms": 2,
                   "numTasksOver100ms": 1,
                   "numTasksOver500ms": 0,
-                  "rtt": 84.977,
-                  "throughput": 4132631.3543908494,
-                  "maxRtt": 84.977,
-                  "maxServerLatency": 77.483,
-                  "totalByteWeight": 1888783,
-                  "totalTaskTime": 743.0930000000014,
+                  "rtt": 145.98,
+                  "throughput": 11433540.252358837,
+                  "maxRtt": 145.98,
+                  "maxServerLatency": 1.1599999999999966,
+                  "totalByteWeight": 1888838,
+                  "totalTaskTime": 723.2810000000006,
                   "mainDocumentTransferSize": 4812
                 }
               ]
@@ -5746,7 +5685,7 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.bimcloud.fr",
-        "size": 2118.497,
+        "size": 2118.533,
         "nodes": 136,
         "requests": 14,
         "grade": "B",
@@ -5754,7 +5693,7 @@
         "ges": 1.42,
         "water": 2.13,
         "ecoindex_version": "5.4.2",
-        "date": "2024-03-10 00:55:34.335893",
+        "date": "2024-03-17 00:55:45.430490",
         "page_type": "website"
       }
     ],
@@ -5772,7 +5711,7 @@
       "trackersCount": 0,
       "zapCount": 8,
       "zapGrade": "D",
-      "lighthouse_performance": 0.8397432327270508,
+      "lighthouse_performance": 0.8397327423095703,
       "lighthouse_performanceGrade": "A",
       "lighthouse_accessibility": 0.8,
       "lighthouse_accessibilityGrade": "B",
